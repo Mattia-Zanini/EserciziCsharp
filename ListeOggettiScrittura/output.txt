@@ -1,0 +1,6 @@
+pomodoro,10,2
+salame,123,10
+mozzarella,200,3
+pizza,100,4
+bufala,65,5
+tè,400,1
