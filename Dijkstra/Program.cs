@@ -7,6 +7,8 @@ namespace Dijkstra
         static int nRouter = 9;
         public static void Main()
         {
+            Console.WriteLine("Inserisci il nodo sorgente");
+            int nodo = Convert.ToInt32(Console.ReadLine());
             int[,] grafo = new int[,] { { 0, 4, 0, 0, 0, 0, 0, 8, 0 },
                                       { 4, 0, 8, 0, 0, 0, 0, 11, 0 },
                                       { 0, 8, 0, 7, 0, 4, 0, 0, 2 },
@@ -16,7 +18,7 @@ namespace Dijkstra
                                       { 0, 0, 0, 0, 0, 2, 0, 1, 6 },
                                       { 8, 11, 0, 0, 0, 0, 1, 0, 7 },
                                       { 0, 0, 2, 0, 0, 0, 6, 7, 0 } };
-            dijkstra(grafo, 0);
+            dijkstra(grafo, nodo);
         }
         private static int minDistanza(int[] dist, bool[] sptSet)
         {
@@ -36,7 +38,7 @@ namespace Dijkstra
         // Una funzione per stampare l'array di distanza costruito
         private static void mostraSoluzione(int[] dist)
         {
-            Console.Write("Step \t\t Costo\n");
+            Console.Write("Nodo \t\t Costo\n");
             for (int i = 0; i < nRouter; i++)
                 Console.Write(i + " \t\t " + dist[i] + "\n");
         }
