@@ -1,4 +1,4 @@
-namespace Poliformismo
+namespace Esercizio1
 {
     public class Dipendente
     {

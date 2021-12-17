@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Poliformismo
+namespace Esercizio1
 {
     class Program
     {
@@ -10,20 +10,22 @@ namespace Poliformismo
             Operaio o = new Operaio();
             Impiegato i = new Impiegato();
             Dirigente d = new Dirigente();
-            GetDati<Operaio>(ref o, "operaio");
-            GetDati<Impiegato>(ref i, "impiegato");
-            GetDati<Dirigente>(ref d, "dirigente");
+            SetDati<Operaio>(ref o, "operaio");
+            SetDati<Impiegato>(ref i, "impiegato");
+            SetDati<Dirigente>(ref d, "dirigente");
+
             Console.WriteLine("Orario dell'operaio:");
             ore1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Orario dell'impiegato:");
             ore2 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Orario del dirigente:");
             ore3 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine($"OPERAIO\nNome: {o.nome}\nCognome: {o.cognome}\nMatricola: {o.matricola}\nRetribuzione oraria: {o.RetribuzioneOraria(ore1)}");
-            Console.WriteLine($"IMPIEGATO\nNome: {i.nome}\nCognome: {i.cognome}\nMatricola: {i.matricola}\nRetribuzione oraria: {i.RetribuzioneOraria(ore2)}");
-            Console.WriteLine($"DIRIGENTE\nNome: {d.nome}\nCognome: {d.cognome}\nMatricola: {d.matricola}\nRetribuzione oraria: {d.RetribuzioneOraria(ore3)}");
+
+            GetDati<Operaio>(ref o, "OPERAIO", ore1);
+            GetDati<Operaio>(ref o, "IMPIEGATO", ore2);
+            GetDati<Operaio>(ref o, "DIRIGENTE", ore3);
         }
-        private static void GetDati<T>(ref T dipendete, string nomeDip) where T : Dipendente
+        private static void SetDati<T>(ref T dipendete, string nomeDip) where T : Dipendente
         {
             string nome, cognome, matricola;
             Console.WriteLine($"Dati {nomeDip}");
@@ -36,6 +38,10 @@ namespace Poliformismo
             dipendete.nome = nome;
             dipendete.cognome = cognome;
             dipendete.matricola = matricola;
+        }
+        private static void GetDati<T>(ref T dipendete, string nomeDip, int ore) where T : Dipendente
+        {
+            Console.WriteLine($"{nomeDip}\nNome: {dipendete.nome}\nCognome: {dipendete.cognome}\nMatricola: {dipendete.matricola}\nRetribuzione oraria: {dipendete.RetribuzioneOraria(ore)}");
         }
     }
 }
