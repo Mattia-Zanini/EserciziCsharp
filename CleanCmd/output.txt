@@ -1,0 +1,1676 @@
+R di Mr. Leet Router>enable
+R di Mr. Leet Router#configure terminal
+R di Mr. Leet Router(config)#interface FastEthernet0/0
+R di Mr. Leet Router(config-if)#no shutdown
+R di Mr. Leet Router(config-if)#exit
+R di Mr. Leet Router(config)#interface FastEthernet1/0
+R di Mr. Leet Router(config-if)#no shutdown
+R di Mr. Leet Router(config-if)#exit
+R di Mr. Leet Router(config)#interface FastEthernet0/0
+R di Mr. Leet Router(config-if)#exit
+R di Mr. Leet Router(config)#interface FastEthernet1/0
+R di Mr. Leet Router(config-if)#exit
+R di Mr. Leet Router(config)#interface FastEthernet0/0
+R di Mr. Leet Router>enable
+R di Mr. Leet Router#configure terminal
+R di Mr. Leet Router(config)#interface GigabitEthernet0/0
+R di Mr. Leet Router(config-if)#exit
+R di Mr. Leet Router(config)#interface GigabitEthernet0/0
+R di Mr. Leet Router(config-if)#no shutdown
+R di Mr. Leet Router(config-if)#exit
+R di Mr. Leet Router(config)#interface GigabitEthernet1/0
+R di Mr. Leet Router(config-if)#no shutdown
+ASBR1 Router>enable
+ASBR1 Router#configure terminal
+ASBR1 Router(config)#interface GigabitEthernet0/0
+ASBR1 Router(config-if)#no shutdown
+ASBR1 Router(config-if)#exit
+ASBR1 Router(config)#interface GigabitEthernet1/0
+ASBR1 Router(config-if)#no shutdown
+R1 AS1 Router>enable
+R1 AS1 Router#configure terminal
+R1 AS1 Router(config)#interface GigabitEthernet0/0
+R1 AS1 Router(config-if)#no shutdown
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet1/0
+R1 AS1 Router(config-if)#no shutdown
+R2 AS1 Router>enable
+R2 AS1 Router#configure terminal
+R2 AS1 Router(config)#interface GigabitEthernet0/0
+R2 AS1 Router(config-if)#no shutdown
+R2 AS1 Router(config-if)#exit
+R2 AS1 Router(config)#interface GigabitEthernet1/0
+R2 AS1 Router(config-if)#no shutdown
+R2 AS1 Router(config-if)#exit
+R2 AS1 Router(config)#interface GigabitEthernet2/0
+R2 AS1 Router(config-if)#no shutdown
+R4 AS1 Router>enable
+R4 AS1 Router#configure terminal
+R4 AS1 Router(config)#interface GigabitEthernet0/0
+R4 AS1 Router(config-if)#exit
+R4 AS1 Router(config)#interface GigabitEthernet1/0
+R4 AS1 Router(config-if)#exit
+R4 AS1 Router(config)#interface GigabitEthernet3/0
+R4 AS1 Router(config-if)#no shutdown
+R4 AS1 Router(config-if)#exit
+R4 AS1 Router(config)#interface GigabitEthernet2/0
+R4 AS1 Router(config-if)#no shutdown
+R3 AS1 Router>enable
+R3 AS1 Router#configure terminal
+R3 AS1 Router(config)#interface GigabitEthernet0/0
+R3 AS1 Router(config-if)#no shutdown
+R3 AS1 Router(config-if)#exit
+R3 AS1 Router(config)#interface GigabitEthernet2/0
+R3 AS1 Router(config-if)#no shutdown
+R3 AS1 Router(config-if)#exit
+R3 AS1 Router(config)#interface GigabitEthernet0/0
+R3 AS1 Router(config-if)#exit
+R3 AS1 Router(config)#interface GigabitEthernet1/0
+R3 AS1 Router(config-if)#no shutdown
+R1 AS1 Router>enable
+R1 AS1 Router#configure terminal
+R1 AS1 Router(config)#interface GigabitEthernet0/0
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet1/0
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet3/0
+R1 AS1 Router(config-if)#no shutdown
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet3/0
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet4/0
+R1 AS1 Router(config-if)#no shutdown
+R4 AS1 Router>enable
+R4 AS1 Router#configure terminal
+R4 AS1 Router(config)#interface GigabitEthernet0/0
+R4 AS1 Router(config-if)#no shutdown
+R4 AS1 Router(config-if)#exit
+R4 AS1 Router(config)#interface GigabitEthernet1/0
+R4 AS1 Router(config-if)#no shutdown
+R4 AS1 Router(config-if)#exit
+R4 AS1 Router(config)#interface GigabitEthernet2/0
+R3 AS1 Router>enable
+R3 AS1 Router#configure terminal
+R3 AS1 Router(config)#interface GigabitEthernet0/0
+R3 AS1 Router(config-if)#exit
+R3 AS1 Router(config)#interface GigabitEthernet1/0
+R3 AS1 Router(config-if)#exit
+R3 AS1 Router(config)#interface GigabitEthernet2/0
+R3 AS1 Router(config-if)#exit
+R3 AS1 Router(config)#interface GigabitEthernet3/0
+R3 AS1 Router(config-if)#no shutdown
+R3 AS1 Router(config-if)#exit
+R3 AS1 Router(config)#interface GigabitEthernet4/0
+R3 AS1 Router(config-if)#no shutdown
+R3 AS1 Router(config-if)#shutdown
+R2 AS1 Router>enable
+R2 AS1 Router#configure terminal
+R2 AS1 Router(config)#interface GigabitEthernet0/0
+R2 AS1 Router(config-if)#exit
+R2 AS1 Router(config)#interface GigabitEthernet1/0
+R2 AS1 Router(config-if)#exit
+R2 AS1 Router(config)#interface GigabitEthernet2/0
+R2 AS1 Router(config-if)#exit
+R2 AS1 Router(config)#interface GigabitEthernet3/0
+R2 AS1 Router(config-if)#no shutdown
+R4 AS1 Router(config-if)#exit
+R4 AS1 Router(config)#interface GigabitEthernet0/0
+R4 AS1 Router(config-if)#exit
+R4 AS1 Router(config)#interface GigabitEthernet1/0
+R4 AS1 Router(config-if)#exit
+R4 AS1 Router(config)#interface GigabitEthernet2/0
+R4 AS1 Router(config-if)#exit
+R4 AS1 Router(config)#interface GigabitEthernet3/0
+R4 AS1 Router(config-if)#exit
+R4 AS1 Router(config)#interface GigabitEthernet4/0
+R4 AS1 Router(config-if)#no shutdown
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet0/0
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet1/0
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet2/0
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet3/0
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet2/0
+R1 AS1 Router(config-if)#no shutdown
+R4 AS1 Router(config-if)#exit
+R4 AS1 Router(config)#interface GigabitEthernet4/0
+R4 AS1 Router(config-if)#shutdown
+ASBR2 Router>enable
+ASBR2 Router#configure terminal
+ASBR2 Router(config)#interface GigabitEthernet0/0
+ASBR2 Router(config-if)#no shutdown
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet1/0
+ASBR2 Router(config-if)#no shutdown
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet2/0
+ASBR2 Router(config-if)#no shutdown
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet2/0
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet3/0
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet4/0
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet3/0
+ASBR2 Router(config-if)#no shutdown
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet2/0
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet3/0
+ASBR2 Router(config-if)#shutdown
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet3/0
+R1 AS2 Router>enable
+R1 AS2 Router#configure terminal
+R1 AS2 Router(config)#interface GigabitEthernet0/0
+R1 AS2 Router(config-if)#no shutdown
+R1 AS2 Router(config-if)#exit
+R1 AS2 Router(config)#interface GigabitEthernet1/0
+R1 AS2 Router(config-if)#no shutdown
+R1 AS2 Router(config-if)#exit
+R1 AS2 Router(config)#interface GigabitEthernet2/0
+R1 AS2 Router(config-if)#no shutdown
+R1 AS2 Router(config-if)#exit
+R1 AS2 Router(config)#interface GigabitEthernet4/0
+R1 AS2 Router(config-if)#exit
+R1 AS2 Router(config)#interface GigabitEthernet3/0
+R1 AS2 Router(config-if)#no shutdown
+R2 AS2 Router>enable
+R2 AS2 Router#configure terminal
+R2 AS2 Router(config)#interface GigabitEthernet0/0
+R2 AS2 Router(config-if)#no shutdown
+R2 AS2 Router(config-if)#exit
+R2 AS2 Router(config)#interface GigabitEthernet1/0
+R2 AS2 Router(config-if)#no shutdown
+R2 AS2 Router(config-if)#exit
+R2 AS2 Router(config)#interface GigabitEthernet2/0
+R2 AS2 Router(config-if)#no shutdown
+R2 AS2 Router(config-if)#exit
+R2 AS2 Router(config)#interface GigabitEthernet3/0
+R2 AS2 Router(config-if)#no shutdown
+R4 AS2 Router>enable
+R4 AS2 Router#configure terminal
+R4 AS2 Router(config)#interface GigabitEthernet0/0
+R4 AS2 Router(config-if)#no shutdown
+R4 AS2 Router(config-if)#exit
+R4 AS2 Router(config)#interface GigabitEthernet1/0
+R4 AS2 Router(config-if)#no shutdown
+R4 AS2 Router(config-if)#exit
+R4 AS2 Router(config)#interface GigabitEthernet2/0
+R4 AS2 Router(config-if)#no shutdown
+R4 AS2 Router(config-if)#exit
+R4 AS2 Router(config)#interface GigabitEthernet3/0
+R4 AS2 Router(config-if)#no shutdown
+R4 AS2 Router(config-if)#exit
+R4 AS2 Router(config)#interface GigabitEthernet4/0
+R4 AS2 Router(config-if)#no shutdown
+R3 AS2 Router>enable
+R3 AS2 Router#configure terminal
+R3 AS2 Router(config)#interface GigabitEthernet0/0
+R3 AS2 Router(config-if)#no shutdown
+R3 AS2 Router(config-if)#exit
+R3 AS2 Router(config)#interface GigabitEthernet1/0
+R3 AS2 Router(config-if)#no shutdown
+R5 AS2 Router>enable
+R5 AS2 Router#configure terminal
+R5 AS2 Router(config)#interface GigabitEthernet0/0
+R5 AS2 Router(config-if)#no shutdown
+R5 AS2 Router(config-if)#exit
+R5 AS2 Router(config)#interface GigabitEthernet1/0
+R5 AS2 Router(config-if)#no shutdown
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface Serial7/0
+ASBR2 Router(config-if)#no shutdown
+ASBR1 Router>enable
+ASBR1 Router#configure terminal
+ASBR1 Router(config)#interface Serial7/0
+ASBR1 Router(config-if)#no shutdown
+R3 AS2 Router(config-if)#exit
+R3 AS2 Router(config)#interface GigabitEthernet3/0
+R3 AS2 Router(config-if)#exit
+R3 AS2 Router(config)#interface GigabitEthernet2/0
+R3 AS2 Router(config-if)#no shutdown
+R5 AS2 Router(config-if)#exit
+R5 AS2 Router(config)#interface GigabitEthernet2/0
+R5 AS2 Router(config-if)#no shutdown
+R4 AS1 Router>enable
+R4 AS1 Router#configure terminal
+R4 AS1 Router(config)#interface GigabitEthernet1/0
+R4 AS1 Router(config-if)#exit
+R4 AS1 Router(config)#interface GigabitEthernet2/0
+R4 AS1 Router(config-if)#exit
+R4 AS1 Router(config)#interface GigabitEthernet2/0
+R4 AS1 Router(config-if)#exit
+R4 AS1 Router(config)#interface GigabitEthernet3/0
+R4 AS1 Router(config-if)#exit
+R4 AS1 Router(config)#interface GigabitEthernet4/0
+R4 AS1 Router(config-if)#no shutdown
+R2 AS2 Router(config-if)#exit
+R2 AS2 Router(config)#interface GigabitEthernet4/0
+R2 AS2 Router(config-if)#exit
+R2 AS2 Router(config)#interface GigabitEthernet3/0
+R2 AS2 Router(config-if)#exit
+R2 AS2 Router(config)#interface GigabitEthernet4/0
+R2 AS2 Router(config-if)#no shutdown
+R1 AS2 Router>enable
+R1 AS2 Router#configure terminal
+R1 AS2 Router(config)#interface GigabitEthernet1/0
+R1 AS2 Router(config-if)#exit
+R1 AS2 Router(config)#interface GigabitEthernet2/0
+R1 AS2 Router(config-if)#exit
+R1 AS2 Router(config)#interface GigabitEthernet3/0
+R1 AS2 Router(config-if)#exit
+R1 AS2 Router(config)#interface GigabitEthernet4/0
+R1 AS2 Router(config-if)#no shutdown
+R1 AS1 Router>enable
+R1 AS1 Router#configure terminal
+R1 AS1 Router(config)#interface GigabitEthernet0/0
+R1 AS1 Router(config-if)#shutdown
+R1 AS1 Router(config-if)#no shutdown
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet1/0
+R1 AS1 Router(config-if)#shutdown
+R1 AS1 Router(config-if)#no shutdown
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet2/0
+R1 AS1 Router(config-if)#shutdown
+R1 AS1 Router(config-if)#no shutdown
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet3/0
+R1 AS1 Router(config-if)#shutdown
+R2 AS1 Router>enable
+R2 AS1 Router#configure terminal
+R2 AS1 Router(config)#interface GigabitEthernet0/0
+R2 AS1 Router(config-if)#shutdown
+R2 AS1 Router(config-if)#no shutdown
+R2 AS1 Router(config-if)#exit
+R2 AS1 Router(config)#interface GigabitEthernet1/0
+R2 AS1 Router(config-if)#shutdown
+R2 AS1 Router(config-if)#no shutdown
+R2 AS1 Router(config-if)#exit
+R2 AS1 Router(config)#interface GigabitEthernet3/0
+R2 AS1 Router(config-if)#exit
+R2 AS1 Router(config)#interface GigabitEthernet2/0
+R2 AS1 Router(config-if)#shutdown
+R2 AS1 Router(config-if)#no shutdown
+R2 AS1 Router(config-if)#exit
+R2 AS1 Router(config)#interface GigabitEthernet3/0
+R2 AS1 Router(config-if)#shutdown
+R3 AS1 Router>enable
+R3 AS1 Router#configure terminal
+R3 AS1 Router(config)#interface GigabitEthernet0/0
+R3 AS1 Router(config-if)#shutdown
+R3 AS1 Router(config-if)#no shutdown
+R3 AS1 Router(config-if)#exit
+R3 AS1 Router(config)#interface GigabitEthernet2/0
+R3 AS1 Router(config-if)#exit
+R3 AS1 Router(config)#interface GigabitEthernet1/0
+R3 AS1 Router(config-if)#shutdown
+R3 AS1 Router(config-if)#no shutdown
+R3 AS1 Router(config-if)#exit
+R3 AS1 Router(config)#interface GigabitEthernet2/0
+R3 AS1 Router(config-if)#shutdown
+R3 AS1 Router(config-if)#no shutdown
+R3 AS1 Router(config-if)#exit
+R3 AS1 Router(config)#interface GigabitEthernet4/0
+R3 AS1 Router(config-if)#exit
+R3 AS1 Router(config)#interface GigabitEthernet3/0
+R3 AS1 Router(config-if)#shutdown
+R4 AS1 Router>enable
+R4 AS1 Router#configure terminal
+R4 AS1 Router(config)#interface GigabitEthernet0/0
+R4 AS1 Router(config-if)#shutdown
+R4 AS1 Router(config-if)#no shutdown
+R4 AS1 Router(config-if)#exit
+R4 AS1 Router(config)#interface GigabitEthernet1/0
+R4 AS1 Router(config-if)#shutdown
+ASBR1 Router>enable
+ASBR1 Router#configure terminal
+ASBR1 Router(config)#interface GigabitEthernet1/0
+ASBR1 Router(config-if)#exit
+ASBR1 Router(config)#interface GigabitEthernet0/0
+ASBR1 Router(config-if)#exit
+ASBR1 Router(config)#interface GigabitEthernet1/0
+ASBR1 Router(config-if)#exit
+ASBR1 Router(config)#interface GigabitEthernet0/0
+ASBR1 Router(config-if)#no shutdown
+ASBR1 Router(config-if)#exit
+ASBR1 Router(config)#interface GigabitEthernet1/0
+ASBR1 Router(config-if)#no shutdown
+ASBR1 Router(config-if)#exit
+ASBR1 Router(config)#interface Serial7/0
+ASBR1 Router(config-if)#exit
+ASBR1 Router(config)#interface Serial8/0
+ASBR1 Router(config-if)#exit
+ASBR1 Router(config)#interface GigabitEthernet9/0
+ASBR2 Router>enable
+ASBR2 Router#configure terminal
+ASBR2 Router(config)#interface GigabitEthernet0/0
+ASBR2 Router(config-if)#no shutdown
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet1/0
+ASBR2 Router(config-if)#no shutdown
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet2/0
+ASBR2 Router(config-if)#no shutdown
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface Serial7/0
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface Serial8/0
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet9/0
+ASBR2 Router(config-if)#no shutdown
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet9/0
+ASBR1 Router(config-if)#exit
+ASBR1 Router(config)#interface GigabitEthernet9/0
+ASBR1 Router(config-if)#no shutdown
+ASBR1 Router>enable
+ASBR1 Router#configure terminal
+ASBR1 Router(config)#interface GigabitEthernet0/0
+ASBR1 Router(config-if)#no shutdown
+ASBR1 Router(config-if)#exit
+ASBR1 Router(config)#interface GigabitEthernet1/0
+ASBR1 Router(config-if)#no shutdown
+ASBR1 Router(config-if)#exit
+ASBR1 Router(config)#interface GigabitEthernet9/0
+ASBR1 Router(config-if)#no shutdown
+ASBR1 Router(config-if)#exit
+ASBR1 Router(config)#interface GigabitEthernet8/0
+ASBR1 Router(config-if)#no shutdown
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet0/0
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet9/0
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet4/0
+ASBR2 Router>enable
+ASBR2 Router#configure terminal
+ASBR2 Router(config)#interface GigabitEthernet2/0
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet0/0
+ASBR2 Router(config-if)#no shutdown
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet1/0
+ASBR2 Router(config-if)#no shutdown
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet2/0
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet2/0
+ASBR2 Router(config-if)#no shutdown
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet8/0
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet9/0
+ASBR2 Router(config-if)#no shutdown
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet8/0
+ASBR2 Router(config-if)#no shutdown
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet8/0
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet9/0
+ASBR AZIENDALE Router>enable
+ASBR AZIENDALE Router#configure terminal
+ASBR AZIENDALE Router(config)#interface GigabitEthernet9/0
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet8/0
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet9/0
+ASBR AZIENDALE Router(config-if)#no shutdown
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet8/0
+ASBR AZIENDALE Router(config-if)#no shutdown
+R1 AZIENDALE Router>enable
+R1 AZIENDALE Router#configure terminal
+R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R1 AZIENDALE Router(config-if)#no shutdown
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#interface GigabitEthernet1/0
+R1 AZIENDALE Router(config-if)#no shutdown
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#interface GigabitEthernet3/0
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#interface GigabitEthernet2/0
+R1 AZIENDALE Router(config-if)#no shutdown
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#interface GigabitEthernet1/0
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R2 AZIENDALE Router>enable
+R2 AZIENDALE Router#configure terminal
+R2 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R2 AZIENDALE Router(config-if)#no shutdown
+R2 AZIENDALE Router(config-if)#exit
+R2 AZIENDALE Router(config)#interface GigabitEthernet1/0
+R2 AZIENDALE Router(config-if)#no shutdown
+R2 AZIENDALE Router(config-if)#exit
+R2 AZIENDALE Router(config)#interface GigabitEthernet2/0
+R2 AZIENDALE Router(config-if)#no shutdown
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet0/0
+ASBR AZIENDALE Router(config-if)#no shutdown
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet1/0
+ASBR AZIENDALE Router(config-if)#no shutdown
+R di Mr. Leet Router>enable
+R di Mr. Leet Router#configure terminal
+R di Mr. Leet Router(config)#interface GigabitEthernet8/0
+R di Mr. Leet Router(config-if)#no shutdown
+CONFINE ITALIANO Router>enable
+CONFINE ITALIANO Router#configure terminal
+CONFINE ITALIANO Router(config)#interface GigabitEthernet0/0
+CONFINE ITALIANO Router(config-if)#no shutdown
+CONFINE ITALIANO Router(config-if)#exit
+CONFINE ITALIANO Router(config)#interface GigabitEthernet1/0
+CONFINE ITALIANO Router(config-if)#no shutdown
+CONFINE FRANCESE Router>enable
+CONFINE FRANCESE Router#configure terminal
+CONFINE FRANCESE Router(config)#interface GigabitEthernet0/0
+CONFINE FRANCESE Router(config-if)#no shutdown
+CONFINE FRANCESE Router(config-if)#exit
+CONFINE FRANCESE Router(config)#interface GigabitEthernet1/0
+CONFINE FRANCESE Router(config-if)#no shutdown
+ASBR AZIENDALE Router>enable
+ASBR AZIENDALE Router#configure terminal
+ASBR AZIENDALE Router(config)#interface GigabitEthernet0/0
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet1/0
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet2/0
+ASBR AZIENDALE Router(config-if)#no shutdown
+ASBR AZIENDALE Router(config-if)#shutdown
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet9/0
+ASBR AZIENDALE Router(config-if)#shutdown
+ASBR AZIENDALE Router(config-if)#no shutdown
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet8/0
+ASBR AZIENDALE Router(config-if)#shutdown
+ASBR AZIENDALE Router(config-if)#no shutdown
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet7/0
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet6/0
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet5/0
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet4/0
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet3/0
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet2/0
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet1/0
+ASBR AZIENDALE Router(config-if)#shutdown
+ASBR AZIENDALE Router(config-if)#no shutdown
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet0/0
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet2/0
+ASBR AZIENDALE Router(config-if)#no shutdown
+ASBR AZIENDALE Router(config-if)#shutdown
+CONFINE FRANCESE Router(config-if)#exit
+CONFINE FRANCESE Router(config)#interface GigabitEthernet0/0
+CONFINE FRANCESE Router(config-if)#exit
+CONFINE FRANCESE Router(config)#interface GigabitEthernet1/0
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet7/0
+ASBR AZIENDALE Router(config-if)#no shutdown
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet1/0
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet2/0
+Multilayer Switch0 Switch>enable
+Multilayer Switch0 Switch#configure terminal
+Multilayer Switch0 Switch(config)#router rip
+R1 AZIENDALE Router>enable
+R1 AZIENDALE Router#configure terminal
+R1 AZIENDALE Router(config)#interface GigabitEthernet3/0
+R1 AZIENDALE Router(config-if)#no shutdown
+R2 AZIENDALE Router>enable
+R2 AZIENDALE Router#configure terminal
+R2 AZIENDALE Router(config)#interface GigabitEthernet3/0
+R2 AZIENDALE Router(config-if)#no shutdown
+R1 AZIENDALE Router>enable
+R1 AZIENDALE Router#configure terminal
+R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R1 AZIENDALE Router(config-if)#shutdown
+R1 AZIENDALE Router(config-if)#no shutdown
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#interface GigabitEthernet3/0
+R1 AZIENDALE Router(config-if)#shutdown
+R1 AZIENDALE Router(config-if)#no shutdown
+R1 AZIENDALE Router(config-if)#ip address 69.0.0.1 255.0.0.0
+R1 AZIENDALE Router(config-if)#ip address 69.0.0.1 255.255.255.252
+R2 AZIENDALE Router(config-if)#exit
+R2 AZIENDALE Router(config)#interface GigabitEthernet3/0
+R2 AZIENDALE Router(config-if)#shutdown
+R2 AZIENDALE Router(config-if)#no shutdown
+R2 AZIENDALE Router(config-if)#ip address 104.0.0.1 255.0.0.0
+R2 AZIENDALE Router(config-if)#ip address 104.0.0.1 255.255.255.252
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#ip dhcp pool aziendale
+R1 AZIENDALE Router(dhcp-config)#network 192.168.0.0 255.255.255.0
+R1 AZIENDALE Router(dhcp-config)#default-router 192.168.0.254
+R1 AZIENDALE Router(dhcp-config)#exit
+R1 AZIENDALE Router(config)#ip dhcp excluded-address 192.168.0.253
+R1 AZIENDALE Router(config)#ip dhcp excluded-address 192.168.0.254
+R1 AZIENDALE Router(config)#do write
+R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R1 AZIENDALE Router(config-if)#shutdown
+R1 AZIENDALE Router(config-if)#no shutdown
+R1 AZIENDALE Router(config-if)#ip address 192.168.0.254 255.255.255.0
+R1 AZIENDALE Router(config-if)#ip address 192.168.0.254 255.255.255.0
+R2 AZIENDALE Router(config-if)#exit
+R2 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R2 AZIENDALE Router(config-if)#shutdown
+R2 AZIENDALE Router(config-if)#no shutdown
+R2 AZIENDALE Router(config-if)#ip address 192.168.0.253 255.255.255.0
+R2 AZIENDALE Router(config-if)#ip address 192.168.0.253 255.255.255.0
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#int gigabitEthernet3/0
+R1 AZIENDALE Router(config-if)#shutdown 
+R1 AZIENDALE Router(config-if)#no shutdown 
+R1 AZIENDALE Router(config-if)#int gigabitEthernet0/0
+R1 AZIENDALE Router(config-if)#ip nat inside
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#int gigabitEthernet3/0
+R1 AZIENDALE Router(config-if)#ip nat outside
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#int gigabitEthernet2/0
+R1 AZIENDALE Router(config-if)#ip nat outside
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#int gigabitEthernet1/0
+R1 AZIENDALE Router(config-if)#ip nat outside
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#access-list 1 permit 192.168.0.0 0.0.0.255
+R1 AZIENDALE Router(config)#ip nat pool MY_POOL 4.4.4.1 4.4.4.5 netmask 255.255.255.0
+R1 AZIENDALE Router(config)#ip nat inside source list 1 pool MY_POOL
+R1 AZIENDALE Router(config)#do write
+R1 AZIENDALE Router(config)#no ip nat inside source list 1 pool MY_POOL
+R1 AZIENDALE Router(config)#no ip nat pool MY_POOL 4.4.4.1 4.4.4.5 netmask 255.255.255.0
+R1 AZIENDALE Router>en
+R1 AZIENDALE Router#conf t
+R1 AZIENDALE Router>enable
+R1 AZIENDALE Router#configure terminal
+R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R1 AZIENDALE Router(config-if)#shutdown
+R1 AZIENDALE Router(config-if)#no shutdown
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#interface GigabitEthernet1/0
+R1 AZIENDALE Router(config-if)#shutdown
+R1 AZIENDALE Router(config-if)#no shutdown
+R1 AZIENDALE Router(config-if)#ip address 69.0.0.1 255.0.0.0
+R1 AZIENDALE Router(config-if)#ip address 69.0.0.1 255.255.255.252
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#interface GigabitEthernet1/0
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R1 AZIENDALE Router(config-if)#shutdown
+R1 AZIENDALE Router(config-if)#no shutdown
+R1 AZIENDALE Router(config-if)#no ip address
+R1 AZIENDALE Router(config-if)#ip address  255.255.255.252
+R1 AZIENDALE Router(config-if)#ip address 69.0.0.5 255.255.255.252
+R3 AZIENDALE Router>enable
+R3 AZIENDALE Router#configure terminal
+R3 AZIENDALE Router(config)#interface GigabitEthernet1/0
+R3 AZIENDALE Router(config-if)#exit
+R3 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R3 AZIENDALE Router(config-if)#shutdown
+R3 AZIENDALE Router(config-if)#no shutdown
+R3 AZIENDALE Router(config-if)#exit
+R3 AZIENDALE Router(config)#interface GigabitEthernet1/0
+R3 AZIENDALE Router(config-if)#shutdown
+R3 AZIENDALE Router(config-if)#no shutdown
+R3 AZIENDALE Router(config-if)#ip address 69.0.0.6 255.0.0.0
+R3 AZIENDALE Router(config-if)#ip address 69.0.0.6 255.255.255.252
+R3 AZIENDALE Router(config-if)#exit
+R3 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R3 AZIENDALE Router(config-if)#ip address 192.168.0.254 255.255.255.0
+R3 AZIENDALE Router(config-if)#exit
+R3 AZIENDALE Router(config)#ip dhcp pool
+R3 AZIENDALE Router(config)#ip dhcp pool aziendale
+R3 AZIENDALE Router(dhcp-config)#network 192.168.0.0 255.255.255.0
+R3 AZIENDALE Router(dhcp-config)#default-router 192.168.0.254
+R3 AZIENDALE Router(dhcp-config)#exit
+R3 AZIENDALE Router(config)#ip dhcp excluded-address 192.168.0.254
+R3 AZIENDALE Router(config)#ip dhcp excluded-address 192.168.0.254
+R3 AZIENDALE Router(config)#ip dhcp excluded-address 192.168.0.253
+R3 AZIENDALE Router(config)#do write
+R3 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R3 AZIENDALE Router(config-if)#exit
+R3 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R3 AZIENDALE Router(config-if)#exit
+R3 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R3 AZIENDALE Router(config-if)#ip nat inside
+R3 AZIENDALE Router(config-if)#exit
+R3 AZIENDALE Router(config)#interface GigabitEthernet0/1
+R3 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R3 AZIENDALE Router(config-if)#interface GigabitEthernet1/0
+R3 AZIENDALE Router(config-if)#ip nat outside
+R3 AZIENDALE Router(config-if)#exit
+R3 AZIENDALE Router(config)#do write
+R3 AZIENDALE Router(config)#access-list 1 permit 192.168.0.0 0.0.0.255
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#interface GigabitEthernet1/0
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R1 AZIENDALE Router(config-if)#ip address 69.0.0.17 255.255.255.252
+R1 AZIENDALE Router(config-if)#ip address 69.0.0.17 255.255.255.240
+R1 AZIENDALE Router(config-if)#ip address 69.0.0.17 255.255.255.240
+R3 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R3 AZIENDALE Router(config-if)#exit
+R3 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R3 AZIENDALE Router(config-if)#exit
+R3 AZIENDALE Router(config)#interface GigabitEthernet1/0
+R3 AZIENDALE Router(config-if)#ip address 69.0.0.18 255.255.255.252
+R3 AZIENDALE Router(config-if)#ip address 69.0.0.18 255.255.255.240
+R3 AZIENDALE Router(config-if)#ip address 69.0.0.18 255.255.255.240
+R3 AZIENDALE Router(config-if)#exit
+R3 AZIENDALE Router(config)#ip nat pool MY_POOL 69.0.0.19 69.0.0.30 netmask 255.255.255.240
+R3 AZIENDALE Router(config)#ip nat inside source list 1 pool MY_POOL
+R3 AZIENDALE Router(config)#do write
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R3 AZIENDALE Router(config)#ip route 0.0.0.0 0.0.0.0 69.0.0.17
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#ip route 69.0.0.16 255.255.255.240 69.0.0.18
+R3 AZIENDALE Router>en
+R3 AZIENDALE Router#write erase
+R3 AZIENDALE Router#reload
+R3 AZIENDALE Router>enable
+R3 AZIENDALE Router#configure terminal
+R3 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R3 AZIENDALE Router(config-if)#no shutdown
+R3 AZIENDALE Router(config-if)#shutdown
+R3 AZIENDALE Router(config-if)#no shutdown
+R3 AZIENDALE Router(config-if)#ip address 192.168.0.254 255.255.255.0
+R3 AZIENDALE Router(config-if)#ip address 192.168.0.254 255.255.255.0
+R3 AZIENDALE Router(config-if)#exit
+R3 AZIENDALE Router(config)#interface GigabitEthernet1/0
+R3 AZIENDALE Router(config-if)#no shutdown
+R3 AZIENDALE Router(config-if)#ip address 69.0.0.18 255.0.0.0
+R3 AZIENDALE Router(config-if)#ip address 69.0.0.18 255.255.255.240
+R1 AZIENDALE Router>enable
+R1 AZIENDALE Router#configure terminal
+R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#interface GigabitEthernet1/0
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#interface GigabitEthernet1/0
+R3 AZIENDALE Router(config-if)#ip address 69.0.0.18 255.255.255.240
+R3 AZIENDALE Router(config-if)#exit
+R3 AZIENDALE Router(config)#ip dhcp pool aziendale
+R3 AZIENDALE Router(dhcp-config)#network 192.168.0.0 255.255.255.0
+R3 AZIENDALE Router(dhcp-config)#default-router 192.168.0.254
+R3 AZIENDALE Router(dhcp-config)#exit
+R3 AZIENDALE Router(config)#ip dhcp excluded-address 192.168.0.254
+R3 AZIENDALE Router(config)#ip dhcp excluded-address 192.168.0.253
+R3 AZIENDALE Router(config)#ip dhcp excluded-address 192.168.0.1
+R3 AZIENDALE Router(config)#do write
+R3 AZIENDALE Router(config)#ip nat inside source static 192.168.0.1 69.0.0.19
+R3 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R3 AZIENDALE Router(config-if)#ip nat inside
+R3 AZIENDALE Router(config-if)#exit
+R3 AZIENDALE Router(config)#int gigabitEthernet1/0
+R3 AZIENDALE Router(config-if)#ip nat outside
+R3 AZIENDALE Router(config-if)#exit
+R3 AZIENDALE Router(config)#access-list 1 permit 192.168.0.0 0.0.0.255
+R3 AZIENDALE Router(config)#ip nat pool NATaziendale 69.0.0.20 69.0.0.30 netmask 255.255.255.240
+R3 AZIENDALE Router(config)#ip nat inside source list 1 pool NATaziendale
+R3 AZIENDALE Router(config)#do write
+R3 AZIENDALE Router(config)#ip route 0.0.0.0 0.0.0.0 69.0.0.17
+R1 AZIENDALE Router>enable
+R1 AZIENDALE Router#configure terminal
+R2 AZIENDALE Router>enable
+R2 AZIENDALE Router#configure terminal
+R2 AZIENDALE Router(config)#interface GigabitEthernet3/0
+R di Mr. Leet Router>enable
+R di Mr. Leet Router#configure terminal
+R di Mr. Leet Router(config)#interface GigabitEthernet0/0
+R di Mr. Leet Router(config-if)#shutdown
+R di Mr. Leet Router(config-if)#no shutdown
+R di Mr. Leet Router(config-if)#shutdown
+R di Mr. Leet Router(config-if)#no shutdown
+R di Mr. Leet Router(config-if)#exit
+R di Mr. Leet Router(config)#interface GigabitEthernet1/0
+R di Mr. Leet Router(config-if)#shutdown
+R di Mr. Leet Router(config-if)#no shutdown
+R di Mr. Leet Router(config-if)#no ip address
+R di Mr. Leet Router(config-if)#ip address 192.168.0.254 255.255.255.0
+R di Mr. Leet Router(config-if)#ip address 192.168.0.254 255.255.255.0
+R di Mr. Leet Router(config-if)#exit
+R di Mr. Leet Router(config)#interface GigabitEthernet0/0
+R di Mr. Leet Router(config-if)#no ip address
+R di Mr. Leet Router(config-if)#no ip address
+R di Mr. Leet Router(config-if)#shutdown
+R di Mr. Leet Router(config-if)#exit
+R di Mr. Leet Router(config)#ip dhcp pool homeleet
+R di Mr. Leet Router(dhcp-config)#network 192.168.0.0 255.255.255.0
+R di Mr. Leet Router(dhcp-config)#default-router 192.168.0.254
+R di Mr. Leet Router(dhcp-config)#exit
+R di Mr. Leet Router(config)#ip dhcp excluded-address 192.168.0.254
+R di Mr. Leet Router(config)#do write
+R di Mr. Leet Router(config)#int gigabitEthernet1/0
+R di Mr. Leet Router(config-if)#ip nat inside
+R di Mr. Leet Router(config-if)#exit
+R di Mr. Leet Router(config)#int gigabitEthernet8/0
+R di Mr. Leet Router(config-if)#ip nat outside
+R di Mr. Leet Router(config-if)#exit
+R di Mr. Leet Router(config)#access-list 1 permit 192.168.0.0 0.0.0.255
+R di Mr. Leet Router(config)#do write
+R1 AZIENDALE Router>enable
+R1 AZIENDALE Router#configure terminal
+R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#no ip route 69.0.0.16 255.255.255.240 69.0.0.18
+R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R1 AZIENDALE Router(config-if)#ip address 69.0.0.17 255.255.255.240
+R1 AZIENDALE Router(config-if)#shutdown
+R1 AZIENDALE Router(config-if)#ip address 69.0.0.17 
+R1 AZIENDALE Router(config-if)#ip address  
+ASBR AZIENDALE Router>enable
+ASBR AZIENDALE Router#configure terminal
+ASBR AZIENDALE Router(config)#interface GigabitEthernet0/0
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet1/0
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet2/0
+ASBR AZIENDALE Router(config-if)#no shutdown
+ASBR AZIENDALE Router(config-if)#ip address 69.0.0.17 255.0.0.0
+ASBR AZIENDALE Router(config-if)#ip address 69.0.0.17 255.255.255.240
+ASBR AZIENDALE Router(config-if)#ip address 69.0.0.17 255.255.255.240
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#ip route 69.0.0.16 255.255.255.240 69.0.0.18
+ASBR AZIENDALE Router(config)#router rip
+ASBR AZIENDALE Router(config-router)#version 2
+ASBR AZIENDALE Router(config-router)#network 69.0.0.16
+R2 AZIENDALE Router>enable
+R2 AZIENDALE Router#configure terminal
+R2 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R2 AZIENDALE Router(config-if)#exit
+R2 AZIENDALE Router(config)#interface GigabitEthernet1/0
+R2 AZIENDALE Router(config-if)#exit
+R2 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R2 AZIENDALE Router(config-if)#ip address  
+R2 AZIENDALE Router(config-if)#ip address  
+R2 AZIENDALE Router(config-if)#shutdown
+R2 AZIENDALE Router(config-if)#exit
+R2 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R2 AZIENDALE Router(config-if)#exit
+R2 AZIENDALE Router(config)#interface GigabitEthernet1/0
+R2 AZIENDALE Router(config-if)#shutdown
+R2 AZIENDALE Router(config-if)#no shutdown
+R2 AZIENDALE Router(config-if)#exit
+R2 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R2 AZIENDALE Router(config-if)#exit
+R2 AZIENDALE Router(config)#interface GigabitEthernet3/0
+R2 AZIENDALE Router(config-if)#ip address 69.0.0.13 255.255.255.252
+R2 AZIENDALE Router(config-if)#exit
+R2 AZIENDALE Router(config)#interface GigabitEthernet2/0
+R2 AZIENDALE Router(config-if)#shutdown
+R2 AZIENDALE Router(config-if)#exit
+R2 AZIENDALE Router(config)#interface GigabitEthernet1/0
+R2 AZIENDALE Router(config-if)#shutdown
+R2 AZIENDALE Router(config-if)#no shutdown
+R2 AZIENDALE Router(config-if)#ip address 69.0.0.9 255.255.255.252
+R2 AZIENDALE Router(config-if)#ip address 69.0.0.9 255.255.255.252
+ASBR AZIENDALE Router(config-router)#network 69.0.0.16
+ASBR AZIENDALE Router(config-router)#end
+ASBR AZIENDALE Router#configure terminal
+ASBR AZIENDALE Router(config)#interface GigabitEthernet0/0
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet1/0
+ASBR AZIENDALE Router(config-if)#shutdown
+ASBR AZIENDALE Router(config-if)#no shutdown
+ASBR AZIENDALE Router(config-if)#ip address 69.0.0.10 255.255.255.240
+ASBR AZIENDALE Router(config-if)#ip address 69.0.0.10 255.255.255.252
+ASBR AZIENDALE Router(config-if)#ip address 69.0.0.10 255.255.255.252
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet2/0
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet1/0
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet0/0
+ASBR AZIENDALE Router(config-if)#shutdown
+ASBR AZIENDALE Router(config-if)#no shutdown
+ASBR AZIENDALE Router(config-if)#ip address 69.0.0.6 255.255.255.252
+ASBR AZIENDALE Router(config-if)#ip address 69.0.0.6 255.255.255.252
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#interface GigabitEthernet1/0
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#interface GigabitEthernet2/0
+R1 AZIENDALE Router(config-if)#ip address 69.0.0.9 255.255.255.252
+R1 AZIENDALE Router(config-if)#shutdown
+R1 AZIENDALE Router(config-if)#no shutdown
+R1 AZIENDALE Router(config-if)#ip address 69.0.0.5 255.255.255.252
+R1 AZIENDALE Router(config-if)#ip address 69.0.0.5 255.255.255.252
+R1 AZIENDALE Router(config-if)#exit
+R1 AZIENDALE Router(config)#router rip 
+R1 AZIENDALE Router(config-router)#version 2
+R1 AZIENDALE Router(config-router)#network 69.0.0.0
+R1 AZIENDALE Router(config-router)#network 69.0.0.4
+R1 AZIENDALE Router(config-router)#do write
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#router rip 
+ASBR AZIENDALE Router(config-router)#version 2
+ASBR AZIENDALE Router(config-router)#network 69.0.0.4
+ASBR AZIENDALE Router(config-router)#network 69.0.0.8
+ASBR AZIENDALE Router(config-router)#network 69.0.0.16
+ASBR AZIENDALE Router(config-router)#do write
+R2 AZIENDALE Router(config-if)#exit
+R2 AZIENDALE Router(config)#router rip 
+R2 AZIENDALE Router(config-router)#version 2
+R2 AZIENDALE Router(config-router)#network 69.0.0.8
+R2 AZIENDALE Router(config-router)#network 69.0.0.12
+R2 AZIENDALE Router(config-router)#do write
+R3 AZIENDALE Router>en
+R3 AZIENDALE Router#conf t
+R3 AZIENDALE Router(config)#router rip 
+R3 AZIENDALE Router(config-router)#version 2
+R3 AZIENDALE Router(config-router)#network 69.0.0.16
+R3 AZIENDALE Router(config-router)#do write
+R di Mr. Leet Router>en
+R di Mr. Leet Router#conf t
+R di Mr. Leet Router(config)#interface GigabitEthernet8/0
+R di Mr. Leet Router(config-if)#shutdown
+R di Mr. Leet Router(config-if)#no shutdown
+R di Mr. Leet Router(config-if)#ip address 104.0.0.1 255.0.0.0
+R di Mr. Leet Router(config-if)#ip address 104.0.0.1 255.255.255.240
+R di Mr. Leet Router(config-if)#ip address 104.0.0.1 255.255.255.240
+CONFINE ITALIANO Router>enable
+CONFINE ITALIANO Router#configure terminal
+CONFINE ITALIANO Router(config)#interface GigabitEthernet0/0
+CONFINE ITALIANO Router(config-if)#shutdown
+CONFINE ITALIANO Router(config-if)#no shutdown
+CONFINE ITALIANO Router(config-if)#ip address 104.0.0.2 255.0.0.0
+CONFINE ITALIANO Router(config-if)#ip address 104.0.0.2 255.255.255.240
+CONFINE ITALIANO Router(config-if)#ip address 104.0.0.2 255.255.255.240
+R di Mr. Leet Router(config-if)#exit
+R di Mr. Leet Router(config)#ip nat pool MY_POOL 104.0.0.3 104.0.0.14 netmask 255.255.255.240
+R di Mr. Leet Router(config)#ip nat inside source list 1 pool MY_POOL
+R di Mr. Leet Router(config)#do write
+R di Mr. Leet Router(config)#ip dhcp pool mrleet
+R di Mr. Leet Router(dhcp-config)#network 192.168.0.0 255.255.255.0
+R di Mr. Leet Router(dhcp-config)#default-router 192.168.0.254
+R di Mr. Leet Router(dhcp-config)#exit
+R di Mr. Leet Router(config)#ip dhcp excluded-address 192.168.0.254
+R di Mr. Leet Router(config)#do write
+CONFINE ITALIANO Router(config-if)#exit
+CONFINE ITALIANO Router(config)#interface GigabitEthernet0/0
+CONFINE ITALIANO Router(config-if)#exit
+CONFINE ITALIANO Router(config)#interface GigabitEthernet1/0
+CONFINE ITALIANO Router(config-if)#ip address 104.0.0.17 255.255.255.240
+CONFINE ITALIANO Router(config-if)#ip address 104.0.0.17 255.255.255.252
+CONFINE ITALIANO Router(config-if)#ip address 104.0.0.17 255.255.255.252
+CONFINE FRANCESE Router>enable
+CONFINE FRANCESE Router#configure terminal
+CONFINE FRANCESE Router(config)#interface GigabitEthernet1/0
+CONFINE FRANCESE Router(config-if)#shutdown
+CONFINE FRANCESE Router(config-if)#no shutdown
+CONFINE FRANCESE Router(config-if)#ip address 104.0.0.18 255.0.0.0
+CONFINE FRANCESE Router(config-if)#ip address 104.0.0.18 255.255.255.252
+CONFINE FRANCESE Router(config-if)#ip address 104.0.0.18 255.255.255.252
+CONFINE FRANCESE Router(config-if)#exit
+CONFINE FRANCESE Router(config)#interface GigabitEthernet0/0
+CONFINE FRANCESE Router(config-if)#shutdown
+CONFINE FRANCESE Router(config-if)#no shutdown
+CONFINE FRANCESE Router(config-if)#ip address 104.0.0.21 255.255.255.252
+CONFINE FRANCESE Router(config-if)#ip address 104.0.0.21 255.255.255.252
+ASBR AZIENDALE Router>enable
+ASBR AZIENDALE Router#configure terminal
+ASBR AZIENDALE Router(config)#interface GigabitEthernet7/0
+ASBR AZIENDALE Router(config-if)#shutdown
+ASBR AZIENDALE Router(config-if)#no shutdown
+ASBR AZIENDALE Router(config-if)#ip address 104.0.0.22 255.0.0.0
+ASBR AZIENDALE Router(config-if)#ip address 104.0.0.22 255.255.255.252
+ASBR AZIENDALE Router(config-if)#ip address 104.0.0.22 255.255.255.252
+R di Mr. Leet Router(config)#ip route 0.0.0.0 0.0.0.0 104.0.0.2
+ASBR1 Router>enable
+ASBR1 Router#configure terminal
+ASBR1 Router(config)#interface GigabitEthernet0/0
+ASBR1 Router(config-if)#ip address 73.0.0.2 255.0.0.0
+ASBR1 Router(config-if)#ip address 73.0.0.2 255.255.255.252
+ASBR1 Router(config-if)#exit
+ASBR1 Router(config)#interface GigabitEthernet1/0
+ASBR1 Router(config-if)#ip address  255.255.255.252
+ASBR1 Router(config-if)#ip address 73.0.0.22 255.255.255.252
+ASBR1 Router(config-if)#exit
+ASBR1 Router(config)#interface GigabitEthernet0/0
+ASBR1 Router(config-if)#exit
+ASBR1 Router(config)#interface GigabitEthernet0/0
+ASBR1 Router(config-if)#shutdown
+ASBR1 Router(config-if)#no shutdown
+ASBR1 Router(config-if)#exit
+ASBR1 Router(config)#interface GigabitEthernet1/0
+ASBR1 Router(config-if)#shutdown
+ASBR1 Router(config-if)#no shutdown
+R1 AS1 Router>enable
+R1 AS1 Router#configure terminal
+R1 AS1 Router(config)#interface GigabitEthernet2/0
+R1 AS1 Router(config-if)#shutdown
+R1 AS1 Router(config-if)#no shutdown
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet0/0
+R1 AS1 Router(config-if)#shutdown
+R1 AS1 Router(config-if)#no shutdown
+R1 AS1 Router(config-if)#ip address 73.0.0.1 255.0.0.0
+R1 AS1 Router(config-if)#ip address 73.0.0.1 255.255.255.252
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet1/0
+R1 AS1 Router(config-if)#shutdown
+R1 AS1 Router(config-if)#no shutdown
+R1 AS1 Router(config-if)#ip address 73.0.0.9 255.255.255.252
+R1 AS1 Router(config-if)#ip address 73.0.0.9 255.255.255.252
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet2/0
+R1 AS1 Router(config-if)#ip address  255.255.255.252
+R1 AS1 Router(config-if)#ip address 73.0.0.5 255.255.255.252
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet0/0
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet1/0
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet2/0
+R2 AS1 Router>enable
+R2 AS1 Router#configure terminal
+R2 AS1 Router(config)#interface GigabitEthernet0/0
+R2 AS1 Router(config-if)#shutdown
+R2 AS1 Router(config-if)#no shutdown
+R2 AS1 Router(config-if)#ip address 73.0.0.10 255.0.0.0
+R2 AS1 Router(config-if)#no ip address
+R2 AS1 Router(config-if)#ip address 73.0.0.10 255.0.0.0
+R2 AS1 Router(config-if)#ip address 73.0.0.10 255.255.255.252
+R2 AS1 Router(config-if)#exit
+R2 AS1 Router(config)#interface GigabitEthernet1/0
+R2 AS1 Router(config-if)#shutdown
+R2 AS1 Router(config-if)#no shutdown
+R2 AS1 Router(config-if)#exit
+R2 AS1 Router(config)#interface GigabitEthernet0/0
+R2 AS1 Router(config-if)#exit
+R2 AS1 Router(config)#interface GigabitEthernet1/0
+R2 AS1 Router(config-if)#shutdown
+R2 AS1 Router(config-if)#no shutdown
+R2 AS1 Router(config-if)#exit
+R2 AS1 Router(config)#interface GigabitEthernet0/0
+R2 AS1 Router(config-if)#shutdown
+R2 AS1 Router(config-if)#no shutdown
+R2 AS1 Router(config-if)#exit
+R2 AS1 Router(config)#interface GigabitEthernet1/0
+R2 AS1 Router(config-if)#ip address 73.0.0.13 255.255.255.252
+R2 AS1 Router(config-if)#ip address 73.0.0.13 255.255.255.252
+R3 AS1 Router>enable
+R3 AS1 Router#configure terminal
+R3 AS1 Router(config)#interface GigabitEthernet0/0
+R3 AS1 Router(config-if)#exit
+R3 AS1 Router(config)#interface GigabitEthernet1/0
+R3 AS1 Router(config-if)#shutdown
+R3 AS1 Router(config-if)#no shutdown
+R3 AS1 Router(config-if)#ip address 73.0.0.17 255.0.0.0
+R3 AS1 Router(config-if)#ip address 73.0.0.17 255.255.255.252
+R3 AS1 Router(config-if)#exit
+R3 AS1 Router(config)#interface GigabitEthernet0/0
+R3 AS1 Router(config-if)#shutdown
+R3 AS1 Router(config-if)#no shutdown
+R3 AS1 Router(config-if)#ip address 73.0.0.14 255.255.255.252
+R3 AS1 Router(config-if)#ip address 73.0.0.14 255.255.255.252
+R3 AS1 Router(config-if)#exit
+R3 AS1 Router(config)#interface GigabitEthernet2/0
+R3 AS1 Router(config-if)#shutdown
+R3 AS1 Router(config-if)#no shutdown
+R3 AS1 Router(config-if)#ip address 73.0.0.33 255.255.255.252
+R3 AS1 Router(config-if)#ip address 73.0.0.33 255.255.255.248
+R3 AS1 Router(config-if)#exit
+R3 AS1 Router(config)#interface GigabitEthernet1/0
+R3 AS1 Router(config-if)#exit
+R3 AS1 Router(config)#interface GigabitEthernet1/0
+R3 AS1 Router(config-if)#exit
+R3 AS1 Router(config)#interface GigabitEthernet0/0
+R3 AS1 Router(config-if)#exit
+R3 AS1 Router(config)#interface GigabitEthernet2/0
+R4 AS1 Router>enable
+R4 AS1 Router#configure terminal
+R4 AS1 Router(config)#interface GigabitEthernet0/0
+R4 AS1 Router(config-if)#shutdown
+R4 AS1 Router(config-if)#no shutdown
+R4 AS1 Router(config-if)#ip address 73.0.0.6 255.0.0.0
+R4 AS1 Router(config-if)#ip address 73.0.0.6 255.255.255.252
+R4 AS1 Router(config-if)#exit
+R4 AS1 Router(config)#interface GigabitEthernet1/0
+R4 AS1 Router(config-if)#exit
+R4 AS1 Router(config)#interface GigabitEthernet2/0
+R4 AS1 Router(config-if)#shutdown
+R4 AS1 Router(config-if)#no shutdown
+R4 AS1 Router(config-if)#ip address 73.0.0.18 255.255.255.252
+R4 AS1 Router(config-if)#exit
+R4 AS1 Router(config)#interface GigabitEthernet6/0
+R4 AS1 Router(config-if)#exit
+R4 AS1 Router(config)#interface GigabitEthernet5/0
+R4 AS1 Router(config-if)#exit
+R4 AS1 Router(config)#interface GigabitEthernet1/0
+R4 AS1 Router(config-if)#exit
+R4 AS1 Router(config)#interface GigabitEthernet2/0
+R4 AS1 Router(config-if)#exit
+R4 AS1 Router(config)#interface GigabitEthernet3/0
+R4 AS1 Router(config-if)#shutdown
+R4 AS1 Router(config-if)#no shutdown
+R4 AS1 Router(config-if)#ip address 73.0.0.21 255.255.255.252
+R4 AS1 Router(config-if)#exit
+R4 AS1 Router(config)#interface GigabitEthernet4/0
+R4 AS1 Router(config-if)#shutdown
+R4 AS1 Router(config-if)#no shutdown
+R4 AS1 Router(config-if)#ip address 73.0.0.34 255.255.255.252
+R4 AS1 Router(config-if)#ip address 73.0.0.34 255.255.255.252
+R4 AS1 Router(config-if)#ip address 73.0.0.34 255.255.255.248
+R2 AS1 Router(config-if)#exit
+R2 AS1 Router(config)#interface GigabitEthernet0/0
+R2 AS1 Router(config-if)#exit
+R2 AS1 Router(config)#interface GigabitEthernet2/0
+R2 AS1 Router(config-if)#shutdown
+R2 AS1 Router(config-if)#no shutdown
+R2 AS1 Router(config-if)#ip address 73.0.0.26 255.255.255.252
+R2 AS1 Router(config-if)#ip address 73.0.0.26 255.255.255.248
+R2 AS1 Router(config-if)#exit
+R2 AS1 Router(config)#interface GigabitEthernet0/0
+R2 AS1 Router(config-if)#exit
+R2 AS1 Router(config)#interface GigabitEthernet1/0
+R1 AS1 Router>enable
+R1 AS1 Router#configure terminal
+R1 AS1 Router(config)#interface GigabitEthernet4/0
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet2/0
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet3/0
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet1/0
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet0/0
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet4/0
+R1 AS1 Router(config-if)#shutdown
+R1 AS1 Router(config-if)#no shutdown
+R1 AS1 Router(config-if)#ip address 73.0.0.25 255.255.255.252
+R1 AS1 Router(config-if)#ip address 73.0.0.25 255.255.255.248
+ASBR2 Router>enable
+ASBR2 Router#configure terminal
+ASBR2 Router(config)#interface GigabitEthernet2/0
+ASBR2 Router(config-if)#shutdown
+ASBR2 Router(config-if)#no shutdown
+ASBR2 Router(config-if)#ip address 39.0.0.30 255.0.0.0
+ASBR2 Router(config-if)#ip address 39.0.0.30 255.255.255.252
+ASBR2 Router(config-if)#shutdown
+ASBR2 Router(config-if)#no shutdown
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet0/0
+ASBR2 Router(config-if)#shutdown
+ASBR2 Router(config-if)#no shutdown
+ASBR2 Router(config-if)#ip address 39.0.0.2 255.255.255.252
+ASBR2 Router(config-if)#ip address 39.0.0.2 255.255.255.252
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet2/0
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet1/0
+ASBR2 Router(config-if)#shutdown
+ASBR2 Router(config-if)#no shutdown
+ASBR2 Router(config-if)#ip address  255.255.255.252
+ASBR2 Router(config-if)#ip address 39.0.0.25 255.255.255.252
+R1 AS2 Router>enable
+R1 AS2 Router#configure terminal
+R1 AS2 Router(config)#interface GigabitEthernet0/0
+R1 AS2 Router(config-if)#shutdown
+R1 AS2 Router(config-if)#no shutdown
+R1 AS2 Router(config-if)#ip address 39.0.0.1 255.0.0.0
+R1 AS2 Router(config-if)#ip address 39.0.0.1 255.0.0.0
+R1 AS2 Router(config-if)#ip address 39.0.0.1 255.255.255.252
+R1 AS2 Router(config-if)#exit
+R1 AS2 Router(config)#interface GigabitEthernet1/0
+R1 AS2 Router(config-if)#shutdown
+R1 AS2 Router(config-if)#no shutdown
+R1 AS2 Router(config-if)#ip address 39.0.0.9 255.255.255.252
+R1 AS2 Router(config-if)#ip address 39.0.0.9 255.255.255.252
+R1 AS2 Router(config-if)#exit
+R1 AS2 Router(config)#interface GigabitEthernet2/0
+R1 AS2 Router(config-if)#shutdown
+R1 AS2 Router(config-if)#no shutdown
+R1 AS2 Router(config-if)#ip address 39.0.0.5 255.255.255.252
+R1 AS2 Router(config-if)#exit
+R1 AS2 Router(config)#interface GigabitEthernet4/0
+R1 AS2 Router(config-if)#shutdown
+R1 AS2 Router(config-if)#no shutdown
+R1 AS2 Router(config-if)#ip address 39.0.0.33 255.255.255.252
+R1 AS2 Router(config-if)#ip address 39.0.0.33 255.255.255.252
+R1 AS2 Router(config-if)#ip address 39.0.0.33 255.255.255.248
+R2 AS2 Router>enable
+R2 AS2 Router#configure terminal
+R2 AS2 Router(config)#interface GigabitEthernet0/0
+R2 AS2 Router(config-if)#shutdown
+R2 AS2 Router(config-if)#no shutdown
+R2 AS2 Router(config-if)#ip address 39.0.0.10 255.0.0.0
+R2 AS2 Router(config-if)#ip address 39.0.0.10 255.0.0.0
+R2 AS2 Router(config-if)#ip address 39.0.0.10 255.255.255.252
+R2 AS2 Router(config-if)#exit
+R2 AS2 Router(config)#interface GigabitEthernet0/0
+R2 AS2 Router(config-if)#exit
+R2 AS2 Router(config)#interface GigabitEthernet1/0
+R2 AS2 Router(config-if)#shutdown
+R2 AS2 Router(config-if)#no shutdown
+R2 AS2 Router(config-if)#ip address 39.0.0.13 255.255.255.252
+R2 AS2 Router(config-if)#exit
+R2 AS2 Router(config)#interface GigabitEthernet2/0
+R2 AS2 Router(config-if)#shutdown
+R2 AS2 Router(config-if)#no shutdown
+R2 AS2 Router(config-if)#ip address 39.0.0.34 255.255.255.252
+R2 AS2 Router(config-if)#ip address 39.0.0.34 255.255.255.248
+R3 AS2 Router>enable
+R3 AS2 Router#configure terminal
+R3 AS2 Router(config)#interface GigabitEthernet0/0
+R3 AS2 Router(config-if)#shutdown
+R3 AS2 Router(config-if)#no shutdown
+R3 AS2 Router(config-if)#ip address 39.0.0.14 255.0.0.0
+R3 AS2 Router(config-if)#ip address 39.0.0.14 255.255.255.252
+R3 AS2 Router(config-if)#exit
+R3 AS2 Router(config)#interface GigabitEthernet1/0
+R3 AS2 Router(config-if)#shutdown
+R3 AS2 Router(config-if)#no shutdown
+R3 AS2 Router(config-if)#ip address 39.0.0.17 255.255.255.252
+R3 AS2 Router(config-if)#ip address 39.0.0.17 255.255.255.252
+R3 AS2 Router(config-if)#exit
+R3 AS2 Router(config)#interface GigabitEthernet2/0
+R3 AS2 Router(config-if)#shutdown
+R3 AS2 Router(config-if)#no shutdown
+R3 AS2 Router(config-if)#exit
+R3 AS2 Router(config)#interface GigabitEthernet3/0
+R3 AS2 Router(config-if)#shutdown
+R3 AS2 Router(config-if)#no shutdown
+R3 AS2 Router(config-if)#exit
+R3 AS2 Router(config)#interface GigabitEthernet4/0
+R3 AS2 Router(config-if)#shutdown
+R3 AS2 Router(config-if)#no shutdown
+R3 AS2 Router(config-if)#shutdown
+R3 AS2 Router(config-if)#no shutdown
+R3 AS2 Router(config-if)#ip address 39.0.0.29 255.255.255.252
+R3 AS2 Router(config-if)#ip address 39.0.0.29 255.255.255.252
+R4 AS2 Router>enable
+R4 AS2 Router#configure terminal
+R4 AS2 Router(config)#interface GigabitEthernet0/0
+R4 AS2 Router(config-if)#exit
+R4 AS2 Router(config)#interface GigabitEthernet0/0
+R4 AS2 Router(config-if)#shutdown
+R4 AS2 Router(config-if)#no shutdown
+R4 AS2 Router(config-if)#ip address 39.0.0.18 255.0.0.0
+R4 AS2 Router(config-if)#ip address 39.0.0.18 255.255.255.252
+R4 AS2 Router(config-if)#exit
+R4 AS2 Router(config)#interface GigabitEthernet1/0
+R4 AS2 Router(config-if)#shutdown
+R4 AS2 Router(config-if)#no shutdown
+R4 AS2 Router(config-if)#ip address 39.0.0.21 255.255.255.252
+R4 AS2 Router(config-if)#ip address 39.0.0.21 255.255.255.252
+R4 AS2 Router(config-if)#exit
+R4 AS2 Router(config)#interface GigabitEthernet2/0
+R4 AS2 Router(config-if)#shutdown
+R4 AS2 Router(config-if)#no shutdown
+R4 AS2 Router(config-if)#ip address 39.0.0.42 255.255.255.252
+R4 AS2 Router(config-if)#ip address 39.0.0.42 255.255.255.248
+R4 AS2 Router(config-if)#exit
+R4 AS2 Router(config)#interface GigabitEthernet3/0
+R4 AS2 Router(config-if)#exit
+R4 AS2 Router(config)#interface GigabitEthernet4/0
+R4 AS2 Router(config-if)#exit
+R4 AS2 Router(config)#interface GigabitEthernet4/0
+R5 AS2 Router>enable
+R5 AS2 Router#configure terminal
+R5 AS2 Router(config)#interface GigabitEthernet0/0
+R5 AS2 Router(config-if)#shutdown
+R5 AS2 Router(config-if)#no shutdown
+R5 AS2 Router(config-if)#ip address 39.0.0.26 255.0.0.0
+R5 AS2 Router(config-if)#ip address 39.0.0.26 255.255.255.252
+R5 AS2 Router(config-if)#exit
+R5 AS2 Router(config)#interface GigabitEthernet1/0
+R5 AS2 Router(config-if)#shutdown
+R5 AS2 Router(config-if)#no shutdown
+R5 AS2 Router(config-if)#ip address 39.0.0.22 255.255.255.252
+R5 AS2 Router(config-if)#ip address 39.0.0.22 255.255.255.252
+R5 AS2 Router(config-if)#exit
+R5 AS2 Router(config)#interface GigabitEthernet3/0
+R5 AS2 Router(config-if)#shutdown
+R5 AS2 Router(config-if)#no shutdown
+R5 AS2 Router(config-if)#shutdown
+R5 AS2 Router(config-if)#no shutdown
+R5 AS2 Router(config-if)#exit
+R5 AS2 Router(config)#interface GigabitEthernet4/0
+R5 AS2 Router(config-if)#shutdown
+R5 AS2 Router(config-if)#no shutdown
+R5 AS2 Router(config-if)#shutdown
+R5 AS2 Router(config-if)#no shutdown
+R5 AS2 Router(config-if)#ip address 39.0.0.41 255.255.255.252
+R5 AS2 Router(config-if)#ip address 39.0.0.41 255.255.255.248
+R5 AS2 Router(config-if)#exit
+R5 AS2 Router(config)#interface GigabitEthernet0/0
+R5 AS2 Router(config-if)#exit
+R5 AS2 Router(config)#interface GigabitEthernet1/0
+R5 AS2 Router(config-if)#exit
+R5 AS2 Router(config)#interface GigabitEthernet2/0
+R5 AS2 Router(config-if)#shutdown
+R5 AS2 Router(config-if)#no shutdown
+R5 AS2 Router(config-if)#ip address 39.0.0.6 255.255.255.252
+R5 AS2 Router(config-if)#ip address 39.0.0.6 255.255.255.252
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet0/0
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet2/0
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet3/0
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet1/0
+ASBR1 Router>ena
+ASBR1 Router#conf t
+ASBR1 Router(config)#router rip
+ASBR1 Router(config-router)#version 2
+ASBR1 Router(config-router)#network 73.0.0.0
+ASBR1 Router(config-router)#network 73.0.0.20
+ASBR1 Router(config-router)#do write
+R1 AS1 Router>ena
+R1 AS1 Router#conf t
+R1 AS1 Router(config)#router rip 
+R1 AS1 Router(config-router)#version 2
+R1 AS1 Router#ena
+R1 AS1 Router#conf t
+R1 AS1 Router(config)#router rip
+R1 AS1 Router(config-router)#version 2
+R1 AS1 Router(config-router)#network 73.0.0.0
+R1 AS1 Router(config-router)#network 73.0.0.4
+R1 AS1 Router(config-router)#network 73.0.0.8
+R1 AS1 Router(config-router)#network 73.0.0.24
+R1 AS1 Router(config-router)#do write
+R2 AS1 Router>ena
+R2 AS1 Router#conf t
+R2 AS1 Router(config)#router rip
+R2 AS1 Router(config-router)#version 2
+R2 AS1 Router(config-router)#network 73.0.0.8
+R2 AS1 Router(config-router)#network 73.0.0.12
+R2 AS1 Router(config-router)#network 73.0.0.24
+R2 AS1 Router(config-router)#do write
+R3 AS1 Router>enable
+R3 AS1 Router#configure terminal
+R3 AS1 Router(config)#router rip
+R3 AS1 Router(config-router)#version 2
+R3 AS1 Router(config-router)#network 73.0.0.12
+R3 AS1 Router(config-router)#network 73.0.0.16
+R3 AS1 Router(config-router)#network 73.0.0.32
+R3 AS1 Router(config-router)#do write
+R4 AS1 Router>enable
+R4 AS1 Router#configure terminal
+R4 AS1 Router(config)#router rip
+R4 AS1 Router(config-router)#network 73.0.0.4
+R4 AS1 Router(config-router)#network 73.0.0.20
+R4 AS1 Router(config-router)#network 73.0.0.16
+R4 AS1 Router(config-router)#network 73.0.0.32
+R4 AS1 Router(config-router)#do write
+R1 AS1 Router>enable
+R1 AS1 Router#configure terminal
+R1 AS1 Router(config)#interface GigabitEthernet0/0
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet4/0
+R1 AS2 Router>en
+ASBR2 Router>en
+ASBR2 Router#config
+ASBR2 Router(config)#router rip
+ASBR2 Router(config-router)#version 2
+ASBR2 Router(config-router)#network 39.0.0.0
+ASBR2 Router(config-router)#network 39.0.0.24
+ASBR2 Router(config-router)#w
+ASBR2 Router#w
+R1 AS2 Router>en
+R1 AS2 Router#conf
+R1 AS2 Router(config)#router rip
+R1 AS2 Router(config-router)#version 2
+R1 AS2 Router(config-router)#network 39.0.0.0
+R1 AS2 Router(config-router)#network 39.0.0.4
+R1 AS2 Router(config-router)#network 39.0.0.8
+R1 AS2 Router(config-router)#network 39.0.0.32
+R1 AS2 Router(config-router)#ex
+R1 AS2 Router(config)#w
+R1 AS2 Router#w
+R1 AS2 Router(config)#router rip
+R2 AS2 Router>en
+R2 AS2 Router#con
+R2 AS2 Router#conf
+R2 AS2 Router(config)#router rip
+R2 AS2 Router(config-router)#version 2
+R2 AS2 Router(config)#router rip
+R2 AS2 Router(config-router)#network 39.0.0.0
+R2 AS2 Router(config)#router rip
+R2 AS2 Router(config)#router rip
+R2 AS2 Router(config-router)#version 2
+R2 AS2 Router(config-router)#network 39.0.0.8
+R2 AS2 Router(config-router)#network 39.0.0.12
+R2 AS2 Router(config-router)#network 39.0.0.32
+R2 AS2 Router#w
+R3 AS2 Router>en
+R3 AS2 Router#conf
+R3 AS2 Router(config)#router rip
+R3 AS2 Router(config-router)#version 2
+R3 AS2 Router(config-router)#network 39.0.0.12
+R3 AS2 Router(config-router)#network 39.0.0.16
+R3 AS2 Router#w
+R4 AS2 Router>en
+R4 AS2 Router#confi
+R4 AS2 Router(config)#router rip
+R4 AS2 Router(config-router)#version 2
+R4 AS2 Router(config-router)#network 39.0.0.16
+R4 AS2 Router(config-router)#network 39.0.0.20
+R4 AS2 Router(config-router)#network 39.0.0.24
+R4 AS2 Router#w
+R5 AS2 Router>enable
+R5 AS2 Router#conf
+R5 AS2 Router(config)#router rip
+R5 AS2 Router(config-router)#version 2
+R5 AS2 Router(config-router)#network 39.0.0.24
+R5 AS2 Router(config-router)#network 39.0.0.20
+R5 AS2 Router(config-router)#network 39.0.0.24
+R5 AS2 Router#w
+R1 AS2 Router(config)#interface GigabitEthernet4/0
+R1 AS2 Router(config-if)#shutdown
+R1 AS2 Router(config-if)#no shutdown
+R1 AS2 Router(config-if)#ip address 39.0.0.33 255.255.255.248
+R4 AS2 Router#router rip
+R4 AS2 Router#conf t
+R4 AS2 Router(config)#router rip
+R4 AS2 Router(config-router)#v 2
+R4 AS2 Router(config-router)#no network 39.0.0.24
+R4 AS2 Router(config-router)#network 
+R4 AS2 Router(config-router)#network 39.0.0.40
+R5 AS2 Router#conf t
+R5 AS2 Router(config)#router rip
+R5 AS2 Router(config-router)#v 2
+R5 AS2 Router(config-router)#network 39.0.0.40
+R5 AS2 Router#w
+R4 AS2 Router#w
+ASBR1 Router>enable
+ASBR1 Router#configure terminal
+ASBR1 Router(config)#interface GigabitEthernet8/0
+ASBR1 Router(config-if)#exit
+ASBR1 Router(config)#interface GigabitEthernet9/0
+ASBR1 Router(config-if)#exit
+ASBR1 Router(config)#interface GigabitEthernet8/0
+R di Mr. Leet Router>enable
+R di Mr. Leet Router#configure terminal
+CONFINE ITALIANO Router>en
+CONFINE ITALIANO Router#conf t
+CONFINE ITALIANO Router(config)#router bgp 65001
+CONFINE ITALIANO Router(config-router)#network 104.0.0.0 255.255.255.240
+CONFINE ITALIANO Router(config-router)#network 104.0.0.0 mask 255.255.255.240
+CONFINE ITALIANO Router(config-router)#neighbor 104.0.0.18 remote-as 65002
+CONFINE ITALIANO Router(config-router)#do write
+CONFINE FRANCESE Router>en
+CONFINE FRANCESE Router#conf t
+CONFINE FRANCESE Router(config)#router bgp 65002
+CONFINE FRANCESE Router(config-router)#neighbor 104.0.0.17 remote-as 65001
+CONFINE ITALIANO Router(config-router)#network 104.0.0.16 mask 255.255.255.252
+CONFINE ITALIANO Router(config-router)#do write
+CONFINE ITALIANO Router(config-router)#exit
+CONFINE ITALIANO Router(config)#ip route 104.0.0.0 255.255.255.240 null0
+CONFINE FRANCESE Router(config-router)#network 104.0.0.16 mask 255.255.255.252
+CONFINE FRANCESE Router(config-router)#network 104.0.0.20 mask 255.255.255.252
+CONFINE FRANCESE Router(config-router)#do write
+ASBR AZIENDALE Router>en
+ASBR AZIENDALE Router#conf t
+ASBR AZIENDALE Router(config)#router bgp 65003
+ASBR AZIENDALE Router(config-router)#neighbor 104.0.0.21 remote-as 65002
+CONFINE FRANCESE Router(config-router)#neighbor 104.0.0.22 remote-as 65003
+CONFINE FRANCESE Router(config-router)#do write
+ASBR AZIENDALE Router(config-router)#network 104.0.0.20 mask 255.255.255.252
+ASBR AZIENDALE Router(config-router)#network 104.0.0.28 mask 255.255.255.252
+ASBR AZIENDALE Router(config-router)#network 104.0.0.24 mask 255.255.255.252
+ASBR AZIENDALE Router(config-router)#do write
+ASBR AZIENDALE Router(config-router)#network 69.0.0.8 mask 255.255.255.252
+ASBR AZIENDALE Router(config-router)#network 69.0.0.4 mask 255.255.255.252
+ASBR AZIENDALE Router(config-router)#network 69.0.0.16 mask 255.255.255.240
+ASBR AZIENDALE Router(config-router)#do write
+ASBR AZIENDALE Router(config-router)#no network 69.0.0.16 mask 255.255.255.240
+ASBR AZIENDALE Router(config-router)#no network 69.0.0.4 mask 255.255.255.252
+ASBR AZIENDALE Router(config-router)#no network 69.0.0.8 mask 255.255.255.252
+ASBR AZIENDALE Router(config-router)#do write
+ASBR AZIENDALE Router(config-router)#network 69.0.0.0 mask 255.255.255.224
+ASBR AZIENDALE Router(config-router)#do write
+ASBR AZIENDALE Router(config-router)#end
+ASBR AZIENDALE Router#configure terminal
+ASBR AZIENDALE Router(config)#interface GigabitEthernet8/0
+ASBR AZIENDALE Router(config-if)#shutdown
+ASBR AZIENDALE Router(config-if)#no shutdown
+ASBR AZIENDALE Router(config-if)#ip address 104.0.0.25 255.255.255.252
+ASBR AZIENDALE Router(config-if)#ip address 104.0.0.25 255.255.255.252
+ASBR1 Router>enable
+ASBR1 Router#configure terminal
+ASBR1 Router(config)#interface GigabitEthernet8/0
+ASBR1 Router(config-if)#shutdown
+ASBR1 Router(config-if)#no shutdown
+ASBR1 Router(config-if)#ip address 104.0.0.26 255.0.0.0
+ASBR1 Router(config-if)#ip address 104.0.0.26 255.255.255.252
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#interface GigabitEthernet9/0
+ASBR AZIENDALE Router(config-if)#shutdown
+ASBR AZIENDALE Router(config-if)#no shutdown
+ASBR AZIENDALE Router(config-if)#ip address 104.0.0.29 255.255.255.252
+ASBR AZIENDALE Router(config-if)#ip address 104.0.0.29 255.255.255.252
+ASBR2 Router>enable
+ASBR2 Router#configure terminal
+ASBR2 Router(config)#interface GigabitEthernet8/0
+ASBR2 Router(config-if)#shutdown
+ASBR2 Router(config-if)#no shutdown
+ASBR2 Router(config-if)#ip address 104.0.0.30 255.0.0.0
+ASBR2 Router(config-if)#ip address 104.0.0.30 255.255.255.252
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#interface GigabitEthernet9/0
+ASBR2 Router(config-if)#no ip address
+ASBR2 Router(config-if)#ip address 104.0.0.34 255.255.255.252
+ASBR2 Router(config-if)#ip address 104.0.0.34 255.255.255.252
+ASBR2 Router(config-if)#shutdown
+ASBR2 Router(config-if)#no shutdown
+ASBR1 Router(config-if)#exit
+ASBR1 Router(config)#interface GigabitEthernet9/0
+ASBR1 Router(config-if)#ip address 104.0.0.33 255.255.255.252
+ASBR1 Router(config-if)#ip address 104.0.0.33 255.255.255.252
+ASBR AZIENDALE Router(config-if)#exit
+ASBR AZIENDALE Router(config)#router bgp 65003
+ASBR AZIENDALE Router(config-router)#neighbor 104.0.0.30 remote-as 65005
+ASBR AZIENDALE Router(config-router)#neighbor 104.0.0.26 remote-as 65004
+ASBR AZIENDALE Router(config-router)#do write
+ASBR1 Router(config-if)#exit
+ASBR1 Router(config)#router bgp 65004
+ASBR1 Router(config-router)#neighbor 104.0.0.25 remote-as 65003
+ASBR1 Router(config-router)#neighbor 104.0.0.34 remote-as 65005
+ASBR1 Router(config-router)#network 104.0.0.24 maks 255.255.255.252
+ASBR1 Router(config-router)#network 104.0.0.24 mask 255.255.255.252
+ASBR1 Router(config-router)#network 104.0.0.32 mask 255.255.255.252
+ASBR1 Router(config-router)#do write
+ASBR2 Router(config-if)#exit
+ASBR2 Router(config)#router bgp 65005
+ASBR2 Router(config-router)#neighbor 104.0.0.33 remote-as 65004
+ASBR2 Router(config-router)#neighbor 104.0.0.29 remote-as 65003
+ASBR2 Router(config-router)#network 104.0.0.28 mask 255.255.255.252
+ASBR2 Router(config-router)#network 104.0.0.32 mask 255.255.255.252
+ASBR2 Router(config-router)#do write
+R di Mr. Leet Router>en
+R di Mr. Leet Router#ping 104.0.0.30
+ASBR1 Router>e
+ASBR1 Router>en
+ASBR1 Router#conf t
+ASBR1 Router(config)#router bgp 65004
+ASBR1 Router(config-router)#network 
+ASBR1 Router(config-router)#network 73.0.0.0/26 mask 255.255.255.192
+ASBR1 Router(config-router)#network 73.0.0.0 mask 255.255.255.192
+ASBR1 Router(config-router)#exit
+ASBR1 Router(config)#ip route 73.0.0.0 255.255.255.192 null0
+ASBR1 Router(config)#do write
+ASBR2 Router>en
+ASBR2 Router#conf t
+ASBR2 Router(config)#router bgp 65005
+ASBR2 Router(config-router)#network 39.0.0.0 mask 255.255.255.192
+ASBR2 Router(config-router)#exit
+ASBR2 Router(config)#ip route 39.0.0.0 255.255.255.192 null0
+ASBR2 Router(config)#do write
+ASBR2 Router(config)#router rip 
+ASBR2 Router(config-router)#default-information originate 
+ASBR1 Router(config)#router rip
+ASBR1 Router(config-router)#default-information originate 
+ASBR AZIENDALE Router>enable
+ASBR AZIENDALE Router#configure terminal
+ASBR AZIENDALE Router(config)#router rip
+ASBR AZIENDALE Router(config-router)#default-information originate 
+ASBR AZIENDALE Router(config-router)#exit
+ASBR AZIENDALE Router(config)#router bgp 65003
+ASBR AZIENDALE Router(config-router)#network 69.0.0.0 mask 255.255.255.224
+ASBR AZIENDALE Router(config-router)#exit
+ASBR AZIENDALE Router(config)#ip route 69.0.0.0 255.255.255.224 null0
+ASBR AZIENDALE Router(config)#do write
+R di Mr. Leet Router>en
+R di Mr. Leet Router#conf 
+R di Mr. Leet Router(config)#ip dhcp
+R di Mr. Leet Router(config)#ip dhcp MY_POOL
+R di Mr. Leet Router(config)#ip dhcp pool homeleet
+R di Mr. Leet Router(dhcp-config)#exit
+R di Mr. Leet Router(config)#ip dhcp homeleet
+R di Mr. Leet Router(config)#ip dhcp pool homeleet
+R di Mr. Leet Router(dhcp-config)#dns-server 73.0.0.27 73.0.0.35 39.0.0.43 39.0.0.35
+R di Mr. Leet Router(dhcp-config)#dns-server 73.0.0.27 73.0.0.35
+R di Mr. Leet Router(dhcp-config)#dns-server 73.0.0.27
+R di Mr. Leet Router(dhcp-config)#dns-server 73.0.0.35
+R di Mr. Leet Router(dhcp-config)#exit
+R di Mr. Leet Router(config)#do write
+R di Mr. Leet Router(config)#do show ip dhcp
+R di Mr. Leet Router(config)#exit
+R di Mr. Leet Router#show
+R di Mr. Leet Router#show ?
+R di Mr. Leet Router#show dhcp
+R di Mr. Leet Router#show dhcp ?
+R di Mr. Leet Router#show dhcp lease
+R di Mr. Leet Router#write
+R di Mr. Leet Router#show running-config
+R di Mr. Leet Router#no ip dhcp pool mrleet
+R di Mr. Leet Router#conf t
+R di Mr. Leet Router(config)#no ip dhcp pool mrleet
+R di Mr. Leet Router(config)#do write
+R di Mr. Leet Router(config)#do show ip dhcp
+R di Mr. Leet Router(config)#do show running-config
+R di Mr. Leet Router(config)#do write
+CONFINE ITALIANO Router>en
+CONFINE ITALIANO Router#write
+CONFINE FRANCESE Router>en
+CONFINE FRANCESE Router#write
+ASBR AZIENDALE Router>en
+ASBR AZIENDALE Router#write
+R1 AZIENDALE Router>en
+R1 AZIENDALE Router#write
+R3 AZIENDALE Router>en
+R3 AZIENDALE Router#write
+R2 AZIENDALE Router>en
+R2 AZIENDALE Router#write
+ASBR1 Router>en
+ASBR1 Router#write
+R1 AS1 Router>en
+R1 AS1 Router#write
+R2 AS1 Router>en
+R2 AS1 Router#write
+R3 AS1 Router>en
+R3 AS1 Router#write
+R4 AS1 Router>en
+R4 AS1 Router#write
+ASBR2 Router>en
+ASBR2 Router#write
+R1 AS2 Router>en
+R1 AS2 Router#write
+R2 AS2 Router>en
+R2 AS2 Router#write
+R3 AS2 Router>en
+R3 AS2 Router#write
+R4 AS2 Router>en
+R4 AS2 Router#write
+R5 AS2 Router>en
+R5 AS2 Router#write
+R3 AZIENDALE Router#conf t+
+R3 AZIENDALE Router#show running-config 
+R3 AZIENDALE Router#conf t
+R3 AZIENDALE Router(config)#ip dhcp pool aziendale
+R3 AZIENDALE Router(dhcp-config)#dns-server 39.0.0.35
+R3 AZIENDALE Router(dhcp-config)#end
+R3 AZIENDALE Router#write
+R di Mr. Leet Router>en
+R di Mr. Leet Router#show running-config 
+R2 AS1 Router>enable
+R2 AS1 Router#configure terminal
+R2 AS1 Router(config)#interface GigabitEthernet0/0
+R2 AS1 Router(config-if)#exit
+R2 AS1 Router(config)#interface GigabitEthernet2/0
+R2 AS1 Router(config-if)#ip address 73.0.0.26 255.255.255.248
+R1 AS1 Router>enable
+R1 AS1 Router#configure terminal
+R1 AS1 Router(config)#interface GigabitEthernet4/0
+R4 AS1 Router>enable
+R4 AS1 Router#configure terminal
+R4 AS1 Router(config)#interface GigabitEthernet3/0
+R4 AS1 Router(config-if)#exit
+R4 AS1 Router(config)#interface GigabitEthernet4/0
+R3 AS1 Router>enable
+R3 AS1 Router#configure terminal
+R3 AS1 Router(config)#interface GigabitEthernet2/0
+R2 AS1 Router(config-if)#exit
+R2 AS1 Router(config)#interface GigabitEthernet2/0
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet1/0
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet2/0
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet3/0
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet0/0
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet1/0
+R1 AS1 Router(config-if)#exit
+R1 AS1 Router(config)#interface GigabitEthernet4/0
+R1 AS1 Router(config-if)#ip address 73.0.0.25 255.255.255.248
+R4 AS1 Router(config-if)#exit
+R4 AS1 Router(config)#interface GigabitEthernet4/0
+R2 AS2 Router>enable
+R2 AS2 Router#configure terminal
+R2 AS2 Router(config)#interface GigabitEthernet2/0
+R4 AS2 Router>enable
+R4 AS2 Router#configure terminal
+R4 AS2 Router(config)#interface GigabitEthernet2/0
+R5 AS2 Router>enable
+R5 AS2 Router#configure terminal
+R5 AS2 Router(config)#interface GigabitEthernet4/0
+R5 AS2 Router(config-if)#ip address 39.0.0.41 255.255.255.248
+R1 AS2 Router>enable
+R1 AS2 Router#configure terminal
+R1 AS2 Router(config)#interface GigabitEthernet4/0
+R1 AS2 Router(config-if)#ip address 39.0.0.33 255.255.255.248
+R5 AS2 Router(config-if)#exit
+R5 AS2 Router(config)#interface GigabitEthernet4/0
+R5 AS2 Router(config-if)#ip address 39.0.0.41 255.255.255.248
+R2 AS2 Router>enable
+R2 AS2 Router#configure terminal
+R2 AS2 Router(config)#interface GigabitEthernet2/0
+R2 AS2 Router(config-if)#ip address 39.0.0.34 255.255.255.248
+R di Mr. Leet Router>enable
+R di Mr. Leet Router#configure terminal
+R di Mr. Leet Router(config)#interface GigabitEthernet1/0
+R di Mr. Leet Router>ena
+R di Mr. Leet Router#show running config
+R di Mr. Leet Router#show running-config 
+R di Mr. Leet Router#conf t
+R di Mr. Leet Router(config)#dhcp pool homeleet
+R di Mr. Leet Router(config)#ip dhcp pool homeleet
+R di Mr. Leet Router(dhcp-config)#ip dhcp exclude 192.168.0.250 192.168.0.254
+R di Mr. Leet Router(config)#do w

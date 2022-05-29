@@ -1,0 +1,1676 @@
+mer mag 11 15:31:58 2022 R di Mr. Leet Router>enable
+mer mag 11 15:31:58 2022 R di Mr. Leet Router#configure terminal
+mer mag 11 15:31:58 2022 R di Mr. Leet Router(config)#interface FastEthernet0/0
+mer mag 11 15:31:59 2022 R di Mr. Leet Router(config-if)#no shutdown
+mer mag 11 15:32:00 2022 R di Mr. Leet Router(config-if)#exit
+mer mag 11 15:32:00 2022 R di Mr. Leet Router(config)#interface FastEthernet1/0
+mer mag 11 15:32:01 2022 R di Mr. Leet Router(config-if)#no shutdown
+mer mag 11 15:32:12 2022 R di Mr. Leet Router(config-if)#exit
+mer mag 11 15:32:12 2022 R di Mr. Leet Router(config)#interface FastEthernet0/0
+mer mag 11 15:32:13 2022 R di Mr. Leet Router(config-if)#exit
+mer mag 11 15:32:13 2022 R di Mr. Leet Router(config)#interface FastEthernet1/0
+mer mag 11 15:32:14 2022 R di Mr. Leet Router(config-if)#exit
+mer mag 11 15:32:14 2022 R di Mr. Leet Router(config)#interface FastEthernet0/0
+gio mag 12 11:59:19 2022 R di Mr. Leet Router>enable
+gio mag 12 11:59:19 2022 R di Mr. Leet Router#configure terminal
+gio mag 12 11:59:19 2022 R di Mr. Leet Router(config)#interface GigabitEthernet0/0
+gio mag 12 11:59:26 2022 R di Mr. Leet Router(config-if)#exit
+gio mag 12 11:59:26 2022 R di Mr. Leet Router(config)#interface GigabitEthernet0/0
+gio mag 12 11:59:27 2022 R di Mr. Leet Router(config-if)#no shutdown
+gio mag 12 11:59:28 2022 R di Mr. Leet Router(config-if)#exit
+gio mag 12 11:59:28 2022 R di Mr. Leet Router(config)#interface GigabitEthernet1/0
+gio mag 12 11:59:29 2022 R di Mr. Leet Router(config-if)#no shutdown
+ven mag 13 09:21:14 2022 ASBR1 Router>enable
+ven mag 13 09:21:14 2022 ASBR1 Router#configure terminal
+ven mag 13 09:21:14 2022 ASBR1 Router(config)#interface GigabitEthernet0/0
+ven mag 13 09:21:15 2022 ASBR1 Router(config-if)#no shutdown
+ven mag 13 09:21:17 2022 ASBR1 Router(config-if)#exit
+ven mag 13 09:21:17 2022 ASBR1 Router(config)#interface GigabitEthernet1/0
+ven mag 13 09:21:17 2022 ASBR1 Router(config-if)#no shutdown
+ven mag 13 09:21:25 2022 R1 AS1 Router>enable
+ven mag 13 09:21:25 2022 R1 AS1 Router#configure terminal
+ven mag 13 09:21:25 2022 R1 AS1 Router(config)#interface GigabitEthernet0/0
+ven mag 13 09:21:25 2022 R1 AS1 Router(config-if)#no shutdown
+ven mag 13 09:21:29 2022 R1 AS1 Router(config-if)#exit
+ven mag 13 09:21:29 2022 R1 AS1 Router(config)#interface GigabitEthernet1/0
+ven mag 13 09:21:30 2022 R1 AS1 Router(config-if)#no shutdown
+ven mag 13 09:21:37 2022 R2 AS1 Router>enable
+ven mag 13 09:21:37 2022 R2 AS1 Router#configure terminal
+ven mag 13 09:21:37 2022 R2 AS1 Router(config)#interface GigabitEthernet0/0
+ven mag 13 09:21:38 2022 R2 AS1 Router(config-if)#no shutdown
+ven mag 13 09:21:41 2022 R2 AS1 Router(config-if)#exit
+ven mag 13 09:21:41 2022 R2 AS1 Router(config)#interface GigabitEthernet1/0
+ven mag 13 09:21:42 2022 R2 AS1 Router(config-if)#no shutdown
+ven mag 13 09:21:46 2022 R2 AS1 Router(config-if)#exit
+ven mag 13 09:21:46 2022 R2 AS1 Router(config)#interface GigabitEthernet2/0
+ven mag 13 09:21:46 2022 R2 AS1 Router(config-if)#no shutdown
+ven mag 13 09:21:52 2022 R4 AS1 Router>enable
+ven mag 13 09:21:52 2022 R4 AS1 Router#configure terminal
+ven mag 13 09:21:52 2022 R4 AS1 Router(config)#interface GigabitEthernet0/0
+ven mag 13 09:21:54 2022 R4 AS1 Router(config-if)#exit
+ven mag 13 09:21:54 2022 R4 AS1 Router(config)#interface GigabitEthernet1/0
+ven mag 13 09:21:58 2022 R4 AS1 Router(config-if)#exit
+ven mag 13 09:21:58 2022 R4 AS1 Router(config)#interface GigabitEthernet3/0
+ven mag 13 09:21:59 2022 R4 AS1 Router(config-if)#no shutdown
+ven mag 13 09:22:03 2022 R4 AS1 Router(config-if)#exit
+ven mag 13 09:22:03 2022 R4 AS1 Router(config)#interface GigabitEthernet2/0
+ven mag 13 09:22:04 2022 R4 AS1 Router(config-if)#no shutdown
+ven mag 13 09:22:15 2022 R3 AS1 Router>enable
+ven mag 13 09:22:15 2022 R3 AS1 Router#configure terminal
+ven mag 13 09:22:15 2022 R3 AS1 Router(config)#interface GigabitEthernet0/0
+ven mag 13 09:22:16 2022 R3 AS1 Router(config-if)#no shutdown
+ven mag 13 09:22:30 2022 R3 AS1 Router(config-if)#exit
+ven mag 13 09:22:30 2022 R3 AS1 Router(config)#interface GigabitEthernet2/0
+ven mag 13 09:22:31 2022 R3 AS1 Router(config-if)#no shutdown
+ven mag 13 09:22:34 2022 R3 AS1 Router(config-if)#exit
+ven mag 13 09:22:34 2022 R3 AS1 Router(config)#interface GigabitEthernet0/0
+ven mag 13 09:22:34 2022 R3 AS1 Router(config-if)#exit
+ven mag 13 09:22:34 2022 R3 AS1 Router(config)#interface GigabitEthernet1/0
+ven mag 13 09:22:36 2022 R3 AS1 Router(config-if)#no shutdown
+ven mag 13 12:35:17 2022 R1 AS1 Router>enable
+ven mag 13 12:35:17 2022 R1 AS1 Router#configure terminal
+ven mag 13 12:35:17 2022 R1 AS1 Router(config)#interface GigabitEthernet0/0
+ven mag 13 12:35:18 2022 R1 AS1 Router(config-if)#exit
+ven mag 13 12:35:18 2022 R1 AS1 Router(config)#interface GigabitEthernet1/0
+ven mag 13 12:35:19 2022 R1 AS1 Router(config-if)#exit
+ven mag 13 12:35:19 2022 R1 AS1 Router(config)#interface GigabitEthernet3/0
+ven mag 13 12:35:20 2022 R1 AS1 Router(config-if)#no shutdown
+ven mag 13 12:35:21 2022 R1 AS1 Router(config-if)#exit
+ven mag 13 12:35:21 2022 R1 AS1 Router(config)#interface GigabitEthernet3/0
+ven mag 13 12:35:23 2022 R1 AS1 Router(config-if)#exit
+ven mag 13 12:35:23 2022 R1 AS1 Router(config)#interface GigabitEthernet4/0
+ven mag 13 12:35:24 2022 R1 AS1 Router(config-if)#no shutdown
+ven mag 13 12:35:28 2022 R4 AS1 Router>enable
+ven mag 13 12:35:28 2022 R4 AS1 Router#configure terminal
+ven mag 13 12:35:28 2022 R4 AS1 Router(config)#interface GigabitEthernet0/0
+ven mag 13 12:35:29 2022 R4 AS1 Router(config-if)#no shutdown
+ven mag 13 12:35:30 2022 R4 AS1 Router(config-if)#exit
+ven mag 13 12:35:30 2022 R4 AS1 Router(config)#interface GigabitEthernet1/0
+ven mag 13 12:35:30 2022 R4 AS1 Router(config-if)#no shutdown
+ven mag 13 12:35:32 2022 R4 AS1 Router(config-if)#exit
+ven mag 13 12:35:32 2022 R4 AS1 Router(config)#interface GigabitEthernet2/0
+ven mag 13 12:35:36 2022 R3 AS1 Router>enable
+ven mag 13 12:35:36 2022 R3 AS1 Router#configure terminal
+ven mag 13 12:35:36 2022 R3 AS1 Router(config)#interface GigabitEthernet0/0
+ven mag 13 12:35:37 2022 R3 AS1 Router(config-if)#exit
+ven mag 13 12:35:37 2022 R3 AS1 Router(config)#interface GigabitEthernet1/0
+ven mag 13 12:35:38 2022 R3 AS1 Router(config-if)#exit
+ven mag 13 12:35:38 2022 R3 AS1 Router(config)#interface GigabitEthernet2/0
+ven mag 13 12:35:39 2022 R3 AS1 Router(config-if)#exit
+ven mag 13 12:35:39 2022 R3 AS1 Router(config)#interface GigabitEthernet3/0
+ven mag 13 12:35:40 2022 R3 AS1 Router(config-if)#no shutdown
+ven mag 13 12:35:41 2022 R3 AS1 Router(config-if)#exit
+ven mag 13 12:35:41 2022 R3 AS1 Router(config)#interface GigabitEthernet4/0
+ven mag 13 12:35:43 2022 R3 AS1 Router(config-if)#no shutdown
+ven mag 13 12:35:47 2022 R3 AS1 Router(config-if)#shutdown
+ven mag 13 12:35:52 2022 R2 AS1 Router>enable
+ven mag 13 12:35:52 2022 R2 AS1 Router#configure terminal
+ven mag 13 12:35:52 2022 R2 AS1 Router(config)#interface GigabitEthernet0/0
+ven mag 13 12:35:53 2022 R2 AS1 Router(config-if)#exit
+ven mag 13 12:35:53 2022 R2 AS1 Router(config)#interface GigabitEthernet1/0
+ven mag 13 12:35:54 2022 R2 AS1 Router(config-if)#exit
+ven mag 13 12:35:54 2022 R2 AS1 Router(config)#interface GigabitEthernet2/0
+ven mag 13 12:35:54 2022 R2 AS1 Router(config-if)#exit
+ven mag 13 12:35:54 2022 R2 AS1 Router(config)#interface GigabitEthernet3/0
+ven mag 13 12:35:56 2022 R2 AS1 Router(config-if)#no shutdown
+ven mag 13 12:36:00 2022 R4 AS1 Router(config-if)#exit
+ven mag 13 12:36:00 2022 R4 AS1 Router(config)#interface GigabitEthernet0/0
+ven mag 13 12:36:01 2022 R4 AS1 Router(config-if)#exit
+ven mag 13 12:36:01 2022 R4 AS1 Router(config)#interface GigabitEthernet1/0
+ven mag 13 12:36:01 2022 R4 AS1 Router(config-if)#exit
+ven mag 13 12:36:01 2022 R4 AS1 Router(config)#interface GigabitEthernet2/0
+ven mag 13 12:36:02 2022 R4 AS1 Router(config-if)#exit
+ven mag 13 12:36:02 2022 R4 AS1 Router(config)#interface GigabitEthernet3/0
+ven mag 13 12:36:03 2022 R4 AS1 Router(config-if)#exit
+ven mag 13 12:36:03 2022 R4 AS1 Router(config)#interface GigabitEthernet4/0
+ven mag 13 12:36:04 2022 R4 AS1 Router(config-if)#no shutdown
+ven mag 13 12:36:08 2022 R1 AS1 Router(config-if)#exit
+ven mag 13 12:36:08 2022 R1 AS1 Router(config)#interface GigabitEthernet0/0
+ven mag 13 12:36:08 2022 R1 AS1 Router(config-if)#exit
+ven mag 13 12:36:08 2022 R1 AS1 Router(config)#interface GigabitEthernet1/0
+ven mag 13 12:36:09 2022 R1 AS1 Router(config-if)#exit
+ven mag 13 12:36:09 2022 R1 AS1 Router(config)#interface GigabitEthernet2/0
+ven mag 13 12:36:10 2022 R1 AS1 Router(config-if)#exit
+ven mag 13 12:36:10 2022 R1 AS1 Router(config)#interface GigabitEthernet3/0
+ven mag 13 12:36:11 2022 R1 AS1 Router(config-if)#exit
+ven mag 13 12:36:11 2022 R1 AS1 Router(config)#interface GigabitEthernet2/0
+ven mag 13 12:36:12 2022 R1 AS1 Router(config-if)#no shutdown
+ven mag 13 12:36:15 2022 R4 AS1 Router(config-if)#exit
+ven mag 13 12:36:15 2022 R4 AS1 Router(config)#interface GigabitEthernet4/0
+ven mag 13 12:36:16 2022 R4 AS1 Router(config-if)#shutdown
+ven mag 13 12:40:14 2022 ASBR2 Router>enable
+ven mag 13 12:40:14 2022 ASBR2 Router#configure terminal
+ven mag 13 12:40:14 2022 ASBR2 Router(config)#interface GigabitEthernet0/0
+ven mag 13 12:40:15 2022 ASBR2 Router(config-if)#no shutdown
+ven mag 13 12:40:16 2022 ASBR2 Router(config-if)#exit
+ven mag 13 12:40:16 2022 ASBR2 Router(config)#interface GigabitEthernet1/0
+ven mag 13 12:40:17 2022 ASBR2 Router(config-if)#no shutdown
+ven mag 13 12:40:18 2022 ASBR2 Router(config-if)#exit
+ven mag 13 12:40:18 2022 ASBR2 Router(config)#interface GigabitEthernet2/0
+ven mag 13 12:40:19 2022 ASBR2 Router(config-if)#no shutdown
+ven mag 13 12:40:44 2022 ASBR2 Router(config-if)#exit
+ven mag 13 12:40:44 2022 ASBR2 Router(config)#interface GigabitEthernet2/0
+ven mag 13 12:40:48 2022 ASBR2 Router(config-if)#exit
+ven mag 13 12:40:48 2022 ASBR2 Router(config)#interface GigabitEthernet3/0
+ven mag 13 12:40:49 2022 ASBR2 Router(config-if)#exit
+ven mag 13 12:40:49 2022 ASBR2 Router(config)#interface GigabitEthernet4/0
+ven mag 13 12:40:49 2022 ASBR2 Router(config-if)#exit
+ven mag 13 12:40:49 2022 ASBR2 Router(config)#interface GigabitEthernet3/0
+ven mag 13 12:40:50 2022 ASBR2 Router(config-if)#no shutdown
+ven mag 13 12:40:53 2022 ASBR2 Router(config-if)#exit
+ven mag 13 12:40:53 2022 ASBR2 Router(config)#interface GigabitEthernet2/0
+ven mag 13 12:40:54 2022 ASBR2 Router(config-if)#exit
+ven mag 13 12:40:54 2022 ASBR2 Router(config)#interface GigabitEthernet3/0
+ven mag 13 12:40:55 2022 ASBR2 Router(config-if)#shutdown
+ven mag 13 12:40:56 2022 ASBR2 Router(config-if)#exit
+ven mag 13 12:40:56 2022 ASBR2 Router(config)#interface GigabitEthernet3/0
+ven mag 13 12:41:03 2022 R1 AS2 Router>enable
+ven mag 13 12:41:03 2022 R1 AS2 Router#configure terminal
+ven mag 13 12:41:03 2022 R1 AS2 Router(config)#interface GigabitEthernet0/0
+ven mag 13 12:41:04 2022 R1 AS2 Router(config-if)#no shutdown
+ven mag 13 12:41:05 2022 R1 AS2 Router(config-if)#exit
+ven mag 13 12:41:05 2022 R1 AS2 Router(config)#interface GigabitEthernet1/0
+ven mag 13 12:41:06 2022 R1 AS2 Router(config-if)#no shutdown
+ven mag 13 12:41:07 2022 R1 AS2 Router(config-if)#exit
+ven mag 13 12:41:07 2022 R1 AS2 Router(config)#interface GigabitEthernet2/0
+ven mag 13 12:41:08 2022 R1 AS2 Router(config-if)#no shutdown
+ven mag 13 12:41:09 2022 R1 AS2 Router(config-if)#exit
+ven mag 13 12:41:09 2022 R1 AS2 Router(config)#interface GigabitEthernet4/0
+ven mag 13 12:41:10 2022 R1 AS2 Router(config-if)#exit
+ven mag 13 12:41:10 2022 R1 AS2 Router(config)#interface GigabitEthernet3/0
+ven mag 13 12:41:11 2022 R1 AS2 Router(config-if)#no shutdown
+ven mag 13 12:41:15 2022 R2 AS2 Router>enable
+ven mag 13 12:41:15 2022 R2 AS2 Router#configure terminal
+ven mag 13 12:41:15 2022 R2 AS2 Router(config)#interface GigabitEthernet0/0
+ven mag 13 12:41:16 2022 R2 AS2 Router(config-if)#no shutdown
+ven mag 13 12:41:17 2022 R2 AS2 Router(config-if)#exit
+ven mag 13 12:41:17 2022 R2 AS2 Router(config)#interface GigabitEthernet1/0
+ven mag 13 12:41:17 2022 R2 AS2 Router(config-if)#no shutdown
+ven mag 13 12:41:18 2022 R2 AS2 Router(config-if)#exit
+ven mag 13 12:41:18 2022 R2 AS2 Router(config)#interface GigabitEthernet2/0
+ven mag 13 12:41:19 2022 R2 AS2 Router(config-if)#no shutdown
+ven mag 13 12:41:20 2022 R2 AS2 Router(config-if)#exit
+ven mag 13 12:41:20 2022 R2 AS2 Router(config)#interface GigabitEthernet3/0
+ven mag 13 12:41:21 2022 R2 AS2 Router(config-if)#no shutdown
+ven mag 13 12:41:29 2022 R4 AS2 Router>enable
+ven mag 13 12:41:29 2022 R4 AS2 Router#configure terminal
+ven mag 13 12:41:29 2022 R4 AS2 Router(config)#interface GigabitEthernet0/0
+ven mag 13 12:41:30 2022 R4 AS2 Router(config-if)#no shutdown
+ven mag 13 12:41:31 2022 R4 AS2 Router(config-if)#exit
+ven mag 13 12:41:31 2022 R4 AS2 Router(config)#interface GigabitEthernet1/0
+ven mag 13 12:41:32 2022 R4 AS2 Router(config-if)#no shutdown
+ven mag 13 12:41:33 2022 R4 AS2 Router(config-if)#exit
+ven mag 13 12:41:33 2022 R4 AS2 Router(config)#interface GigabitEthernet2/0
+ven mag 13 12:41:34 2022 R4 AS2 Router(config-if)#no shutdown
+ven mag 13 12:41:35 2022 R4 AS2 Router(config-if)#exit
+ven mag 13 12:41:35 2022 R4 AS2 Router(config)#interface GigabitEthernet3/0
+ven mag 13 12:41:36 2022 R4 AS2 Router(config-if)#no shutdown
+ven mag 13 12:41:37 2022 R4 AS2 Router(config-if)#exit
+ven mag 13 12:41:37 2022 R4 AS2 Router(config)#interface GigabitEthernet4/0
+ven mag 13 12:41:38 2022 R4 AS2 Router(config-if)#no shutdown
+ven mag 13 12:41:41 2022 R3 AS2 Router>enable
+ven mag 13 12:41:41 2022 R3 AS2 Router#configure terminal
+ven mag 13 12:41:41 2022 R3 AS2 Router(config)#interface GigabitEthernet0/0
+ven mag 13 12:41:42 2022 R3 AS2 Router(config-if)#no shutdown
+ven mag 13 12:41:43 2022 R3 AS2 Router(config-if)#exit
+ven mag 13 12:41:43 2022 R3 AS2 Router(config)#interface GigabitEthernet1/0
+ven mag 13 12:41:44 2022 R3 AS2 Router(config-if)#no shutdown
+ven mag 13 12:41:47 2022 R5 AS2 Router>enable
+ven mag 13 12:41:47 2022 R5 AS2 Router#configure terminal
+ven mag 13 12:41:47 2022 R5 AS2 Router(config)#interface GigabitEthernet0/0
+ven mag 13 12:41:48 2022 R5 AS2 Router(config-if)#no shutdown
+ven mag 13 12:41:49 2022 R5 AS2 Router(config-if)#exit
+ven mag 13 12:41:49 2022 R5 AS2 Router(config)#interface GigabitEthernet1/0
+ven mag 13 12:41:50 2022 R5 AS2 Router(config-if)#no shutdown
+ven mag 13 12:41:54 2022 ASBR2 Router(config-if)#exit
+ven mag 13 12:41:54 2022 ASBR2 Router(config)#interface Serial7/0
+ven mag 13 12:41:55 2022 ASBR2 Router(config-if)#no shutdown
+ven mag 13 12:41:58 2022 ASBR1 Router>enable
+ven mag 13 12:41:58 2022 ASBR1 Router#configure terminal
+ven mag 13 12:41:58 2022 ASBR1 Router(config)#interface Serial7/0
+ven mag 13 12:41:59 2022 ASBR1 Router(config-if)#no shutdown
+ven mag 13 12:43:05 2022 R3 AS2 Router(config-if)#exit
+ven mag 13 12:43:05 2022 R3 AS2 Router(config)#interface GigabitEthernet3/0
+ven mag 13 12:43:05 2022 R3 AS2 Router(config-if)#exit
+ven mag 13 12:43:05 2022 R3 AS2 Router(config)#interface GigabitEthernet2/0
+ven mag 13 12:43:06 2022 R3 AS2 Router(config-if)#no shutdown
+ven mag 13 12:43:09 2022 R5 AS2 Router(config-if)#exit
+ven mag 13 12:43:09 2022 R5 AS2 Router(config)#interface GigabitEthernet2/0
+ven mag 13 12:43:10 2022 R5 AS2 Router(config-if)#no shutdown
+ven mag 13 12:44:33 2022 R4 AS1 Router>enable
+ven mag 13 12:44:33 2022 R4 AS1 Router#configure terminal
+ven mag 13 12:44:33 2022 R4 AS1 Router(config)#interface GigabitEthernet1/0
+ven mag 13 12:44:33 2022 R4 AS1 Router(config-if)#exit
+ven mag 13 12:44:33 2022 R4 AS1 Router(config)#interface GigabitEthernet2/0
+ven mag 13 12:44:33 2022 R4 AS1 Router(config-if)#exit
+ven mag 13 12:44:33 2022 R4 AS1 Router(config)#interface GigabitEthernet2/0
+ven mag 13 12:44:34 2022 R4 AS1 Router(config-if)#exit
+ven mag 13 12:44:34 2022 R4 AS1 Router(config)#interface GigabitEthernet3/0
+ven mag 13 12:44:35 2022 R4 AS1 Router(config-if)#exit
+ven mag 13 12:44:35 2022 R4 AS1 Router(config)#interface GigabitEthernet4/0
+ven mag 13 12:44:36 2022 R4 AS1 Router(config-if)#no shutdown
+ven mag 13 12:47:59 2022 R2 AS2 Router(config-if)#exit
+ven mag 13 12:47:59 2022 R2 AS2 Router(config)#interface GigabitEthernet4/0
+ven mag 13 12:48:00 2022 R2 AS2 Router(config-if)#exit
+ven mag 13 12:48:00 2022 R2 AS2 Router(config)#interface GigabitEthernet3/0
+ven mag 13 12:48:00 2022 R2 AS2 Router(config-if)#exit
+ven mag 13 12:48:00 2022 R2 AS2 Router(config)#interface GigabitEthernet4/0
+ven mag 13 12:48:01 2022 R2 AS2 Router(config-if)#no shutdown
+ven mag 13 12:48:06 2022 R1 AS2 Router>enable
+ven mag 13 12:48:06 2022 R1 AS2 Router#configure terminal
+ven mag 13 12:48:06 2022 R1 AS2 Router(config)#interface GigabitEthernet1/0
+ven mag 13 12:48:06 2022 R1 AS2 Router(config-if)#exit
+ven mag 13 12:48:06 2022 R1 AS2 Router(config)#interface GigabitEthernet2/0
+ven mag 13 12:48:07 2022 R1 AS2 Router(config-if)#exit
+ven mag 13 12:48:07 2022 R1 AS2 Router(config)#interface GigabitEthernet3/0
+ven mag 13 12:48:07 2022 R1 AS2 Router(config-if)#exit
+ven mag 13 12:48:07 2022 R1 AS2 Router(config)#interface GigabitEthernet4/0
+ven mag 13 12:48:10 2022 R1 AS2 Router(config-if)#no shutdown
+ven mag 13 12:53:03 2022 R1 AS1 Router>enable
+ven mag 13 12:53:03 2022 R1 AS1 Router#configure terminal
+ven mag 13 12:53:03 2022 R1 AS1 Router(config)#interface GigabitEthernet0/0
+ven mag 13 12:53:05 2022 R1 AS1 Router(config-if)#shutdown
+ven mag 13 12:53:06 2022 R1 AS1 Router(config-if)#no shutdown
+ven mag 13 12:53:07 2022 R1 AS1 Router(config-if)#exit
+ven mag 13 12:53:07 2022 R1 AS1 Router(config)#interface GigabitEthernet1/0
+ven mag 13 12:53:07 2022 R1 AS1 Router(config-if)#shutdown
+ven mag 13 12:53:08 2022 R1 AS1 Router(config-if)#no shutdown
+ven mag 13 12:53:09 2022 R1 AS1 Router(config-if)#exit
+ven mag 13 12:53:09 2022 R1 AS1 Router(config)#interface GigabitEthernet2/0
+ven mag 13 12:53:10 2022 R1 AS1 Router(config-if)#shutdown
+ven mag 13 12:53:11 2022 R1 AS1 Router(config-if)#no shutdown
+ven mag 13 12:53:11 2022 R1 AS1 Router(config-if)#exit
+ven mag 13 12:53:11 2022 R1 AS1 Router(config)#interface GigabitEthernet3/0
+ven mag 13 12:53:12 2022 R1 AS1 Router(config-if)#shutdown
+ven mag 13 12:53:19 2022 R2 AS1 Router>enable
+ven mag 13 12:53:19 2022 R2 AS1 Router#configure terminal
+ven mag 13 12:53:19 2022 R2 AS1 Router(config)#interface GigabitEthernet0/0
+ven mag 13 12:53:21 2022 R2 AS1 Router(config-if)#shutdown
+ven mag 13 12:53:21 2022 R2 AS1 Router(config-if)#no shutdown
+ven mag 13 12:53:22 2022 R2 AS1 Router(config-if)#exit
+ven mag 13 12:53:22 2022 R2 AS1 Router(config)#interface GigabitEthernet1/0
+ven mag 13 12:53:23 2022 R2 AS1 Router(config-if)#shutdown
+ven mag 13 12:53:24 2022 R2 AS1 Router(config-if)#no shutdown
+ven mag 13 12:53:25 2022 R2 AS1 Router(config-if)#exit
+ven mag 13 12:53:25 2022 R2 AS1 Router(config)#interface GigabitEthernet3/0
+ven mag 13 12:53:25 2022 R2 AS1 Router(config-if)#exit
+ven mag 13 12:53:25 2022 R2 AS1 Router(config)#interface GigabitEthernet2/0
+ven mag 13 12:53:26 2022 R2 AS1 Router(config-if)#shutdown
+ven mag 13 12:53:27 2022 R2 AS1 Router(config-if)#no shutdown
+ven mag 13 12:53:28 2022 R2 AS1 Router(config-if)#exit
+ven mag 13 12:53:28 2022 R2 AS1 Router(config)#interface GigabitEthernet3/0
+ven mag 13 12:53:29 2022 R2 AS1 Router(config-if)#shutdown
+ven mag 13 12:53:35 2022 R3 AS1 Router>enable
+ven mag 13 12:53:35 2022 R3 AS1 Router#configure terminal
+ven mag 13 12:53:35 2022 R3 AS1 Router(config)#interface GigabitEthernet0/0
+ven mag 13 12:53:36 2022 R3 AS1 Router(config-if)#shutdown
+ven mag 13 12:53:38 2022 R3 AS1 Router(config-if)#no shutdown
+ven mag 13 12:53:39 2022 R3 AS1 Router(config-if)#exit
+ven mag 13 12:53:39 2022 R3 AS1 Router(config)#interface GigabitEthernet2/0
+ven mag 13 12:53:40 2022 R3 AS1 Router(config-if)#exit
+ven mag 13 12:53:40 2022 R3 AS1 Router(config)#interface GigabitEthernet1/0
+ven mag 13 12:53:41 2022 R3 AS1 Router(config-if)#shutdown
+ven mag 13 12:53:41 2022 R3 AS1 Router(config-if)#no shutdown
+ven mag 13 12:53:42 2022 R3 AS1 Router(config-if)#exit
+ven mag 13 12:53:42 2022 R3 AS1 Router(config)#interface GigabitEthernet2/0
+ven mag 13 12:53:43 2022 R3 AS1 Router(config-if)#shutdown
+ven mag 13 12:53:43 2022 R3 AS1 Router(config-if)#no shutdown
+ven mag 13 12:53:45 2022 R3 AS1 Router(config-if)#exit
+ven mag 13 12:53:45 2022 R3 AS1 Router(config)#interface GigabitEthernet4/0
+ven mag 13 12:53:45 2022 R3 AS1 Router(config-if)#exit
+ven mag 13 12:53:45 2022 R3 AS1 Router(config)#interface GigabitEthernet3/0
+ven mag 13 12:53:47 2022 R3 AS1 Router(config-if)#shutdown
+ven mag 13 12:53:51 2022 R4 AS1 Router>enable
+ven mag 13 12:53:51 2022 R4 AS1 Router#configure terminal
+ven mag 13 12:53:51 2022 R4 AS1 Router(config)#interface GigabitEthernet0/0
+ven mag 13 12:53:56 2022 R4 AS1 Router(config-if)#shutdown
+ven mag 13 12:53:56 2022 R4 AS1 Router(config-if)#no shutdown
+ven mag 13 12:53:57 2022 R4 AS1 Router(config-if)#exit
+ven mag 13 12:53:57 2022 R4 AS1 Router(config)#interface GigabitEthernet1/0
+ven mag 13 12:53:58 2022 R4 AS1 Router(config-if)#shutdown
+ven mag 13 13:08:32 2022 ASBR1 Router>enable
+ven mag 13 13:08:32 2022 ASBR1 Router#configure terminal
+ven mag 13 13:08:32 2022 ASBR1 Router(config)#interface GigabitEthernet1/0
+ven mag 13 13:08:33 2022 ASBR1 Router(config-if)#exit
+ven mag 13 13:08:33 2022 ASBR1 Router(config)#interface GigabitEthernet0/0
+ven mag 13 13:08:33 2022 ASBR1 Router(config-if)#exit
+ven mag 13 13:08:33 2022 ASBR1 Router(config)#interface GigabitEthernet1/0
+ven mag 13 13:08:35 2022 ASBR1 Router(config-if)#exit
+ven mag 13 13:08:35 2022 ASBR1 Router(config)#interface GigabitEthernet0/0
+ven mag 13 13:08:36 2022 ASBR1 Router(config-if)#no shutdown
+ven mag 13 13:08:37 2022 ASBR1 Router(config-if)#exit
+ven mag 13 13:08:37 2022 ASBR1 Router(config)#interface GigabitEthernet1/0
+ven mag 13 13:08:38 2022 ASBR1 Router(config-if)#no shutdown
+ven mag 13 13:08:39 2022 ASBR1 Router(config-if)#exit
+ven mag 13 13:08:39 2022 ASBR1 Router(config)#interface Serial7/0
+ven mag 13 13:08:40 2022 ASBR1 Router(config-if)#exit
+ven mag 13 13:08:40 2022 ASBR1 Router(config)#interface Serial8/0
+ven mag 13 13:08:41 2022 ASBR1 Router(config-if)#exit
+ven mag 13 13:08:41 2022 ASBR1 Router(config)#interface GigabitEthernet9/0
+ven mag 13 13:08:52 2022 ASBR2 Router>enable
+ven mag 13 13:08:52 2022 ASBR2 Router#configure terminal
+ven mag 13 13:08:52 2022 ASBR2 Router(config)#interface GigabitEthernet0/0
+ven mag 13 13:08:53 2022 ASBR2 Router(config-if)#no shutdown
+ven mag 13 13:08:55 2022 ASBR2 Router(config-if)#exit
+ven mag 13 13:08:55 2022 ASBR2 Router(config)#interface GigabitEthernet1/0
+ven mag 13 13:08:56 2022 ASBR2 Router(config-if)#no shutdown
+ven mag 13 13:08:56 2022 ASBR2 Router(config-if)#exit
+ven mag 13 13:08:56 2022 ASBR2 Router(config)#interface GigabitEthernet2/0
+ven mag 13 13:08:57 2022 ASBR2 Router(config-if)#no shutdown
+ven mag 13 13:08:58 2022 ASBR2 Router(config-if)#exit
+ven mag 13 13:08:58 2022 ASBR2 Router(config)#interface Serial7/0
+ven mag 13 13:08:59 2022 ASBR2 Router(config-if)#exit
+ven mag 13 13:08:59 2022 ASBR2 Router(config)#interface Serial8/0
+ven mag 13 13:08:59 2022 ASBR2 Router(config-if)#exit
+ven mag 13 13:08:59 2022 ASBR2 Router(config)#interface GigabitEthernet9/0
+ven mag 13 13:09:00 2022 ASBR2 Router(config-if)#no shutdown
+ven mag 13 13:09:03 2022 ASBR2 Router(config-if)#exit
+ven mag 13 13:09:03 2022 ASBR2 Router(config)#interface GigabitEthernet9/0
+ven mag 13 13:09:07 2022 ASBR1 Router(config-if)#exit
+ven mag 13 13:09:07 2022 ASBR1 Router(config)#interface GigabitEthernet9/0
+ven mag 13 13:09:08 2022 ASBR1 Router(config-if)#no shutdown
+ven mag 13 13:10:42 2022 ASBR1 Router>enable
+ven mag 13 13:10:42 2022 ASBR1 Router#configure terminal
+ven mag 13 13:10:42 2022 ASBR1 Router(config)#interface GigabitEthernet0/0
+ven mag 13 13:10:43 2022 ASBR1 Router(config-if)#no shutdown
+ven mag 13 13:10:44 2022 ASBR1 Router(config-if)#exit
+ven mag 13 13:10:44 2022 ASBR1 Router(config)#interface GigabitEthernet1/0
+ven mag 13 13:10:46 2022 ASBR1 Router(config-if)#no shutdown
+ven mag 13 13:10:49 2022 ASBR1 Router(config-if)#exit
+ven mag 13 13:10:49 2022 ASBR1 Router(config)#interface GigabitEthernet9/0
+ven mag 13 13:10:51 2022 ASBR1 Router(config-if)#no shutdown
+ven mag 13 13:10:52 2022 ASBR1 Router(config-if)#exit
+ven mag 13 13:10:52 2022 ASBR1 Router(config)#interface GigabitEthernet8/0
+ven mag 13 13:10:53 2022 ASBR1 Router(config-if)#no shutdown
+ven mag 13 13:10:58 2022 ASBR2 Router(config-if)#exit
+ven mag 13 13:10:58 2022 ASBR2 Router(config)#interface GigabitEthernet0/0
+ven mag 13 13:10:59 2022 ASBR2 Router(config-if)#exit
+ven mag 13 13:10:59 2022 ASBR2 Router(config)#interface GigabitEthernet9/0
+ven mag 13 13:11:00 2022 ASBR2 Router(config-if)#exit
+ven mag 13 13:11:00 2022 ASBR2 Router(config)#interface GigabitEthernet4/0
+ven mag 13 13:11:20 2022 ASBR2 Router>enable
+ven mag 13 13:11:20 2022 ASBR2 Router#configure terminal
+ven mag 13 13:11:20 2022 ASBR2 Router(config)#interface GigabitEthernet2/0
+ven mag 13 13:11:21 2022 ASBR2 Router(config-if)#exit
+ven mag 13 13:11:21 2022 ASBR2 Router(config)#interface GigabitEthernet0/0
+ven mag 13 13:11:22 2022 ASBR2 Router(config-if)#no shutdown
+ven mag 13 13:11:23 2022 ASBR2 Router(config-if)#exit
+ven mag 13 13:11:23 2022 ASBR2 Router(config)#interface GigabitEthernet1/0
+ven mag 13 13:11:24 2022 ASBR2 Router(config-if)#no shutdown
+ven mag 13 13:11:26 2022 ASBR2 Router(config-if)#exit
+ven mag 13 13:11:26 2022 ASBR2 Router(config)#interface GigabitEthernet2/0
+ven mag 13 13:11:27 2022 ASBR2 Router(config-if)#exit
+ven mag 13 13:11:27 2022 ASBR2 Router(config)#interface GigabitEthernet2/0
+ven mag 13 13:11:28 2022 ASBR2 Router(config-if)#no shutdown
+ven mag 13 13:11:29 2022 ASBR2 Router(config-if)#exit
+ven mag 13 13:11:29 2022 ASBR2 Router(config)#interface GigabitEthernet8/0
+ven mag 13 13:11:30 2022 ASBR2 Router(config-if)#exit
+ven mag 13 13:11:30 2022 ASBR2 Router(config)#interface GigabitEthernet9/0
+ven mag 13 13:11:30 2022 ASBR2 Router(config-if)#no shutdown
+ven mag 13 13:11:32 2022 ASBR2 Router(config-if)#exit
+ven mag 13 13:11:32 2022 ASBR2 Router(config)#interface GigabitEthernet8/0
+ven mag 13 13:11:33 2022 ASBR2 Router(config-if)#no shutdown
+ven mag 13 13:12:17 2022 ASBR2 Router(config-if)#exit
+ven mag 13 13:12:17 2022 ASBR2 Router(config)#interface GigabitEthernet8/0
+ven mag 13 13:12:18 2022 ASBR2 Router(config-if)#exit
+ven mag 13 13:12:18 2022 ASBR2 Router(config)#interface GigabitEthernet9/0
+ven mag 13 13:12:23 2022 ASBR AZIENDALE Router>enable
+ven mag 13 13:12:23 2022 ASBR AZIENDALE Router#configure terminal
+ven mag 13 13:12:23 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet9/0
+ven mag 13 13:12:24 2022 ASBR AZIENDALE Router(config-if)#exit
+ven mag 13 13:12:24 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet8/0
+ven mag 13 13:12:25 2022 ASBR AZIENDALE Router(config-if)#exit
+ven mag 13 13:12:25 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet9/0
+ven mag 13 13:12:26 2022 ASBR AZIENDALE Router(config-if)#no shutdown
+ven mag 13 13:12:27 2022 ASBR AZIENDALE Router(config-if)#exit
+ven mag 13 13:12:27 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet8/0
+ven mag 13 13:12:28 2022 ASBR AZIENDALE Router(config-if)#no shutdown
+ven mag 13 13:15:30 2022 R1 AZIENDALE Router>enable
+ven mag 13 13:15:30 2022 R1 AZIENDALE Router#configure terminal
+ven mag 13 13:15:30 2022 R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+ven mag 13 13:15:31 2022 R1 AZIENDALE Router(config-if)#no shutdown
+ven mag 13 13:15:31 2022 R1 AZIENDALE Router(config-if)#exit
+ven mag 13 13:15:31 2022 R1 AZIENDALE Router(config)#interface GigabitEthernet1/0
+ven mag 13 13:15:32 2022 R1 AZIENDALE Router(config-if)#no shutdown
+ven mag 13 13:15:33 2022 R1 AZIENDALE Router(config-if)#exit
+ven mag 13 13:15:33 2022 R1 AZIENDALE Router(config)#interface GigabitEthernet3/0
+ven mag 13 13:15:35 2022 R1 AZIENDALE Router(config-if)#exit
+ven mag 13 13:15:35 2022 R1 AZIENDALE Router(config)#interface GigabitEthernet2/0
+ven mag 13 13:15:36 2022 R1 AZIENDALE Router(config-if)#no shutdown
+ven mag 13 13:15:37 2022 R1 AZIENDALE Router(config-if)#exit
+ven mag 13 13:15:37 2022 R1 AZIENDALE Router(config)#interface GigabitEthernet1/0
+ven mag 13 13:15:37 2022 R1 AZIENDALE Router(config-if)#exit
+ven mag 13 13:15:37 2022 R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+ven mag 13 13:15:42 2022 R2 AZIENDALE Router>enable
+ven mag 13 13:15:42 2022 R2 AZIENDALE Router#configure terminal
+ven mag 13 13:15:42 2022 R2 AZIENDALE Router(config)#interface GigabitEthernet0/0
+ven mag 13 13:15:43 2022 R2 AZIENDALE Router(config-if)#no shutdown
+ven mag 13 13:15:43 2022 R2 AZIENDALE Router(config-if)#exit
+ven mag 13 13:15:43 2022 R2 AZIENDALE Router(config)#interface GigabitEthernet1/0
+ven mag 13 13:15:44 2022 R2 AZIENDALE Router(config-if)#no shutdown
+ven mag 13 13:15:46 2022 R2 AZIENDALE Router(config-if)#exit
+ven mag 13 13:15:46 2022 R2 AZIENDALE Router(config)#interface GigabitEthernet2/0
+ven mag 13 13:15:47 2022 R2 AZIENDALE Router(config-if)#no shutdown
+ven mag 13 13:15:50 2022 ASBR AZIENDALE Router(config-if)#exit
+ven mag 13 13:15:50 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet0/0
+ven mag 13 13:15:51 2022 ASBR AZIENDALE Router(config-if)#no shutdown
+ven mag 13 13:15:52 2022 ASBR AZIENDALE Router(config-if)#exit
+ven mag 13 13:15:52 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet1/0
+ven mag 13 13:15:52 2022 ASBR AZIENDALE Router(config-if)#no shutdown
+ven mag 20 09:57:00 2022 R di Mr. Leet Router>enable
+ven mag 20 09:57:00 2022 R di Mr. Leet Router#configure terminal
+ven mag 20 09:57:00 2022 R di Mr. Leet Router(config)#interface GigabitEthernet8/0
+ven mag 20 09:57:01 2022 R di Mr. Leet Router(config-if)#no shutdown
+ven mag 20 09:57:30 2022 CONFINE ITALIANO Router>enable
+ven mag 20 09:57:30 2022 CONFINE ITALIANO Router#configure terminal
+ven mag 20 09:57:30 2022 CONFINE ITALIANO Router(config)#interface GigabitEthernet0/0
+ven mag 20 09:57:31 2022 CONFINE ITALIANO Router(config-if)#no shutdown
+ven mag 20 09:57:32 2022 CONFINE ITALIANO Router(config-if)#exit
+ven mag 20 09:57:32 2022 CONFINE ITALIANO Router(config)#interface GigabitEthernet1/0
+ven mag 20 09:57:33 2022 CONFINE ITALIANO Router(config-if)#no shutdown
+ven mag 20 09:57:41 2022 CONFINE FRANCESE Router>enable
+ven mag 20 09:57:41 2022 CONFINE FRANCESE Router#configure terminal
+ven mag 20 09:57:41 2022 CONFINE FRANCESE Router(config)#interface GigabitEthernet0/0
+ven mag 20 09:57:42 2022 CONFINE FRANCESE Router(config-if)#no shutdown
+ven mag 20 09:57:43 2022 CONFINE FRANCESE Router(config-if)#exit
+ven mag 20 09:57:43 2022 CONFINE FRANCESE Router(config)#interface GigabitEthernet1/0
+ven mag 20 09:57:43 2022 CONFINE FRANCESE Router(config-if)#no shutdown
+ven mag 20 09:57:48 2022 ASBR AZIENDALE Router>enable
+ven mag 20 09:57:48 2022 ASBR AZIENDALE Router#configure terminal
+ven mag 20 09:57:48 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet0/0
+ven mag 20 09:57:50 2022 ASBR AZIENDALE Router(config-if)#exit
+ven mag 20 09:57:50 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet1/0
+ven mag 20 09:57:51 2022 ASBR AZIENDALE Router(config-if)#exit
+ven mag 20 09:57:51 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet2/0
+ven mag 20 09:57:52 2022 ASBR AZIENDALE Router(config-if)#no shutdown
+ven mag 20 09:57:53 2022 ASBR AZIENDALE Router(config-if)#shutdown
+ven mag 20 09:57:55 2022 ASBR AZIENDALE Router(config-if)#exit
+ven mag 20 09:57:55 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet9/0
+ven mag 20 09:57:56 2022 ASBR AZIENDALE Router(config-if)#shutdown
+ven mag 20 09:57:57 2022 ASBR AZIENDALE Router(config-if)#no shutdown
+ven mag 20 09:57:59 2022 ASBR AZIENDALE Router(config-if)#exit
+ven mag 20 09:57:59 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet8/0
+ven mag 20 09:58:00 2022 ASBR AZIENDALE Router(config-if)#shutdown
+ven mag 20 09:58:02 2022 ASBR AZIENDALE Router(config-if)#no shutdown
+ven mag 20 09:58:03 2022 ASBR AZIENDALE Router(config-if)#exit
+ven mag 20 09:58:03 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet7/0
+ven mag 20 09:58:04 2022 ASBR AZIENDALE Router(config-if)#exit
+ven mag 20 09:58:04 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet6/0
+ven mag 20 09:58:05 2022 ASBR AZIENDALE Router(config-if)#exit
+ven mag 20 09:58:05 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet5/0
+ven mag 20 09:58:06 2022 ASBR AZIENDALE Router(config-if)#exit
+ven mag 20 09:58:06 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet4/0
+ven mag 20 09:58:06 2022 ASBR AZIENDALE Router(config-if)#exit
+ven mag 20 09:58:06 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet3/0
+ven mag 20 09:58:07 2022 ASBR AZIENDALE Router(config-if)#exit
+ven mag 20 09:58:07 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet2/0
+ven mag 20 09:58:08 2022 ASBR AZIENDALE Router(config-if)#exit
+ven mag 20 09:58:08 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet1/0
+ven mag 20 09:58:09 2022 ASBR AZIENDALE Router(config-if)#shutdown
+ven mag 20 09:58:10 2022 ASBR AZIENDALE Router(config-if)#no shutdown
+ven mag 20 09:58:12 2022 ASBR AZIENDALE Router(config-if)#exit
+ven mag 20 09:58:12 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet0/0
+ven mag 20 09:58:13 2022 ASBR AZIENDALE Router(config-if)#exit
+ven mag 20 09:58:13 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet2/0
+ven mag 20 09:58:14 2022 ASBR AZIENDALE Router(config-if)#no shutdown
+ven mag 20 09:58:16 2022 ASBR AZIENDALE Router(config-if)#shutdown
+ven mag 20 09:58:45 2022 CONFINE FRANCESE Router(config-if)#exit
+ven mag 20 09:58:45 2022 CONFINE FRANCESE Router(config)#interface GigabitEthernet0/0
+ven mag 20 09:58:45 2022 CONFINE FRANCESE Router(config-if)#exit
+ven mag 20 09:58:45 2022 CONFINE FRANCESE Router(config)#interface GigabitEthernet1/0
+ven mag 20 09:58:56 2022 ASBR AZIENDALE Router(config-if)#exit
+ven mag 20 09:58:56 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet7/0
+ven mag 20 09:58:57 2022 ASBR AZIENDALE Router(config-if)#no shutdown
+ven mag 20 09:58:58 2022 ASBR AZIENDALE Router(config-if)#exit
+ven mag 20 09:58:58 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet1/0
+ven mag 20 09:58:59 2022 ASBR AZIENDALE Router(config-if)#exit
+ven mag 20 09:58:59 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet2/0
+ven mag 20 10:02:29 2022 Multilayer Switch0 Switch>enable
+ven mag 20 10:02:29 2022 Multilayer Switch0 Switch#configure terminal
+ven mag 20 10:02:29 2022 Multilayer Switch0 Switch(config)#router rip
+ven mag 20 10:46:59 2022 R1 AZIENDALE Router>enable
+ven mag 20 10:46:59 2022 R1 AZIENDALE Router#configure terminal
+ven mag 20 10:46:59 2022 R1 AZIENDALE Router(config)#interface GigabitEthernet3/0
+ven mag 20 10:47:00 2022 R1 AZIENDALE Router(config-if)#no shutdown
+ven mag 20 12:41:54 2022 R2 AZIENDALE Router>enable
+ven mag 20 12:41:54 2022 R2 AZIENDALE Router#configure terminal
+ven mag 20 12:41:54 2022 R2 AZIENDALE Router(config)#interface GigabitEthernet3/0
+ven mag 20 12:41:55 2022 R2 AZIENDALE Router(config-if)#no shutdown
+ven mag 20 12:42:45 2022 R1 AZIENDALE Router>enable
+ven mag 20 12:42:45 2022 R1 AZIENDALE Router#configure terminal
+ven mag 20 12:42:45 2022 R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+ven mag 20 12:42:45 2022 R1 AZIENDALE Router(config-if)#shutdown
+ven mag 20 12:42:47 2022 R1 AZIENDALE Router(config-if)#no shutdown
+ven mag 20 12:42:49 2022 R1 AZIENDALE Router(config-if)#exit
+ven mag 20 12:42:49 2022 R1 AZIENDALE Router(config)#interface GigabitEthernet3/0
+ven mag 20 12:42:51 2022 R1 AZIENDALE Router(config-if)#shutdown
+ven mag 20 12:42:51 2022 R1 AZIENDALE Router(config-if)#no shutdown
+ven mag 20 12:42:59 2022 R1 AZIENDALE Router(config-if)#ip address 69.0.0.1 255.0.0.0
+ven mag 20 12:43:08 2022 R1 AZIENDALE Router(config-if)#ip address 69.0.0.1 255.255.255.252
+ven mag 20 12:43:28 2022 R2 AZIENDALE Router(config-if)#exit
+ven mag 20 12:43:28 2022 R2 AZIENDALE Router(config)#interface GigabitEthernet3/0
+ven mag 20 12:43:30 2022 R2 AZIENDALE Router(config-if)#shutdown
+ven mag 20 12:43:31 2022 R2 AZIENDALE Router(config-if)#no shutdown
+ven mag 20 12:43:36 2022 R2 AZIENDALE Router(config-if)#ip address 104.0.0.1 255.0.0.0
+ven mag 20 12:43:40 2022 R2 AZIENDALE Router(config-if)#ip address 104.0.0.1 255.255.255.252
+ven mag 20 12:44:40 2022 R1 AZIENDALE Router(config-if)#exit
+ven mag 20 12:45:17 2022 R1 AZIENDALE Router(config)#ip dhcp pool aziendale
+ven mag 20 12:45:35 2022 R1 AZIENDALE Router(dhcp-config)#network 192.168.0.0 255.255.255.0
+ven mag 20 12:45:59 2022 R1 AZIENDALE Router(dhcp-config)#default-router 192.168.0.254
+ven mag 20 12:46:37 2022 R1 AZIENDALE Router(dhcp-config)#exit
+ven mag 20 12:46:53 2022 R1 AZIENDALE Router(config)#ip dhcp excluded-address 192.168.0.253
+ven mag 20 12:47:03 2022 R1 AZIENDALE Router(config)#ip dhcp excluded-address 192.168.0.254
+ven mag 20 12:47:06 2022 R1 AZIENDALE Router(config)#do write
+ven mag 20 12:47:32 2022 R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+ven mag 20 12:47:33 2022 R1 AZIENDALE Router(config-if)#shutdown
+ven mag 20 12:47:34 2022 R1 AZIENDALE Router(config-if)#no shutdown
+ven mag 20 12:47:41 2022 R1 AZIENDALE Router(config-if)#ip address 192.168.0.254 255.255.255.0
+ven mag 20 12:47:43 2022 R1 AZIENDALE Router(config-if)#ip address 192.168.0.254 255.255.255.0
+ven mag 20 12:48:09 2022 R2 AZIENDALE Router(config-if)#exit
+ven mag 20 12:48:09 2022 R2 AZIENDALE Router(config)#interface GigabitEthernet0/0
+ven mag 20 12:48:10 2022 R2 AZIENDALE Router(config-if)#shutdown
+ven mag 20 12:48:11 2022 R2 AZIENDALE Router(config-if)#no shutdown
+ven mag 20 12:48:20 2022 R2 AZIENDALE Router(config-if)#ip address 192.168.0.253 255.255.255.0
+ven mag 20 12:48:21 2022 R2 AZIENDALE Router(config-if)#ip address 192.168.0.253 255.255.255.0
+ven mag 20 12:54:15 2022 R1 AZIENDALE Router(config-if)#exit
+ven mag 20 12:57:42 2022 R1 AZIENDALE Router(config)#int gigabitEthernet3/0
+ven mag 20 12:57:46 2022 R1 AZIENDALE Router(config-if)#shutdown 
+ven mag 20 12:57:52 2022 R1 AZIENDALE Router(config-if)#no shutdown 
+ven mag 20 12:57:58 2022 R1 AZIENDALE Router(config-if)#int gigabitEthernet0/0
+ven mag 20 12:58:03 2022 R1 AZIENDALE Router(config-if)#ip nat inside
+ven mag 20 12:58:33 2022 R1 AZIENDALE Router(config-if)#exit
+ven mag 20 12:58:40 2022 R1 AZIENDALE Router(config)#int gigabitEthernet3/0
+ven mag 20 12:58:45 2022 R1 AZIENDALE Router(config-if)#ip nat outside
+ven mag 20 12:58:48 2022 R1 AZIENDALE Router(config-if)#exit
+ven mag 20 12:58:51 2022 R1 AZIENDALE Router(config)#int gigabitEthernet2/0
+ven mag 20 12:58:53 2022 R1 AZIENDALE Router(config-if)#ip nat outside
+ven mag 20 12:58:54 2022 R1 AZIENDALE Router(config-if)#exit
+ven mag 20 12:58:57 2022 R1 AZIENDALE Router(config)#int gigabitEthernet1/0
+ven mag 20 12:58:59 2022 R1 AZIENDALE Router(config-if)#ip nat outside
+ven mag 20 12:59:06 2022 R1 AZIENDALE Router(config-if)#exit
+ven mag 20 13:00:06 2022 R1 AZIENDALE Router(config)#access-list 1 permit 192.168.0.0 0.0.0.255
+ven mag 20 13:00:18 2022 R1 AZIENDALE Router(config)#ip nat pool MY_POOL 4.4.4.1 4.4.4.5 netmask 255.255.255.0
+ven mag 20 13:00:28 2022 R1 AZIENDALE Router(config)#ip nat inside source list 1 pool MY_POOL
+ven mag 20 13:00:36 2022 R1 AZIENDALE Router(config)#do write
+ven mag 20 13:02:14 2022 R1 AZIENDALE Router(config)#no ip nat inside source list 1 pool MY_POOL
+ven mag 20 13:02:35 2022 R1 AZIENDALE Router(config)#no ip nat pool MY_POOL 4.4.4.1 4.4.4.5 netmask 255.255.255.0
+ven mag 20 13:03:05 2022 R1 AZIENDALE Router>en
+ven mag 20 13:03:07 2022 R1 AZIENDALE Router#conf t
+ven mag 20 13:06:43 2022 R1 AZIENDALE Router>enable
+ven mag 20 13:06:43 2022 R1 AZIENDALE Router#configure terminal
+ven mag 20 13:06:43 2022 R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+ven mag 20 13:06:44 2022 R1 AZIENDALE Router(config-if)#shutdown
+ven mag 20 13:06:45 2022 R1 AZIENDALE Router(config-if)#no shutdown
+ven mag 20 13:06:46 2022 R1 AZIENDALE Router(config-if)#exit
+ven mag 20 13:06:46 2022 R1 AZIENDALE Router(config)#interface GigabitEthernet1/0
+ven mag 20 13:06:46 2022 R1 AZIENDALE Router(config-if)#shutdown
+ven mag 20 13:06:47 2022 R1 AZIENDALE Router(config-if)#no shutdown
+ven mag 20 13:06:51 2022 R1 AZIENDALE Router(config-if)#ip address 69.0.0.1 255.0.0.0
+ven mag 20 13:06:55 2022 R1 AZIENDALE Router(config-if)#ip address 69.0.0.1 255.255.255.252
+ven mag 20 13:07:34 2022 R1 AZIENDALE Router(config-if)#exit
+ven mag 20 13:07:34 2022 R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+ven mag 20 13:07:36 2022 R1 AZIENDALE Router(config-if)#exit
+ven mag 20 13:07:36 2022 R1 AZIENDALE Router(config)#interface GigabitEthernet1/0
+ven mag 20 13:07:37 2022 R1 AZIENDALE Router(config-if)#exit
+ven mag 20 13:07:37 2022 R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+ven mag 20 13:07:39 2022 R1 AZIENDALE Router(config-if)#shutdown
+ven mag 20 13:07:40 2022 R1 AZIENDALE Router(config-if)#no shutdown
+ven mag 20 13:07:52 2022 R1 AZIENDALE Router(config-if)#no ip address
+ven mag 20 13:07:59 2022 R1 AZIENDALE Router(config-if)#ip address  255.255.255.252
+ven mag 20 13:08:07 2022 R1 AZIENDALE Router(config-if)#ip address 69.0.0.5 255.255.255.252
+ven mag 20 13:08:15 2022 R3 AZIENDALE Router>enable
+ven mag 20 13:08:15 2022 R3 AZIENDALE Router#configure terminal
+ven mag 20 13:08:15 2022 R3 AZIENDALE Router(config)#interface GigabitEthernet1/0
+ven mag 20 13:08:15 2022 R3 AZIENDALE Router(config-if)#exit
+ven mag 20 13:08:15 2022 R3 AZIENDALE Router(config)#interface GigabitEthernet0/0
+ven mag 20 13:08:17 2022 R3 AZIENDALE Router(config-if)#shutdown
+ven mag 20 13:08:18 2022 R3 AZIENDALE Router(config-if)#no shutdown
+ven mag 20 13:08:19 2022 R3 AZIENDALE Router(config-if)#exit
+ven mag 20 13:08:19 2022 R3 AZIENDALE Router(config)#interface GigabitEthernet1/0
+ven mag 20 13:08:22 2022 R3 AZIENDALE Router(config-if)#shutdown
+ven mag 20 13:08:23 2022 R3 AZIENDALE Router(config-if)#no shutdown
+ven mag 20 13:08:28 2022 R3 AZIENDALE Router(config-if)#ip address 69.0.0.6 255.0.0.0
+ven mag 20 13:08:33 2022 R3 AZIENDALE Router(config-if)#ip address 69.0.0.6 255.255.255.252
+ven mag 20 13:08:43 2022 R3 AZIENDALE Router(config-if)#exit
+ven mag 20 13:08:43 2022 R3 AZIENDALE Router(config)#interface GigabitEthernet0/0
+ven mag 20 13:08:46 2022 R3 AZIENDALE Router(config-if)#ip address 192.168.0.254 255.255.255.0
+ven mag 20 13:08:58 2022 R3 AZIENDALE Router(config-if)#exit
+ven mag 20 13:09:17 2022 R3 AZIENDALE Router(config)#ip dhcp pool
+ven mag 20 13:09:22 2022 R3 AZIENDALE Router(config)#ip dhcp pool aziendale
+ven mag 20 13:09:36 2022 R3 AZIENDALE Router(dhcp-config)#network 192.168.0.0 255.255.255.0
+ven mag 20 13:09:45 2022 R3 AZIENDALE Router(dhcp-config)#default-router 192.168.0.254
+ven mag 20 13:09:47 2022 R3 AZIENDALE Router(dhcp-config)#exit
+ven mag 20 13:09:58 2022 R3 AZIENDALE Router(config)#ip dhcp excluded-address 192.168.0.254
+ven mag 20 13:10:00 2022 R3 AZIENDALE Router(config)#ip dhcp excluded-address 192.168.0.254
+ven mag 20 13:10:02 2022 R3 AZIENDALE Router(config)#ip dhcp excluded-address 192.168.0.253
+ven mag 20 13:10:15 2022 R3 AZIENDALE Router(config)#do write
+ven mag 20 13:10:46 2022 R3 AZIENDALE Router(config)#interface GigabitEthernet0/0
+ven mag 20 13:10:47 2022 R3 AZIENDALE Router(config-if)#exit
+ven mag 20 13:10:47 2022 R3 AZIENDALE Router(config)#interface GigabitEthernet0/0
+ven mag 20 13:10:53 2022 R3 AZIENDALE Router(config-if)#exit
+ven mag 20 13:10:56 2022 R3 AZIENDALE Router(config)#interface GigabitEthernet0/0
+ven mag 20 13:11:00 2022 R3 AZIENDALE Router(config-if)#ip nat inside
+ven mag 20 13:11:01 2022 R3 AZIENDALE Router(config-if)#exit
+ven mag 20 13:11:07 2022 R3 AZIENDALE Router(config)#interface GigabitEthernet0/1
+ven mag 20 13:11:10 2022 R3 AZIENDALE Router(config)#interface GigabitEthernet0/0
+ven mag 20 13:11:17 2022 R3 AZIENDALE Router(config-if)#interface GigabitEthernet1/0
+ven mag 20 13:11:24 2022 R3 AZIENDALE Router(config-if)#ip nat outside
+ven mag 20 13:11:26 2022 R3 AZIENDALE Router(config-if)#exit
+ven mag 20 13:11:28 2022 R3 AZIENDALE Router(config)#do write
+ven mag 20 13:11:38 2022 R3 AZIENDALE Router(config)#access-list 1 permit 192.168.0.0 0.0.0.255
+ven mag 20 13:13:26 2022 R1 AZIENDALE Router(config-if)#exit
+ven mag 20 13:13:26 2022 R1 AZIENDALE Router(config)#interface GigabitEthernet1/0
+ven mag 20 13:13:27 2022 R1 AZIENDALE Router(config-if)#exit
+ven mag 20 13:13:27 2022 R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+ven mag 20 13:13:34 2022 R1 AZIENDALE Router(config-if)#ip address 69.0.0.17 255.255.255.252
+ven mag 20 13:13:44 2022 R1 AZIENDALE Router(config-if)#ip address 69.0.0.17 255.255.255.240
+ven mag 20 13:13:48 2022 R1 AZIENDALE Router(config-if)#ip address 69.0.0.17 255.255.255.240
+ven mag 20 13:13:51 2022 R3 AZIENDALE Router(config)#interface GigabitEthernet0/0
+ven mag 20 13:13:52 2022 R3 AZIENDALE Router(config-if)#exit
+ven mag 20 13:13:52 2022 R3 AZIENDALE Router(config)#interface GigabitEthernet0/0
+ven mag 20 13:13:53 2022 R3 AZIENDALE Router(config-if)#exit
+ven mag 20 13:13:53 2022 R3 AZIENDALE Router(config)#interface GigabitEthernet1/0
+ven mag 20 13:13:56 2022 R3 AZIENDALE Router(config-if)#ip address 69.0.0.18 255.255.255.252
+ven mag 20 13:14:00 2022 R3 AZIENDALE Router(config-if)#ip address 69.0.0.18 255.255.255.240
+ven mag 20 13:14:01 2022 R3 AZIENDALE Router(config-if)#ip address 69.0.0.18 255.255.255.240
+ven mag 20 13:14:05 2022 R3 AZIENDALE Router(config-if)#exit
+ven mag 20 13:14:47 2022 R3 AZIENDALE Router(config)#ip nat pool MY_POOL 69.0.0.19 69.0.0.30 netmask 255.255.255.240
+ven mag 20 13:15:05 2022 R3 AZIENDALE Router(config)#ip nat inside source list 1 pool MY_POOL
+ven mag 20 13:15:11 2022 R3 AZIENDALE Router(config)#do write
+ven mag 20 13:15:54 2022 R1 AZIENDALE Router(config-if)#exit
+ven mag 20 13:15:54 2022 R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+ven mag 20 13:15:58 2022 R3 AZIENDALE Router(config)#ip route 0.0.0.0 0.0.0.0 69.0.0.17
+ven mag 20 13:18:18 2022 R1 AZIENDALE Router(config-if)#exit
+ven mag 20 13:18:48 2022 R1 AZIENDALE Router(config)#ip route 69.0.0.16 255.255.255.240 69.0.0.18
+ven mag 20 23:23:41 2022 R3 AZIENDALE Router>en
+ven mag 20 23:23:44 2022 R3 AZIENDALE Router#write erase
+ven mag 20 23:23:48 2022 R3 AZIENDALE Router#reload
+ven mag 20 23:24:10 2022 R3 AZIENDALE Router>enable
+ven mag 20 23:24:10 2022 R3 AZIENDALE Router#configure terminal
+ven mag 20 23:24:10 2022 R3 AZIENDALE Router(config)#interface GigabitEthernet0/0
+ven mag 20 23:24:11 2022 R3 AZIENDALE Router(config-if)#no shutdown
+ven mag 20 23:24:11 2022 R3 AZIENDALE Router(config-if)#shutdown
+ven mag 20 23:24:12 2022 R3 AZIENDALE Router(config-if)#no shutdown
+ven mag 20 23:24:20 2022 R3 AZIENDALE Router(config-if)#ip address 192.168.0.254 255.255.255.0
+ven mag 20 23:24:23 2022 R3 AZIENDALE Router(config-if)#ip address 192.168.0.254 255.255.255.0
+ven mag 20 23:24:23 2022 R3 AZIENDALE Router(config-if)#exit
+ven mag 20 23:24:23 2022 R3 AZIENDALE Router(config)#interface GigabitEthernet1/0
+ven mag 20 23:24:24 2022 R3 AZIENDALE Router(config-if)#no shutdown
+ven mag 20 23:24:31 2022 R3 AZIENDALE Router(config-if)#ip address 69.0.0.18 255.0.0.0
+ven mag 20 23:24:50 2022 R3 AZIENDALE Router(config-if)#ip address 69.0.0.18 255.255.255.240
+ven mag 20 23:24:52 2022 R1 AZIENDALE Router>enable
+ven mag 20 23:24:52 2022 R1 AZIENDALE Router#configure terminal
+ven mag 20 23:24:52 2022 R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+ven mag 20 23:24:53 2022 R1 AZIENDALE Router(config-if)#exit
+ven mag 20 23:24:53 2022 R1 AZIENDALE Router(config)#interface GigabitEthernet1/0
+ven mag 20 23:24:54 2022 R1 AZIENDALE Router(config-if)#exit
+ven mag 20 23:24:54 2022 R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+ven mag 20 23:24:55 2022 R1 AZIENDALE Router(config-if)#exit
+ven mag 20 23:24:55 2022 R1 AZIENDALE Router(config)#interface GigabitEthernet1/0
+ven mag 20 23:25:00 2022 R3 AZIENDALE Router(config-if)#ip address 69.0.0.18 255.255.255.240
+ven mag 20 23:25:04 2022 R3 AZIENDALE Router(config-if)#exit
+ven mag 20 23:25:53 2022 R3 AZIENDALE Router(config)#ip dhcp pool aziendale
+ven mag 20 23:26:02 2022 R3 AZIENDALE Router(dhcp-config)#network 192.168.0.0 255.255.255.0
+ven mag 20 23:26:10 2022 R3 AZIENDALE Router(dhcp-config)#default-router 192.168.0.254
+ven mag 20 23:26:13 2022 R3 AZIENDALE Router(dhcp-config)#exit
+ven mag 20 23:26:21 2022 R3 AZIENDALE Router(config)#ip dhcp excluded-address 192.168.0.254
+ven mag 20 23:26:27 2022 R3 AZIENDALE Router(config)#ip dhcp excluded-address 192.168.0.253
+ven mag 20 23:26:35 2022 R3 AZIENDALE Router(config)#ip dhcp excluded-address 192.168.0.1
+ven mag 20 23:26:38 2022 R3 AZIENDALE Router(config)#do write
+ven mag 20 23:27:49 2022 R3 AZIENDALE Router(config)#ip nat inside source static 192.168.0.1 69.0.0.19
+ven mag 20 23:27:57 2022 R3 AZIENDALE Router(config)#interface GigabitEthernet0/0
+ven mag 20 23:28:06 2022 R3 AZIENDALE Router(config-if)#ip nat inside
+ven mag 20 23:28:07 2022 R3 AZIENDALE Router(config-if)#exit
+ven mag 20 23:28:15 2022 R3 AZIENDALE Router(config)#int gigabitEthernet1/0
+ven mag 20 23:28:19 2022 R3 AZIENDALE Router(config-if)#ip nat outside
+ven mag 20 23:28:30 2022 R3 AZIENDALE Router(config-if)#exit
+ven mag 20 23:28:47 2022 R3 AZIENDALE Router(config)#access-list 1 permit 192.168.0.0 0.0.0.255
+ven mag 20 23:29:54 2022 R3 AZIENDALE Router(config)#ip nat pool NATaziendale 69.0.0.20 69.0.0.30 netmask 255.255.255.240
+ven mag 20 23:30:18 2022 R3 AZIENDALE Router(config)#ip nat inside source list 1 pool NATaziendale
+ven mag 20 23:30:21 2022 R3 AZIENDALE Router(config)#do write
+ven mag 20 23:30:59 2022 R3 AZIENDALE Router(config)#ip route 0.0.0.0 0.0.0.0 69.0.0.17
+ven mag 20 23:32:00 2022 R1 AZIENDALE Router>enable
+ven mag 20 23:32:00 2022 R1 AZIENDALE Router#configure terminal
+ven mag 20 23:33:34 2022 R2 AZIENDALE Router>enable
+ven mag 20 23:33:34 2022 R2 AZIENDALE Router#configure terminal
+ven mag 20 23:33:34 2022 R2 AZIENDALE Router(config)#interface GigabitEthernet3/0
+ven mag 20 23:36:01 2022 R di Mr. Leet Router>enable
+ven mag 20 23:36:01 2022 R di Mr. Leet Router#configure terminal
+ven mag 20 23:36:01 2022 R di Mr. Leet Router(config)#interface GigabitEthernet0/0
+ven mag 20 23:36:03 2022 R di Mr. Leet Router(config-if)#shutdown
+ven mag 20 23:36:04 2022 R di Mr. Leet Router(config-if)#no shutdown
+ven mag 20 23:37:05 2022 R di Mr. Leet Router(config-if)#shutdown
+ven mag 20 23:37:06 2022 R di Mr. Leet Router(config-if)#no shutdown
+ven mag 20 23:37:07 2022 R di Mr. Leet Router(config-if)#exit
+ven mag 20 23:37:07 2022 R di Mr. Leet Router(config)#interface GigabitEthernet1/0
+ven mag 20 23:37:08 2022 R di Mr. Leet Router(config-if)#shutdown
+ven mag 20 23:37:09 2022 R di Mr. Leet Router(config-if)#no shutdown
+ven mag 20 23:37:18 2022 R di Mr. Leet Router(config-if)#no ip address
+ven mag 20 23:37:25 2022 R di Mr. Leet Router(config-if)#ip address 192.168.0.254 255.255.255.0
+ven mag 20 23:37:27 2022 R di Mr. Leet Router(config-if)#ip address 192.168.0.254 255.255.255.0
+ven mag 20 23:37:28 2022 R di Mr. Leet Router(config-if)#exit
+ven mag 20 23:37:28 2022 R di Mr. Leet Router(config)#interface GigabitEthernet0/0
+ven mag 20 23:37:36 2022 R di Mr. Leet Router(config-if)#no ip address
+ven mag 20 23:37:43 2022 R di Mr. Leet Router(config-if)#no ip address
+ven mag 20 23:37:52 2022 R di Mr. Leet Router(config-if)#shutdown
+ven mag 20 23:38:32 2022 R di Mr. Leet Router(config-if)#exit
+ven mag 20 23:38:47 2022 R di Mr. Leet Router(config)#ip dhcp pool homeleet
+ven mag 20 23:39:00 2022 R di Mr. Leet Router(dhcp-config)#network 192.168.0.0 255.255.255.0
+ven mag 20 23:39:07 2022 R di Mr. Leet Router(dhcp-config)#default-router 192.168.0.254
+ven mag 20 23:39:09 2022 R di Mr. Leet Router(dhcp-config)#exit
+ven mag 20 23:39:16 2022 R di Mr. Leet Router(config)#ip dhcp excluded-address 192.168.0.254
+ven mag 20 23:39:19 2022 R di Mr. Leet Router(config)#do write
+ven mag 20 23:39:26 2022 R di Mr. Leet Router(config)#int gigabitEthernet1/0
+ven mag 20 23:39:30 2022 R di Mr. Leet Router(config-if)#ip nat inside
+ven mag 20 23:39:37 2022 R di Mr. Leet Router(config-if)#exit
+ven mag 20 23:39:42 2022 R di Mr. Leet Router(config)#int gigabitEthernet8/0
+ven mag 20 23:39:46 2022 R di Mr. Leet Router(config-if)#ip nat outside
+ven mag 20 23:39:48 2022 R di Mr. Leet Router(config-if)#exit
+ven mag 20 23:40:25 2022 R di Mr. Leet Router(config)#access-list 1 permit 192.168.0.0 0.0.0.255
+ven mag 20 23:41:03 2022 R di Mr. Leet Router(config)#do write
+sab mag 21 10:51:37 2022 R1 AZIENDALE Router>enable
+sab mag 21 10:51:37 2022 R1 AZIENDALE Router#configure terminal
+sab mag 21 10:51:37 2022 R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+sab mag 21 10:51:37 2022 R1 AZIENDALE Router(config-if)#exit
+sab mag 21 10:51:41 2022 R1 AZIENDALE Router(config)#no ip route 69.0.0.16 255.255.255.240 69.0.0.18
+sab mag 21 10:51:43 2022 R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+sab mag 21 10:51:50 2022 R1 AZIENDALE Router(config-if)#ip address 69.0.0.17 255.255.255.240
+sab mag 21 10:51:50 2022 R1 AZIENDALE Router(config-if)#shutdown
+sab mag 21 10:51:52 2022 R1 AZIENDALE Router(config-if)#ip address 69.0.0.17 
+sab mag 21 10:51:53 2022 R1 AZIENDALE Router(config-if)#ip address  
+sab mag 21 10:52:27 2022 ASBR AZIENDALE Router>enable
+sab mag 21 10:52:27 2022 ASBR AZIENDALE Router#configure terminal
+sab mag 21 10:52:27 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet0/0
+sab mag 21 10:52:30 2022 ASBR AZIENDALE Router(config-if)#exit
+sab mag 21 10:52:30 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet1/0
+sab mag 21 10:52:31 2022 ASBR AZIENDALE Router(config-if)#exit
+sab mag 21 10:52:31 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet2/0
+sab mag 21 10:52:36 2022 ASBR AZIENDALE Router(config-if)#no shutdown
+sab mag 21 10:52:38 2022 ASBR AZIENDALE Router(config-if)#ip address 69.0.0.17 255.0.0.0
+sab mag 21 10:52:48 2022 ASBR AZIENDALE Router(config-if)#ip address 69.0.0.17 255.255.255.240
+sab mag 21 10:52:50 2022 ASBR AZIENDALE Router(config-if)#ip address 69.0.0.17 255.255.255.240
+sab mag 21 10:52:56 2022 ASBR AZIENDALE Router(config-if)#exit
+sab mag 21 10:53:25 2022 ASBR AZIENDALE Router(config)#ip route 69.0.0.16 255.255.255.240 69.0.0.18
+sab mag 21 10:55:45 2022 ASBR AZIENDALE Router(config)#router rip
+sab mag 21 10:55:47 2022 ASBR AZIENDALE Router(config-router)#version 2
+sab mag 21 10:55:55 2022 ASBR AZIENDALE Router(config-router)#network 69.0.0.16
+sab mag 21 10:56:24 2022 R2 AZIENDALE Router>enable
+sab mag 21 10:56:24 2022 R2 AZIENDALE Router#configure terminal
+sab mag 21 10:56:24 2022 R2 AZIENDALE Router(config)#interface GigabitEthernet0/0
+sab mag 21 10:56:25 2022 R2 AZIENDALE Router(config-if)#exit
+sab mag 21 10:56:25 2022 R2 AZIENDALE Router(config)#interface GigabitEthernet1/0
+sab mag 21 10:56:26 2022 R2 AZIENDALE Router(config-if)#exit
+sab mag 21 10:56:26 2022 R2 AZIENDALE Router(config)#interface GigabitEthernet0/0
+sab mag 21 10:56:28 2022 R2 AZIENDALE Router(config-if)#ip address  
+sab mag 21 10:56:29 2022 R2 AZIENDALE Router(config-if)#ip address  
+sab mag 21 10:56:29 2022 R2 AZIENDALE Router(config-if)#shutdown
+sab mag 21 11:00:56 2022 R2 AZIENDALE Router(config-if)#exit
+sab mag 21 11:00:56 2022 R2 AZIENDALE Router(config)#interface GigabitEthernet0/0
+sab mag 21 11:00:57 2022 R2 AZIENDALE Router(config-if)#exit
+sab mag 21 11:00:57 2022 R2 AZIENDALE Router(config)#interface GigabitEthernet1/0
+sab mag 21 11:01:00 2022 R2 AZIENDALE Router(config-if)#shutdown
+sab mag 21 11:01:01 2022 R2 AZIENDALE Router(config-if)#no shutdown
+sab mag 21 11:01:03 2022 R2 AZIENDALE Router(config-if)#exit
+sab mag 21 11:01:03 2022 R2 AZIENDALE Router(config)#interface GigabitEthernet0/0
+sab mag 21 11:01:06 2022 R2 AZIENDALE Router(config-if)#exit
+sab mag 21 11:01:06 2022 R2 AZIENDALE Router(config)#interface GigabitEthernet3/0
+sab mag 21 11:01:13 2022 R2 AZIENDALE Router(config-if)#ip address 69.0.0.13 255.255.255.252
+sab mag 21 11:01:16 2022 R2 AZIENDALE Router(config-if)#exit
+sab mag 21 11:01:16 2022 R2 AZIENDALE Router(config)#interface GigabitEthernet2/0
+sab mag 21 11:01:18 2022 R2 AZIENDALE Router(config-if)#shutdown
+sab mag 21 11:01:21 2022 R2 AZIENDALE Router(config-if)#exit
+sab mag 21 11:01:21 2022 R2 AZIENDALE Router(config)#interface GigabitEthernet1/0
+sab mag 21 11:01:22 2022 R2 AZIENDALE Router(config-if)#shutdown
+sab mag 21 11:01:22 2022 R2 AZIENDALE Router(config-if)#no shutdown
+sab mag 21 11:01:29 2022 R2 AZIENDALE Router(config-if)#ip address 69.0.0.9 255.255.255.252
+sab mag 21 11:01:31 2022 R2 AZIENDALE Router(config-if)#ip address 69.0.0.9 255.255.255.252
+sab mag 21 11:01:38 2022 ASBR AZIENDALE Router(config-router)#network 69.0.0.16
+sab mag 21 11:01:38 2022 ASBR AZIENDALE Router(config-router)#end
+sab mag 21 11:01:38 2022 ASBR AZIENDALE Router#configure terminal
+sab mag 21 11:01:38 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet0/0
+sab mag 21 11:01:40 2022 ASBR AZIENDALE Router(config-if)#exit
+sab mag 21 11:01:40 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet1/0
+sab mag 21 11:01:41 2022 ASBR AZIENDALE Router(config-if)#shutdown
+sab mag 21 11:01:42 2022 ASBR AZIENDALE Router(config-if)#no shutdown
+sab mag 21 11:01:51 2022 ASBR AZIENDALE Router(config-if)#ip address 69.0.0.10 255.255.255.240
+sab mag 21 11:01:55 2022 ASBR AZIENDALE Router(config-if)#ip address 69.0.0.10 255.255.255.252
+sab mag 21 11:01:59 2022 ASBR AZIENDALE Router(config-if)#ip address 69.0.0.10 255.255.255.252
+sab mag 21 11:01:59 2022 ASBR AZIENDALE Router(config-if)#exit
+sab mag 21 11:01:59 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet2/0
+sab mag 21 11:02:00 2022 ASBR AZIENDALE Router(config-if)#exit
+sab mag 21 11:02:00 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet1/0
+sab mag 21 11:02:03 2022 ASBR AZIENDALE Router(config-if)#exit
+sab mag 21 11:02:03 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet0/0
+sab mag 21 11:02:04 2022 ASBR AZIENDALE Router(config-if)#shutdown
+sab mag 21 11:02:07 2022 ASBR AZIENDALE Router(config-if)#no shutdown
+sab mag 21 11:02:16 2022 ASBR AZIENDALE Router(config-if)#ip address 69.0.0.6 255.255.255.252
+sab mag 21 11:02:17 2022 ASBR AZIENDALE Router(config-if)#ip address 69.0.0.6 255.255.255.252
+sab mag 21 11:02:25 2022 R1 AZIENDALE Router(config-if)#exit
+sab mag 21 11:02:25 2022 R1 AZIENDALE Router(config)#interface GigabitEthernet0/0
+sab mag 21 11:02:27 2022 R1 AZIENDALE Router(config-if)#exit
+sab mag 21 11:02:27 2022 R1 AZIENDALE Router(config)#interface GigabitEthernet1/0
+sab mag 21 11:02:30 2022 R1 AZIENDALE Router(config-if)#exit
+sab mag 21 11:02:30 2022 R1 AZIENDALE Router(config)#interface GigabitEthernet2/0
+sab mag 21 11:02:33 2022 R1 AZIENDALE Router(config-if)#ip address 69.0.0.9 255.255.255.252
+sab mag 21 11:02:33 2022 R1 AZIENDALE Router(config-if)#shutdown
+sab mag 21 11:02:33 2022 R1 AZIENDALE Router(config-if)#no shutdown
+sab mag 21 11:02:37 2022 R1 AZIENDALE Router(config-if)#ip address 69.0.0.5 255.255.255.252
+sab mag 21 11:02:38 2022 R1 AZIENDALE Router(config-if)#ip address 69.0.0.5 255.255.255.252
+sab mag 21 11:02:46 2022 R1 AZIENDALE Router(config-if)#exit
+sab mag 21 11:02:49 2022 R1 AZIENDALE Router(config)#router rip 
+sab mag 21 11:02:50 2022 R1 AZIENDALE Router(config-router)#version 2
+sab mag 21 11:02:57 2022 R1 AZIENDALE Router(config-router)#network 69.0.0.0
+sab mag 21 11:03:00 2022 R1 AZIENDALE Router(config-router)#network 69.0.0.4
+sab mag 21 11:03:05 2022 R1 AZIENDALE Router(config-router)#do write
+sab mag 21 11:03:17 2022 ASBR AZIENDALE Router(config-if)#exit
+sab mag 21 11:03:20 2022 ASBR AZIENDALE Router(config)#router rip 
+sab mag 21 11:03:21 2022 ASBR AZIENDALE Router(config-router)#version 2
+sab mag 21 11:03:27 2022 ASBR AZIENDALE Router(config-router)#network 69.0.0.4
+sab mag 21 11:03:32 2022 ASBR AZIENDALE Router(config-router)#network 69.0.0.8
+sab mag 21 11:03:35 2022 ASBR AZIENDALE Router(config-router)#network 69.0.0.16
+sab mag 21 11:03:38 2022 ASBR AZIENDALE Router(config-router)#do write
+sab mag 21 11:04:10 2022 R2 AZIENDALE Router(config-if)#exit
+sab mag 21 11:04:13 2022 R2 AZIENDALE Router(config)#router rip 
+sab mag 21 11:04:14 2022 R2 AZIENDALE Router(config-router)#version 2
+sab mag 21 11:04:21 2022 R2 AZIENDALE Router(config-router)#network 69.0.0.8
+sab mag 21 11:04:25 2022 R2 AZIENDALE Router(config-router)#network 69.0.0.12
+sab mag 21 11:04:31 2022 R2 AZIENDALE Router(config-router)#do write
+sab mag 21 11:04:39 2022 R3 AZIENDALE Router>en
+sab mag 21 11:04:40 2022 R3 AZIENDALE Router#conf t
+sab mag 21 11:04:43 2022 R3 AZIENDALE Router(config)#router rip 
+sab mag 21 11:04:44 2022 R3 AZIENDALE Router(config-router)#version 2
+sab mag 21 11:04:50 2022 R3 AZIENDALE Router(config-router)#network 69.0.0.16
+sab mag 21 11:04:52 2022 R3 AZIENDALE Router(config-router)#do write
+sab mag 21 11:09:19 2022 R di Mr. Leet Router>en
+sab mag 21 11:09:21 2022 R di Mr. Leet Router#conf t
+sab mag 21 11:11:23 2022 R di Mr. Leet Router(config)#interface GigabitEthernet8/0
+sab mag 21 11:11:24 2022 R di Mr. Leet Router(config-if)#shutdown
+sab mag 21 11:11:24 2022 R di Mr. Leet Router(config-if)#no shutdown
+sab mag 21 11:11:28 2022 R di Mr. Leet Router(config-if)#ip address 104.0.0.1 255.0.0.0
+sab mag 21 11:11:34 2022 R di Mr. Leet Router(config-if)#ip address 104.0.0.1 255.255.255.240
+sab mag 21 11:11:38 2022 R di Mr. Leet Router(config-if)#ip address 104.0.0.1 255.255.255.240
+sab mag 21 11:11:42 2022 CONFINE ITALIANO Router>enable
+sab mag 21 11:11:42 2022 CONFINE ITALIANO Router#configure terminal
+sab mag 21 11:11:42 2022 CONFINE ITALIANO Router(config)#interface GigabitEthernet0/0
+sab mag 21 11:11:43 2022 CONFINE ITALIANO Router(config-if)#shutdown
+sab mag 21 11:11:44 2022 CONFINE ITALIANO Router(config-if)#no shutdown
+sab mag 21 11:11:47 2022 CONFINE ITALIANO Router(config-if)#ip address 104.0.0.2 255.0.0.0
+sab mag 21 11:11:54 2022 CONFINE ITALIANO Router(config-if)#ip address 104.0.0.2 255.255.255.240
+sab mag 21 11:11:55 2022 CONFINE ITALIANO Router(config-if)#ip address 104.0.0.2 255.255.255.240
+sab mag 21 11:12:25 2022 R di Mr. Leet Router(config-if)#exit
+sab mag 21 11:13:33 2022 R di Mr. Leet Router(config)#ip nat pool MY_POOL 104.0.0.3 104.0.0.14 netmask 255.255.255.240
+sab mag 21 11:13:45 2022 R di Mr. Leet Router(config)#ip nat inside source list 1 pool MY_POOL
+sab mag 21 11:13:49 2022 R di Mr. Leet Router(config)#do write
+sab mag 21 11:14:28 2022 R di Mr. Leet Router(config)#ip dhcp pool mrleet
+sab mag 21 11:14:49 2022 R di Mr. Leet Router(dhcp-config)#network 192.168.0.0 255.255.255.0
+sab mag 21 11:15:07 2022 R di Mr. Leet Router(dhcp-config)#default-router 192.168.0.254
+sab mag 21 11:15:10 2022 R di Mr. Leet Router(dhcp-config)#exit
+sab mag 21 11:15:19 2022 R di Mr. Leet Router(config)#ip dhcp excluded-address 192.168.0.254
+sab mag 21 11:15:23 2022 R di Mr. Leet Router(config)#do write
+sab mag 21 11:18:03 2022 CONFINE ITALIANO Router(config-if)#exit
+sab mag 21 11:18:03 2022 CONFINE ITALIANO Router(config)#interface GigabitEthernet0/0
+sab mag 21 11:18:05 2022 CONFINE ITALIANO Router(config-if)#exit
+sab mag 21 11:18:05 2022 CONFINE ITALIANO Router(config)#interface GigabitEthernet1/0
+sab mag 21 11:18:12 2022 CONFINE ITALIANO Router(config-if)#ip address 104.0.0.17 255.255.255.240
+sab mag 21 11:18:15 2022 CONFINE ITALIANO Router(config-if)#ip address 104.0.0.17 255.255.255.252
+sab mag 21 11:18:16 2022 CONFINE ITALIANO Router(config-if)#ip address 104.0.0.17 255.255.255.252
+sab mag 21 11:18:24 2022 CONFINE FRANCESE Router>enable
+sab mag 21 11:18:24 2022 CONFINE FRANCESE Router#configure terminal
+sab mag 21 11:18:24 2022 CONFINE FRANCESE Router(config)#interface GigabitEthernet1/0
+sab mag 21 11:18:25 2022 CONFINE FRANCESE Router(config-if)#shutdown
+sab mag 21 11:18:25 2022 CONFINE FRANCESE Router(config-if)#no shutdown
+sab mag 21 11:18:28 2022 CONFINE FRANCESE Router(config-if)#ip address 104.0.0.18 255.0.0.0
+sab mag 21 11:18:31 2022 CONFINE FRANCESE Router(config-if)#ip address 104.0.0.18 255.255.255.252
+sab mag 21 11:18:37 2022 CONFINE FRANCESE Router(config-if)#ip address 104.0.0.18 255.255.255.252
+sab mag 21 11:18:37 2022 CONFINE FRANCESE Router(config-if)#exit
+sab mag 21 11:18:37 2022 CONFINE FRANCESE Router(config)#interface GigabitEthernet0/0
+sab mag 21 11:18:38 2022 CONFINE FRANCESE Router(config-if)#shutdown
+sab mag 21 11:18:38 2022 CONFINE FRANCESE Router(config-if)#no shutdown
+sab mag 21 11:18:42 2022 CONFINE FRANCESE Router(config-if)#ip address 104.0.0.21 255.255.255.252
+sab mag 21 11:18:44 2022 CONFINE FRANCESE Router(config-if)#ip address 104.0.0.21 255.255.255.252
+sab mag 21 11:18:48 2022 ASBR AZIENDALE Router>enable
+sab mag 21 11:18:48 2022 ASBR AZIENDALE Router#configure terminal
+sab mag 21 11:18:48 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet7/0
+sab mag 21 11:18:49 2022 ASBR AZIENDALE Router(config-if)#shutdown
+sab mag 21 11:18:50 2022 ASBR AZIENDALE Router(config-if)#no shutdown
+sab mag 21 11:18:53 2022 ASBR AZIENDALE Router(config-if)#ip address 104.0.0.22 255.0.0.0
+sab mag 21 11:18:57 2022 ASBR AZIENDALE Router(config-if)#ip address 104.0.0.22 255.255.255.252
+sab mag 21 11:18:58 2022 ASBR AZIENDALE Router(config-if)#ip address 104.0.0.22 255.255.255.252
+sab mag 21 11:20:55 2022 R di Mr. Leet Router(config)#ip route 0.0.0.0 0.0.0.0 104.0.0.2
+lun mag 23 13:00:47 2022 ASBR1 Router>enable
+lun mag 23 13:00:47 2022 ASBR1 Router#configure terminal
+lun mag 23 13:00:47 2022 ASBR1 Router(config)#interface GigabitEthernet0/0
+lun mag 23 13:00:59 2022 ASBR1 Router(config-if)#ip address 73.0.0.2 255.0.0.0
+lun mag 23 13:01:10 2022 ASBR1 Router(config-if)#ip address 73.0.0.2 255.255.255.252
+lun mag 23 13:01:16 2022 ASBR1 Router(config-if)#exit
+lun mag 23 13:01:16 2022 ASBR1 Router(config)#interface GigabitEthernet1/0
+lun mag 23 13:01:18 2022 ASBR1 Router(config-if)#ip address  255.255.255.252
+lun mag 23 13:01:34 2022 ASBR1 Router(config-if)#ip address 73.0.0.22 255.255.255.252
+lun mag 23 13:01:35 2022 ASBR1 Router(config-if)#exit
+lun mag 23 13:01:35 2022 ASBR1 Router(config)#interface GigabitEthernet0/0
+lun mag 23 13:03:42 2022 ASBR1 Router(config-if)#exit
+lun mag 23 13:03:42 2022 ASBR1 Router(config)#interface GigabitEthernet0/0
+lun mag 23 13:03:44 2022 ASBR1 Router(config-if)#shutdown
+lun mag 23 13:03:45 2022 ASBR1 Router(config-if)#no shutdown
+lun mag 23 13:03:48 2022 ASBR1 Router(config-if)#exit
+lun mag 23 13:03:48 2022 ASBR1 Router(config)#interface GigabitEthernet1/0
+lun mag 23 13:03:49 2022 ASBR1 Router(config-if)#shutdown
+lun mag 23 13:03:50 2022 ASBR1 Router(config-if)#no shutdown
+lun mag 23 13:04:15 2022 R1 AS1 Router>enable
+lun mag 23 13:04:15 2022 R1 AS1 Router#configure terminal
+lun mag 23 13:04:15 2022 R1 AS1 Router(config)#interface GigabitEthernet2/0
+lun mag 23 13:04:16 2022 R1 AS1 Router(config-if)#shutdown
+lun mag 23 13:04:20 2022 R1 AS1 Router(config-if)#no shutdown
+lun mag 23 13:04:22 2022 R1 AS1 Router(config-if)#exit
+lun mag 23 13:04:22 2022 R1 AS1 Router(config)#interface GigabitEthernet0/0
+lun mag 23 13:04:23 2022 R1 AS1 Router(config-if)#shutdown
+lun mag 23 13:04:24 2022 R1 AS1 Router(config-if)#no shutdown
+lun mag 23 13:04:29 2022 R1 AS1 Router(config-if)#ip address 73.0.0.1 255.0.0.0
+lun mag 23 13:04:36 2022 R1 AS1 Router(config-if)#ip address 73.0.0.1 255.255.255.252
+lun mag 23 13:05:23 2022 R1 AS1 Router(config-if)#exit
+lun mag 23 13:05:23 2022 R1 AS1 Router(config)#interface GigabitEthernet1/0
+lun mag 23 13:05:24 2022 R1 AS1 Router(config-if)#shutdown
+lun mag 23 13:05:25 2022 R1 AS1 Router(config-if)#no shutdown
+lun mag 23 13:05:51 2022 R1 AS1 Router(config-if)#ip address 73.0.0.9 255.255.255.252
+lun mag 23 13:05:53 2022 R1 AS1 Router(config-if)#ip address 73.0.0.9 255.255.255.252
+lun mag 23 13:05:56 2022 R1 AS1 Router(config-if)#exit
+lun mag 23 13:05:56 2022 R1 AS1 Router(config)#interface GigabitEthernet2/0
+lun mag 23 13:06:04 2022 R1 AS1 Router(config-if)#ip address  255.255.255.252
+lun mag 23 13:06:13 2022 R1 AS1 Router(config-if)#ip address 73.0.0.5 255.255.255.252
+lun mag 23 13:06:14 2022 R1 AS1 Router(config-if)#exit
+lun mag 23 13:06:14 2022 R1 AS1 Router(config)#interface GigabitEthernet0/0
+lun mag 23 13:06:15 2022 R1 AS1 Router(config-if)#exit
+lun mag 23 13:06:15 2022 R1 AS1 Router(config)#interface GigabitEthernet1/0
+lun mag 23 13:06:16 2022 R1 AS1 Router(config-if)#exit
+lun mag 23 13:06:16 2022 R1 AS1 Router(config)#interface GigabitEthernet2/0
+lun mag 23 13:06:25 2022 R2 AS1 Router>enable
+lun mag 23 13:06:25 2022 R2 AS1 Router#configure terminal
+lun mag 23 13:06:25 2022 R2 AS1 Router(config)#interface GigabitEthernet0/0
+lun mag 23 13:06:27 2022 R2 AS1 Router(config-if)#shutdown
+lun mag 23 13:06:28 2022 R2 AS1 Router(config-if)#no shutdown
+lun mag 23 13:06:39 2022 R2 AS1 Router(config-if)#ip address 73.0.0.10 255.0.0.0
+lun mag 23 13:06:46 2022 R2 AS1 Router(config-if)#no ip address
+lun mag 23 13:06:53 2022 R2 AS1 Router(config-if)#ip address 73.0.0.10 255.0.0.0
+lun mag 23 13:06:56 2022 R2 AS1 Router(config-if)#ip address 73.0.0.10 255.255.255.252
+lun mag 23 13:06:57 2022 R2 AS1 Router(config-if)#exit
+lun mag 23 13:06:57 2022 R2 AS1 Router(config)#interface GigabitEthernet1/0
+lun mag 23 13:07:03 2022 R2 AS1 Router(config-if)#shutdown
+lun mag 23 13:07:06 2022 R2 AS1 Router(config-if)#no shutdown
+lun mag 23 13:09:37 2022 R2 AS1 Router(config-if)#exit
+lun mag 23 13:09:37 2022 R2 AS1 Router(config)#interface GigabitEthernet0/0
+lun mag 23 13:09:39 2022 R2 AS1 Router(config-if)#exit
+lun mag 23 13:09:39 2022 R2 AS1 Router(config)#interface GigabitEthernet1/0
+lun mag 23 13:09:40 2022 R2 AS1 Router(config-if)#shutdown
+lun mag 23 13:09:41 2022 R2 AS1 Router(config-if)#no shutdown
+lun mag 23 13:09:42 2022 R2 AS1 Router(config-if)#exit
+lun mag 23 13:09:42 2022 R2 AS1 Router(config)#interface GigabitEthernet0/0
+lun mag 23 13:09:44 2022 R2 AS1 Router(config-if)#shutdown
+lun mag 23 13:09:45 2022 R2 AS1 Router(config-if)#no shutdown
+lun mag 23 13:09:50 2022 R2 AS1 Router(config-if)#exit
+lun mag 23 13:09:50 2022 R2 AS1 Router(config)#interface GigabitEthernet1/0
+lun mag 23 13:10:13 2022 R2 AS1 Router(config-if)#ip address 73.0.0.13 255.255.255.252
+lun mag 23 13:10:14 2022 R2 AS1 Router(config-if)#ip address 73.0.0.13 255.255.255.252
+lun mag 23 13:10:22 2022 R3 AS1 Router>enable
+lun mag 23 13:10:22 2022 R3 AS1 Router#configure terminal
+lun mag 23 13:10:22 2022 R3 AS1 Router(config)#interface GigabitEthernet0/0
+lun mag 23 13:10:24 2022 R3 AS1 Router(config-if)#exit
+lun mag 23 13:10:24 2022 R3 AS1 Router(config)#interface GigabitEthernet1/0
+lun mag 23 13:10:25 2022 R3 AS1 Router(config-if)#shutdown
+lun mag 23 13:10:25 2022 R3 AS1 Router(config-if)#no shutdown
+lun mag 23 13:10:36 2022 R3 AS1 Router(config-if)#ip address 73.0.0.17 255.0.0.0
+lun mag 23 13:10:42 2022 R3 AS1 Router(config-if)#ip address 73.0.0.17 255.255.255.252
+lun mag 23 13:10:43 2022 R3 AS1 Router(config-if)#exit
+lun mag 23 13:10:43 2022 R3 AS1 Router(config)#interface GigabitEthernet0/0
+lun mag 23 13:10:49 2022 R3 AS1 Router(config-if)#shutdown
+lun mag 23 13:10:50 2022 R3 AS1 Router(config-if)#no shutdown
+lun mag 23 13:11:02 2022 R3 AS1 Router(config-if)#ip address 73.0.0.14 255.255.255.252
+lun mag 23 13:11:03 2022 R3 AS1 Router(config-if)#ip address 73.0.0.14 255.255.255.252
+lun mag 23 13:11:23 2022 R3 AS1 Router(config-if)#exit
+lun mag 23 13:11:23 2022 R3 AS1 Router(config)#interface GigabitEthernet2/0
+lun mag 23 13:11:24 2022 R3 AS1 Router(config-if)#shutdown
+lun mag 23 13:11:24 2022 R3 AS1 Router(config-if)#no shutdown
+lun mag 23 13:11:33 2022 R3 AS1 Router(config-if)#ip address 73.0.0.33 255.255.255.252
+lun mag 23 13:11:37 2022 R3 AS1 Router(config-if)#ip address 73.0.0.33 255.255.255.248
+lun mag 23 13:13:05 2022 R3 AS1 Router(config-if)#exit
+lun mag 23 13:13:05 2022 R3 AS1 Router(config)#interface GigabitEthernet1/0
+lun mag 23 13:13:05 2022 R3 AS1 Router(config-if)#exit
+lun mag 23 13:13:05 2022 R3 AS1 Router(config)#interface GigabitEthernet1/0
+lun mag 23 13:13:06 2022 R3 AS1 Router(config-if)#exit
+lun mag 23 13:13:06 2022 R3 AS1 Router(config)#interface GigabitEthernet0/0
+lun mag 23 13:18:02 2022 R3 AS1 Router(config-if)#exit
+lun mag 23 13:18:02 2022 R3 AS1 Router(config)#interface GigabitEthernet2/0
+lun mag 23 13:18:23 2022 R4 AS1 Router>enable
+lun mag 23 13:18:23 2022 R4 AS1 Router#configure terminal
+lun mag 23 13:18:23 2022 R4 AS1 Router(config)#interface GigabitEthernet0/0
+lun mag 23 13:18:25 2022 R4 AS1 Router(config-if)#shutdown
+lun mag 23 13:18:27 2022 R4 AS1 Router(config-if)#no shutdown
+lun mag 23 13:18:45 2022 R4 AS1 Router(config-if)#ip address 73.0.0.6 255.0.0.0
+lun mag 23 13:18:54 2022 R4 AS1 Router(config-if)#ip address 73.0.0.6 255.255.255.252
+lun mag 23 13:18:57 2022 R4 AS1 Router(config-if)#exit
+lun mag 23 13:18:57 2022 R4 AS1 Router(config)#interface GigabitEthernet1/0
+lun mag 23 13:19:03 2022 R4 AS1 Router(config-if)#exit
+lun mag 23 13:19:03 2022 R4 AS1 Router(config)#interface GigabitEthernet2/0
+lun mag 23 13:19:04 2022 R4 AS1 Router(config-if)#shutdown
+lun mag 23 13:19:04 2022 R4 AS1 Router(config-if)#no shutdown
+lun mag 23 13:19:15 2022 R4 AS1 Router(config-if)#ip address 73.0.0.18 255.255.255.252
+lun mag 23 13:19:23 2022 R4 AS1 Router(config-if)#exit
+lun mag 23 13:19:23 2022 R4 AS1 Router(config)#interface GigabitEthernet6/0
+lun mag 23 13:19:24 2022 R4 AS1 Router(config-if)#exit
+lun mag 23 13:19:24 2022 R4 AS1 Router(config)#interface GigabitEthernet5/0
+lun mag 23 13:19:26 2022 R4 AS1 Router(config-if)#exit
+lun mag 23 13:19:26 2022 R4 AS1 Router(config)#interface GigabitEthernet1/0
+lun mag 23 13:19:26 2022 R4 AS1 Router(config-if)#exit
+lun mag 23 13:19:26 2022 R4 AS1 Router(config)#interface GigabitEthernet2/0
+lun mag 23 13:19:27 2022 R4 AS1 Router(config-if)#exit
+lun mag 23 13:19:27 2022 R4 AS1 Router(config)#interface GigabitEthernet3/0
+lun mag 23 13:19:31 2022 R4 AS1 Router(config-if)#shutdown
+lun mag 23 13:19:32 2022 R4 AS1 Router(config-if)#no shutdown
+lun mag 23 13:19:45 2022 R4 AS1 Router(config-if)#ip address 73.0.0.21 255.255.255.252
+lun mag 23 13:19:53 2022 R4 AS1 Router(config-if)#exit
+lun mag 23 13:19:53 2022 R4 AS1 Router(config)#interface GigabitEthernet4/0
+lun mag 23 13:19:54 2022 R4 AS1 Router(config-if)#shutdown
+lun mag 23 13:19:57 2022 R4 AS1 Router(config-if)#no shutdown
+lun mag 23 13:20:08 2022 R4 AS1 Router(config-if)#ip address 73.0.0.34 255.255.255.252
+lun mag 23 13:20:09 2022 R4 AS1 Router(config-if)#ip address 73.0.0.34 255.255.255.252
+lun mag 23 13:20:45 2022 R4 AS1 Router(config-if)#ip address 73.0.0.34 255.255.255.248
+lun mag 23 13:21:00 2022 R2 AS1 Router(config-if)#exit
+lun mag 23 13:21:00 2022 R2 AS1 Router(config)#interface GigabitEthernet0/0
+lun mag 23 13:21:00 2022 R2 AS1 Router(config-if)#exit
+lun mag 23 13:21:00 2022 R2 AS1 Router(config)#interface GigabitEthernet2/0
+lun mag 23 13:21:03 2022 R2 AS1 Router(config-if)#shutdown
+lun mag 23 13:21:03 2022 R2 AS1 Router(config-if)#no shutdown
+lun mag 23 13:21:17 2022 R2 AS1 Router(config-if)#ip address 73.0.0.26 255.255.255.252
+lun mag 23 13:21:21 2022 R2 AS1 Router(config-if)#ip address 73.0.0.26 255.255.255.248
+lun mag 23 13:21:25 2022 R2 AS1 Router(config-if)#exit
+lun mag 23 13:21:25 2022 R2 AS1 Router(config)#interface GigabitEthernet0/0
+lun mag 23 13:21:25 2022 R2 AS1 Router(config-if)#exit
+lun mag 23 13:21:25 2022 R2 AS1 Router(config)#interface GigabitEthernet1/0
+lun mag 23 13:21:30 2022 R1 AS1 Router>enable
+lun mag 23 13:21:30 2022 R1 AS1 Router#configure terminal
+lun mag 23 13:21:30 2022 R1 AS1 Router(config)#interface GigabitEthernet4/0
+lun mag 23 13:21:32 2022 R1 AS1 Router(config-if)#exit
+lun mag 23 13:21:32 2022 R1 AS1 Router(config)#interface GigabitEthernet2/0
+lun mag 23 13:21:33 2022 R1 AS1 Router(config-if)#exit
+lun mag 23 13:21:33 2022 R1 AS1 Router(config)#interface GigabitEthernet3/0
+lun mag 23 13:21:33 2022 R1 AS1 Router(config-if)#exit
+lun mag 23 13:21:33 2022 R1 AS1 Router(config)#interface GigabitEthernet1/0
+lun mag 23 13:21:34 2022 R1 AS1 Router(config-if)#exit
+lun mag 23 13:21:34 2022 R1 AS1 Router(config)#interface GigabitEthernet0/0
+lun mag 23 13:21:35 2022 R1 AS1 Router(config-if)#exit
+lun mag 23 13:21:35 2022 R1 AS1 Router(config)#interface GigabitEthernet4/0
+lun mag 23 13:21:40 2022 R1 AS1 Router(config-if)#shutdown
+lun mag 23 13:21:41 2022 R1 AS1 Router(config-if)#no shutdown
+lun mag 23 13:21:53 2022 R1 AS1 Router(config-if)#ip address 73.0.0.25 255.255.255.252
+lun mag 23 13:21:58 2022 R1 AS1 Router(config-if)#ip address 73.0.0.25 255.255.255.248
+mar mag 24 08:36:22 2022 ASBR2 Router>enable
+mar mag 24 08:36:22 2022 ASBR2 Router#configure terminal
+mar mag 24 08:36:22 2022 ASBR2 Router(config)#interface GigabitEthernet2/0
+mar mag 24 08:36:23 2022 ASBR2 Router(config-if)#shutdown
+mar mag 24 08:36:24 2022 ASBR2 Router(config-if)#no shutdown
+mar mag 24 08:36:52 2022 ASBR2 Router(config-if)#ip address 39.0.0.30 255.0.0.0
+mar mag 24 08:37:04 2022 ASBR2 Router(config-if)#ip address 39.0.0.30 255.255.255.252
+mar mag 24 08:37:08 2022 ASBR2 Router(config-if)#shutdown
+mar mag 24 08:37:12 2022 ASBR2 Router(config-if)#no shutdown
+mar mag 24 08:37:20 2022 ASBR2 Router(config-if)#exit
+mar mag 24 08:37:20 2022 ASBR2 Router(config)#interface GigabitEthernet0/0
+mar mag 24 08:37:22 2022 ASBR2 Router(config-if)#shutdown
+mar mag 24 08:37:22 2022 ASBR2 Router(config-if)#no shutdown
+mar mag 24 08:37:29 2022 ASBR2 Router(config-if)#ip address 39.0.0.2 255.255.255.252
+mar mag 24 08:37:31 2022 ASBR2 Router(config-if)#ip address 39.0.0.2 255.255.255.252
+mar mag 24 08:37:34 2022 ASBR2 Router(config-if)#exit
+mar mag 24 08:37:34 2022 ASBR2 Router(config)#interface GigabitEthernet2/0
+mar mag 24 08:37:36 2022 ASBR2 Router(config-if)#exit
+mar mag 24 08:37:36 2022 ASBR2 Router(config)#interface GigabitEthernet1/0
+mar mag 24 08:37:37 2022 ASBR2 Router(config-if)#shutdown
+mar mag 24 08:37:37 2022 ASBR2 Router(config-if)#no shutdown
+mar mag 24 08:37:40 2022 ASBR2 Router(config-if)#ip address  255.255.255.252
+mar mag 24 08:37:46 2022 ASBR2 Router(config-if)#ip address 39.0.0.25 255.255.255.252
+mar mag 24 08:38:31 2022 R1 AS2 Router>enable
+mar mag 24 08:38:31 2022 R1 AS2 Router#configure terminal
+mar mag 24 08:38:31 2022 R1 AS2 Router(config)#interface GigabitEthernet0/0
+mar mag 24 08:38:32 2022 R1 AS2 Router(config-if)#shutdown
+mar mag 24 08:38:34 2022 R1 AS2 Router(config-if)#no shutdown
+mar mag 24 08:38:38 2022 R1 AS2 Router(config-if)#ip address 39.0.0.1 255.0.0.0
+mar mag 24 08:38:40 2022 R1 AS2 Router(config-if)#ip address 39.0.0.1 255.0.0.0
+mar mag 24 08:38:45 2022 R1 AS2 Router(config-if)#ip address 39.0.0.1 255.255.255.252
+mar mag 24 08:38:47 2022 R1 AS2 Router(config-if)#exit
+mar mag 24 08:38:47 2022 R1 AS2 Router(config)#interface GigabitEthernet1/0
+mar mag 24 08:38:49 2022 R1 AS2 Router(config-if)#shutdown
+mar mag 24 08:38:50 2022 R1 AS2 Router(config-if)#no shutdown
+mar mag 24 08:39:03 2022 R1 AS2 Router(config-if)#ip address 39.0.0.9 255.255.255.252
+mar mag 24 08:39:05 2022 R1 AS2 Router(config-if)#ip address 39.0.0.9 255.255.255.252
+mar mag 24 08:39:12 2022 R1 AS2 Router(config-if)#exit
+mar mag 24 08:39:12 2022 R1 AS2 Router(config)#interface GigabitEthernet2/0
+mar mag 24 08:39:15 2022 R1 AS2 Router(config-if)#shutdown
+mar mag 24 08:39:16 2022 R1 AS2 Router(config-if)#no shutdown
+mar mag 24 08:39:22 2022 R1 AS2 Router(config-if)#ip address 39.0.0.5 255.255.255.252
+mar mag 24 08:39:24 2022 R1 AS2 Router(config-if)#exit
+mar mag 24 08:39:24 2022 R1 AS2 Router(config)#interface GigabitEthernet4/0
+mar mag 24 08:39:27 2022 R1 AS2 Router(config-if)#shutdown
+mar mag 24 08:39:28 2022 R1 AS2 Router(config-if)#no shutdown
+mar mag 24 08:39:36 2022 R1 AS2 Router(config-if)#ip address 39.0.0.33 255.255.255.252
+mar mag 24 08:39:37 2022 R1 AS2 Router(config-if)#ip address 39.0.0.33 255.255.255.252
+mar mag 24 08:39:43 2022 R1 AS2 Router(config-if)#ip address 39.0.0.33 255.255.255.248
+mar mag 24 08:39:50 2022 R2 AS2 Router>enable
+mar mag 24 08:39:50 2022 R2 AS2 Router#configure terminal
+mar mag 24 08:39:50 2022 R2 AS2 Router(config)#interface GigabitEthernet0/0
+mar mag 24 08:39:51 2022 R2 AS2 Router(config-if)#shutdown
+mar mag 24 08:39:52 2022 R2 AS2 Router(config-if)#no shutdown
+mar mag 24 08:39:57 2022 R2 AS2 Router(config-if)#ip address 39.0.0.10 255.0.0.0
+mar mag 24 08:39:58 2022 R2 AS2 Router(config-if)#ip address 39.0.0.10 255.0.0.0
+mar mag 24 08:40:00 2022 R2 AS2 Router(config-if)#ip address 39.0.0.10 255.255.255.252
+mar mag 24 08:40:02 2022 R2 AS2 Router(config-if)#exit
+mar mag 24 08:40:02 2022 R2 AS2 Router(config)#interface GigabitEthernet0/0
+mar mag 24 08:40:03 2022 R2 AS2 Router(config-if)#exit
+mar mag 24 08:40:03 2022 R2 AS2 Router(config)#interface GigabitEthernet1/0
+mar mag 24 08:40:08 2022 R2 AS2 Router(config-if)#shutdown
+mar mag 24 08:40:08 2022 R2 AS2 Router(config-if)#no shutdown
+mar mag 24 08:40:14 2022 R2 AS2 Router(config-if)#ip address 39.0.0.13 255.255.255.252
+mar mag 24 08:40:16 2022 R2 AS2 Router(config-if)#exit
+mar mag 24 08:40:16 2022 R2 AS2 Router(config)#interface GigabitEthernet2/0
+mar mag 24 08:40:17 2022 R2 AS2 Router(config-if)#shutdown
+mar mag 24 08:40:17 2022 R2 AS2 Router(config-if)#no shutdown
+mar mag 24 08:40:24 2022 R2 AS2 Router(config-if)#ip address 39.0.0.34 255.255.255.252
+mar mag 24 08:40:28 2022 R2 AS2 Router(config-if)#ip address 39.0.0.34 255.255.255.248
+mar mag 24 08:41:32 2022 R3 AS2 Router>enable
+mar mag 24 08:41:32 2022 R3 AS2 Router#configure terminal
+mar mag 24 08:41:32 2022 R3 AS2 Router(config)#interface GigabitEthernet0/0
+mar mag 24 08:41:35 2022 R3 AS2 Router(config-if)#shutdown
+mar mag 24 08:41:35 2022 R3 AS2 Router(config-if)#no shutdown
+mar mag 24 08:42:42 2022 R3 AS2 Router(config-if)#ip address 39.0.0.14 255.0.0.0
+mar mag 24 08:42:59 2022 R3 AS2 Router(config-if)#ip address 39.0.0.14 255.255.255.252
+mar mag 24 08:42:59 2022 R3 AS2 Router(config-if)#exit
+mar mag 24 08:42:59 2022 R3 AS2 Router(config)#interface GigabitEthernet1/0
+mar mag 24 08:43:01 2022 R3 AS2 Router(config-if)#shutdown
+mar mag 24 08:43:02 2022 R3 AS2 Router(config-if)#no shutdown
+mar mag 24 08:43:14 2022 R3 AS2 Router(config-if)#ip address 39.0.0.17 255.255.255.252
+mar mag 24 08:43:30 2022 R3 AS2 Router(config-if)#ip address 39.0.0.17 255.255.255.252
+mar mag 24 08:43:30 2022 R3 AS2 Router(config-if)#exit
+mar mag 24 08:43:30 2022 R3 AS2 Router(config)#interface GigabitEthernet2/0
+mar mag 24 08:43:31 2022 R3 AS2 Router(config-if)#shutdown
+mar mag 24 08:43:33 2022 R3 AS2 Router(config-if)#no shutdown
+mar mag 24 08:43:36 2022 R3 AS2 Router(config-if)#exit
+mar mag 24 08:43:36 2022 R3 AS2 Router(config)#interface GigabitEthernet3/0
+mar mag 24 08:43:38 2022 R3 AS2 Router(config-if)#shutdown
+mar mag 24 08:43:39 2022 R3 AS2 Router(config-if)#no shutdown
+mar mag 24 08:43:42 2022 R3 AS2 Router(config-if)#exit
+mar mag 24 08:43:42 2022 R3 AS2 Router(config)#interface GigabitEthernet4/0
+mar mag 24 08:43:43 2022 R3 AS2 Router(config-if)#shutdown
+mar mag 24 08:43:43 2022 R3 AS2 Router(config-if)#no shutdown
+mar mag 24 08:43:44 2022 R3 AS2 Router(config-if)#shutdown
+mar mag 24 08:43:45 2022 R3 AS2 Router(config-if)#no shutdown
+mar mag 24 08:44:02 2022 R3 AS2 Router(config-if)#ip address 39.0.0.29 255.255.255.252
+mar mag 24 08:44:17 2022 R3 AS2 Router(config-if)#ip address 39.0.0.29 255.255.255.252
+mar mag 24 08:44:22 2022 R4 AS2 Router>enable
+mar mag 24 08:44:22 2022 R4 AS2 Router#configure terminal
+mar mag 24 08:44:22 2022 R4 AS2 Router(config)#interface GigabitEthernet0/0
+mar mag 24 08:44:28 2022 R4 AS2 Router(config-if)#exit
+mar mag 24 08:44:28 2022 R4 AS2 Router(config)#interface GigabitEthernet0/0
+mar mag 24 08:44:29 2022 R4 AS2 Router(config-if)#shutdown
+mar mag 24 08:44:31 2022 R4 AS2 Router(config-if)#no shutdown
+mar mag 24 08:44:56 2022 R4 AS2 Router(config-if)#ip address 39.0.0.18 255.0.0.0
+mar mag 24 08:45:01 2022 R4 AS2 Router(config-if)#ip address 39.0.0.18 255.255.255.252
+mar mag 24 08:45:01 2022 R4 AS2 Router(config-if)#exit
+mar mag 24 08:45:01 2022 R4 AS2 Router(config)#interface GigabitEthernet1/0
+mar mag 24 08:45:03 2022 R4 AS2 Router(config-if)#shutdown
+mar mag 24 08:45:06 2022 R4 AS2 Router(config-if)#no shutdown
+mar mag 24 08:45:33 2022 R4 AS2 Router(config-if)#ip address 39.0.0.21 255.255.255.252
+mar mag 24 08:45:36 2022 R4 AS2 Router(config-if)#ip address 39.0.0.21 255.255.255.252
+mar mag 24 08:45:37 2022 R4 AS2 Router(config-if)#exit
+mar mag 24 08:45:37 2022 R4 AS2 Router(config)#interface GigabitEthernet2/0
+mar mag 24 08:45:38 2022 R4 AS2 Router(config-if)#shutdown
+mar mag 24 08:45:39 2022 R4 AS2 Router(config-if)#no shutdown
+mar mag 24 08:46:02 2022 R4 AS2 Router(config-if)#ip address 39.0.0.42 255.255.255.252
+mar mag 24 08:46:12 2022 R4 AS2 Router(config-if)#ip address 39.0.0.42 255.255.255.248
+mar mag 24 08:46:23 2022 R4 AS2 Router(config-if)#exit
+mar mag 24 08:46:23 2022 R4 AS2 Router(config)#interface GigabitEthernet3/0
+mar mag 24 08:46:26 2022 R4 AS2 Router(config-if)#exit
+mar mag 24 08:46:26 2022 R4 AS2 Router(config)#interface GigabitEthernet4/0
+mar mag 24 08:46:33 2022 R4 AS2 Router(config-if)#exit
+mar mag 24 08:46:33 2022 R4 AS2 Router(config)#interface GigabitEthernet4/0
+mar mag 24 08:46:46 2022 R5 AS2 Router>enable
+mar mag 24 08:46:46 2022 R5 AS2 Router#configure terminal
+mar mag 24 08:46:46 2022 R5 AS2 Router(config)#interface GigabitEthernet0/0
+mar mag 24 08:46:48 2022 R5 AS2 Router(config-if)#shutdown
+mar mag 24 08:46:49 2022 R5 AS2 Router(config-if)#no shutdown
+mar mag 24 08:47:04 2022 R5 AS2 Router(config-if)#ip address 39.0.0.26 255.0.0.0
+mar mag 24 08:47:10 2022 R5 AS2 Router(config-if)#ip address 39.0.0.26 255.255.255.252
+mar mag 24 08:47:14 2022 R5 AS2 Router(config-if)#exit
+mar mag 24 08:47:14 2022 R5 AS2 Router(config)#interface GigabitEthernet1/0
+mar mag 24 08:47:15 2022 R5 AS2 Router(config-if)#shutdown
+mar mag 24 08:47:16 2022 R5 AS2 Router(config-if)#no shutdown
+mar mag 24 08:47:28 2022 R5 AS2 Router(config-if)#ip address 39.0.0.22 255.255.255.252
+mar mag 24 08:47:35 2022 R5 AS2 Router(config-if)#ip address 39.0.0.22 255.255.255.252
+mar mag 24 08:47:35 2022 R5 AS2 Router(config-if)#exit
+mar mag 24 08:47:35 2022 R5 AS2 Router(config)#interface GigabitEthernet3/0
+mar mag 24 08:47:37 2022 R5 AS2 Router(config-if)#shutdown
+mar mag 24 08:47:38 2022 R5 AS2 Router(config-if)#no shutdown
+mar mag 24 08:47:39 2022 R5 AS2 Router(config-if)#shutdown
+mar mag 24 08:47:40 2022 R5 AS2 Router(config-if)#no shutdown
+mar mag 24 08:47:42 2022 R5 AS2 Router(config-if)#exit
+mar mag 24 08:47:42 2022 R5 AS2 Router(config)#interface GigabitEthernet4/0
+mar mag 24 08:47:44 2022 R5 AS2 Router(config-if)#shutdown
+mar mag 24 08:47:45 2022 R5 AS2 Router(config-if)#no shutdown
+mar mag 24 08:47:46 2022 R5 AS2 Router(config-if)#shutdown
+mar mag 24 08:47:47 2022 R5 AS2 Router(config-if)#no shutdown
+mar mag 24 08:48:00 2022 R5 AS2 Router(config-if)#ip address 39.0.0.41 255.255.255.252
+mar mag 24 08:48:05 2022 R5 AS2 Router(config-if)#ip address 39.0.0.41 255.255.255.248
+mar mag 24 08:48:05 2022 R5 AS2 Router(config-if)#exit
+mar mag 24 08:48:05 2022 R5 AS2 Router(config)#interface GigabitEthernet0/0
+mar mag 24 08:48:07 2022 R5 AS2 Router(config-if)#exit
+mar mag 24 08:48:07 2022 R5 AS2 Router(config)#interface GigabitEthernet1/0
+mar mag 24 08:48:08 2022 R5 AS2 Router(config-if)#exit
+mar mag 24 08:48:08 2022 R5 AS2 Router(config)#interface GigabitEthernet2/0
+mar mag 24 08:48:10 2022 R5 AS2 Router(config-if)#shutdown
+mar mag 24 08:48:11 2022 R5 AS2 Router(config-if)#no shutdown
+mar mag 24 08:48:21 2022 R5 AS2 Router(config-if)#ip address 39.0.0.6 255.255.255.252
+mar mag 24 08:48:26 2022 R5 AS2 Router(config-if)#ip address 39.0.0.6 255.255.255.252
+mar mag 24 08:48:29 2022 ASBR2 Router(config-if)#exit
+mar mag 24 08:48:29 2022 ASBR2 Router(config)#interface GigabitEthernet0/0
+mar mag 24 08:48:30 2022 ASBR2 Router(config-if)#exit
+mar mag 24 08:48:30 2022 ASBR2 Router(config)#interface GigabitEthernet2/0
+mar mag 24 08:48:30 2022 ASBR2 Router(config-if)#exit
+mar mag 24 08:48:30 2022 ASBR2 Router(config)#interface GigabitEthernet3/0
+mar mag 24 08:48:33 2022 ASBR2 Router(config-if)#exit
+mar mag 24 08:48:33 2022 ASBR2 Router(config)#interface GigabitEthernet1/0
+mar mag 24 09:01:32 2022 ASBR1 Router>ena
+mar mag 24 09:01:36 2022 ASBR1 Router#conf t
+mar mag 24 09:01:58 2022 ASBR1 Router(config)#router rip
+mar mag 24 09:02:07 2022 ASBR1 Router(config-router)#version 2
+mar mag 24 09:02:51 2022 ASBR1 Router(config-router)#network 73.0.0.0
+mar mag 24 09:03:05 2022 ASBR1 Router(config-router)#network 73.0.0.20
+mar mag 24 09:04:45 2022 ASBR1 Router(config-router)#do write
+mar mag 24 09:04:56 2022 R1 AS1 Router>ena
+mar mag 24 09:05:01 2022 R1 AS1 Router#conf t
+mar mag 24 09:05:32 2022 R1 AS1 Router(config)#router rip 
+mar mag 24 09:05:37 2022 R1 AS1 Router(config-router)#version 2
+mar mag 24 09:06:24 2022 R1 AS1 Router#ena
+mar mag 24 09:06:26 2022 R1 AS1 Router#conf t
+mar mag 24 09:06:32 2022 R1 AS1 Router(config)#router rip
+mar mag 24 09:06:36 2022 R1 AS1 Router(config-router)#version 2
+mar mag 24 09:06:52 2022 R1 AS1 Router(config-router)#network 73.0.0.0
+mar mag 24 09:07:14 2022 R1 AS1 Router(config-router)#network 73.0.0.4
+mar mag 24 09:07:28 2022 R1 AS1 Router(config-router)#network 73.0.0.8
+mar mag 24 09:07:52 2022 R1 AS1 Router(config-router)#network 73.0.0.24
+mar mag 24 09:07:57 2022 R1 AS1 Router(config-router)#do write
+mar mag 24 09:08:12 2022 R2 AS1 Router>ena
+mar mag 24 09:08:14 2022 R2 AS1 Router#conf t
+mar mag 24 09:08:23 2022 R2 AS1 Router(config)#router rip
+mar mag 24 09:08:26 2022 R2 AS1 Router(config-router)#version 2
+mar mag 24 09:08:52 2022 R2 AS1 Router(config-router)#network 73.0.0.8
+mar mag 24 09:08:56 2022 R2 AS1 Router(config-router)#network 73.0.0.12
+mar mag 24 09:09:03 2022 R2 AS1 Router(config-router)#network 73.0.0.24
+mar mag 24 09:09:15 2022 R2 AS1 Router(config-router)#do write
+mar mag 24 09:09:34 2022 R3 AS1 Router>enable
+mar mag 24 09:09:34 2022 R3 AS1 Router#configure terminal
+mar mag 24 09:09:34 2022 R3 AS1 Router(config)#router rip
+mar mag 24 09:09:58 2022 R3 AS1 Router(config-router)#version 2
+mar mag 24 09:10:28 2022 R3 AS1 Router(config-router)#network 73.0.0.12
+mar mag 24 09:10:51 2022 R3 AS1 Router(config-router)#network 73.0.0.16
+mar mag 24 09:10:55 2022 R3 AS1 Router(config-router)#network 73.0.0.32
+mar mag 24 09:10:58 2022 R3 AS1 Router(config-router)#do write
+mar mag 24 09:11:10 2022 R4 AS1 Router>enable
+mar mag 24 09:11:10 2022 R4 AS1 Router#configure terminal
+mar mag 24 09:11:10 2022 R4 AS1 Router(config)#router rip
+mar mag 24 09:11:34 2022 R4 AS1 Router(config-router)#network 73.0.0.4
+mar mag 24 09:11:41 2022 R4 AS1 Router(config-router)#network 73.0.0.20
+mar mag 24 09:11:47 2022 R4 AS1 Router(config-router)#network 73.0.0.16
+mar mag 24 09:11:51 2022 R4 AS1 Router(config-router)#network 73.0.0.32
+mar mag 24 09:11:54 2022 R4 AS1 Router(config-router)#do write
+mar mag 24 09:15:36 2022 R1 AS1 Router>enable
+mar mag 24 09:15:36 2022 R1 AS1 Router#configure terminal
+mar mag 24 09:15:36 2022 R1 AS1 Router(config)#interface GigabitEthernet0/0
+mar mag 24 09:15:38 2022 R1 AS1 Router(config-if)#exit
+mar mag 24 09:15:38 2022 R1 AS1 Router(config)#interface GigabitEthernet4/0
+mar mag 24 09:31:19 2022 R1 AS2 Router>en
+mar mag 24 09:41:14 2022 ASBR2 Router>en
+mar mag 24 09:41:56 2022 ASBR2 Router#config
+mar mag 24 09:42:30 2022 ASBR2 Router(config)#router rip
+mar mag 24 09:42:36 2022 ASBR2 Router(config-router)#version 2
+mar mag 24 09:42:50 2022 ASBR2 Router(config-router)#network 39.0.0.0
+mar mag 24 09:42:56 2022 ASBR2 Router(config-router)#network 39.0.0.24
+mar mag 24 09:42:59 2022 ASBR2 Router(config-router)#w
+mar mag 24 09:43:05 2022 ASBR2 Router#w
+mar mag 24 09:43:15 2022 R1 AS2 Router>en
+mar mag 24 09:43:21 2022 R1 AS2 Router#conf
+mar mag 24 09:43:29 2022 R1 AS2 Router(config)#router rip
+mar mag 24 09:44:01 2022 R1 AS2 Router(config-router)#version 2
+mar mag 24 09:44:43 2022 R1 AS2 Router(config-router)#network 39.0.0.0
+mar mag 24 09:44:55 2022 R1 AS2 Router(config-router)#network 39.0.0.4
+mar mag 24 09:45:11 2022 R1 AS2 Router(config-router)#network 39.0.0.8
+mar mag 24 09:45:25 2022 R1 AS2 Router(config-router)#network 39.0.0.32
+mar mag 24 09:46:12 2022 R1 AS2 Router(config-router)#ex
+mar mag 24 09:46:13 2022 R1 AS2 Router(config)#w
+mar mag 24 09:46:15 2022 R1 AS2 Router#w
+mar mag 24 09:46:45 2022 R1 AS2 Router(config)#router rip
+mar mag 24 09:47:00 2022 R2 AS2 Router>en
+mar mag 24 09:47:02 2022 R2 AS2 Router#con
+mar mag 24 09:47:04 2022 R2 AS2 Router#conf
+mar mag 24 09:47:09 2022 R2 AS2 Router(config)#router rip
+mar mag 24 09:47:12 2022 R2 AS2 Router(config-router)#version 2
+mar mag 24 09:47:15 2022 R2 AS2 Router(config)#router rip
+mar mag 24 09:47:33 2022 R2 AS2 Router(config-router)#network 39.0.0.0
+mar mag 24 09:48:33 2022 R2 AS2 Router(config)#router rip
+mar mag 24 09:48:57 2022 R2 AS2 Router(config)#router rip
+mar mag 24 09:49:02 2022 R2 AS2 Router(config-router)#version 2
+mar mag 24 09:49:27 2022 R2 AS2 Router(config-router)#network 39.0.0.8
+mar mag 24 09:49:36 2022 R2 AS2 Router(config-router)#network 39.0.0.12
+mar mag 24 09:49:47 2022 R2 AS2 Router(config-router)#network 39.0.0.32
+mar mag 24 09:49:49 2022 R2 AS2 Router#w
+mar mag 24 09:50:00 2022 R3 AS2 Router>en
+mar mag 24 09:50:02 2022 R3 AS2 Router#conf
+mar mag 24 09:50:07 2022 R3 AS2 Router(config)#router rip
+mar mag 24 09:50:18 2022 R3 AS2 Router(config-router)#version 2
+mar mag 24 09:50:42 2022 R3 AS2 Router(config-router)#network 39.0.0.12
+mar mag 24 09:50:50 2022 R3 AS2 Router(config-router)#network 39.0.0.16
+mar mag 24 09:50:54 2022 R3 AS2 Router#w
+mar mag 24 09:51:04 2022 R4 AS2 Router>en
+mar mag 24 09:51:07 2022 R4 AS2 Router#confi
+mar mag 24 09:51:13 2022 R4 AS2 Router(config)#router rip
+mar mag 24 09:52:07 2022 R4 AS2 Router(config-router)#version 2
+mar mag 24 09:52:32 2022 R4 AS2 Router(config-router)#network 39.0.0.16
+mar mag 24 09:52:37 2022 R4 AS2 Router(config-router)#network 39.0.0.20
+mar mag 24 09:52:42 2022 R4 AS2 Router(config-router)#network 39.0.0.24
+mar mag 24 09:52:45 2022 R4 AS2 Router#w
+mar mag 24 09:52:54 2022 R5 AS2 Router>enable
+mar mag 24 09:52:56 2022 R5 AS2 Router#conf
+mar mag 24 09:53:09 2022 R5 AS2 Router(config)#router rip
+mar mag 24 09:53:13 2022 R5 AS2 Router(config-router)#version 2
+mar mag 24 09:53:21 2022 R5 AS2 Router(config-router)#network 39.0.0.24
+mar mag 24 09:53:30 2022 R5 AS2 Router(config-router)#network 39.0.0.20
+mar mag 24 09:53:44 2022 R5 AS2 Router(config-router)#network 39.0.0.24
+mar mag 24 09:53:46 2022 R5 AS2 Router#w
+mar mag 24 09:54:16 2022 R1 AS2 Router(config)#interface GigabitEthernet4/0
+mar mag 24 09:54:17 2022 R1 AS2 Router(config-if)#shutdown
+mar mag 24 09:54:18 2022 R1 AS2 Router(config-if)#no shutdown
+mar mag 24 09:54:21 2022 R1 AS2 Router(config-if)#ip address 39.0.0.33 255.255.255.248
+mar mag 24 09:58:50 2022 R4 AS2 Router#router rip
+mar mag 24 09:58:54 2022 R4 AS2 Router#conf t
+mar mag 24 09:58:59 2022 R4 AS2 Router(config)#router rip
+mar mag 24 09:59:01 2022 R4 AS2 Router(config-router)#v 2
+mar mag 24 09:59:14 2022 R4 AS2 Router(config-router)#no network 39.0.0.24
+mar mag 24 09:59:18 2022 R4 AS2 Router(config-router)#network 
+mar mag 24 09:59:31 2022 R4 AS2 Router(config-router)#network 39.0.0.40
+mar mag 24 09:59:46 2022 R5 AS2 Router#conf t
+mar mag 24 09:59:54 2022 R5 AS2 Router(config)#router rip
+mar mag 24 09:59:55 2022 R5 AS2 Router(config-router)#v 2
+mar mag 24 10:00:16 2022 R5 AS2 Router(config-router)#network 39.0.0.40
+mar mag 24 10:00:19 2022 R5 AS2 Router#w
+mar mag 24 10:00:26 2022 R4 AS2 Router#w
+mer mag 25 10:54:46 2022 ASBR1 Router>enable
+mer mag 25 10:54:46 2022 ASBR1 Router#configure terminal
+mer mag 25 10:54:46 2022 ASBR1 Router(config)#interface GigabitEthernet8/0
+mer mag 25 10:54:46 2022 ASBR1 Router(config-if)#exit
+mer mag 25 10:54:46 2022 ASBR1 Router(config)#interface GigabitEthernet9/0
+mer mag 25 10:54:47 2022 ASBR1 Router(config-if)#exit
+mer mag 25 10:54:47 2022 ASBR1 Router(config)#interface GigabitEthernet8/0
+mer mag 25 10:54:54 2022 R di Mr. Leet Router>enable
+mer mag 25 10:54:54 2022 R di Mr. Leet Router#configure terminal
+mer mag 25 10:55:02 2022 CONFINE ITALIANO Router>en
+mer mag 25 10:55:03 2022 CONFINE ITALIANO Router#conf t
+mer mag 25 10:55:10 2022 CONFINE ITALIANO Router(config)#router bgp 65001
+mer mag 25 10:55:36 2022 CONFINE ITALIANO Router(config-router)#network 104.0.0.0 255.255.255.240
+mer mag 25 10:55:41 2022 CONFINE ITALIANO Router(config-router)#network 104.0.0.0 mask 255.255.255.240
+mer mag 25 10:56:09 2022 CONFINE ITALIANO Router(config-router)#neighbor 104.0.0.18 remote-as 65002
+mer mag 25 10:57:51 2022 CONFINE ITALIANO Router(config-router)#do write
+mer mag 25 10:57:57 2022 CONFINE FRANCESE Router>en
+mer mag 25 10:57:58 2022 CONFINE FRANCESE Router#conf t
+mer mag 25 10:58:02 2022 CONFINE FRANCESE Router(config)#router bgp 65002
+mer mag 25 10:58:28 2022 CONFINE FRANCESE Router(config-router)#neighbor 104.0.0.17 remote-as 65001
+mer mag 25 10:59:27 2022 CONFINE ITALIANO Router(config-router)#network 104.0.0.16 mask 255.255.255.252
+mer mag 25 10:59:29 2022 CONFINE ITALIANO Router(config-router)#do write
+mer mag 25 10:59:33 2022 CONFINE ITALIANO Router(config-router)#exit
+mer mag 25 10:59:52 2022 CONFINE ITALIANO Router(config)#ip route 104.0.0.0 255.255.255.240 null0
+mer mag 25 11:00:19 2022 CONFINE FRANCESE Router(config-router)#network 104.0.0.16 mask 255.255.255.252
+mer mag 25 11:00:29 2022 CONFINE FRANCESE Router(config-router)#network 104.0.0.20 mask 255.255.255.252
+mer mag 25 11:00:32 2022 CONFINE FRANCESE Router(config-router)#do write
+mer mag 25 11:03:48 2022 ASBR AZIENDALE Router>en
+mer mag 25 11:03:49 2022 ASBR AZIENDALE Router#conf t
+mer mag 25 11:03:58 2022 ASBR AZIENDALE Router(config)#router bgp 65003
+mer mag 25 11:04:10 2022 ASBR AZIENDALE Router(config-router)#neighbor 104.0.0.21 remote-as 65002
+mer mag 25 11:04:42 2022 CONFINE FRANCESE Router(config-router)#neighbor 104.0.0.22 remote-as 65003
+mer mag 25 11:04:45 2022 CONFINE FRANCESE Router(config-router)#do write
+mer mag 25 11:05:13 2022 ASBR AZIENDALE Router(config-router)#network 104.0.0.20 mask 255.255.255.252
+mer mag 25 11:05:22 2022 ASBR AZIENDALE Router(config-router)#network 104.0.0.28 mask 255.255.255.252
+mer mag 25 11:05:29 2022 ASBR AZIENDALE Router(config-router)#network 104.0.0.24 mask 255.255.255.252
+mer mag 25 11:05:33 2022 ASBR AZIENDALE Router(config-router)#do write
+mer mag 25 11:06:04 2022 ASBR AZIENDALE Router(config-router)#network 69.0.0.8 mask 255.255.255.252
+mer mag 25 11:06:12 2022 ASBR AZIENDALE Router(config-router)#network 69.0.0.4 mask 255.255.255.252
+mer mag 25 11:06:27 2022 ASBR AZIENDALE Router(config-router)#network 69.0.0.16 mask 255.255.255.240
+mer mag 25 11:06:33 2022 ASBR AZIENDALE Router(config-router)#do write
+mer mag 25 11:07:04 2022 ASBR AZIENDALE Router(config-router)#no network 69.0.0.16 mask 255.255.255.240
+mer mag 25 11:07:09 2022 ASBR AZIENDALE Router(config-router)#no network 69.0.0.4 mask 255.255.255.252
+mer mag 25 11:07:15 2022 ASBR AZIENDALE Router(config-router)#no network 69.0.0.8 mask 255.255.255.252
+mer mag 25 11:07:17 2022 ASBR AZIENDALE Router(config-router)#do write
+mer mag 25 11:10:34 2022 ASBR AZIENDALE Router(config-router)#network 69.0.0.0 mask 255.255.255.224
+mer mag 25 11:10:38 2022 ASBR AZIENDALE Router(config-router)#do write
+mer mag 25 11:11:24 2022 ASBR AZIENDALE Router(config-router)#end
+mer mag 25 11:11:24 2022 ASBR AZIENDALE Router#configure terminal
+mer mag 25 11:11:24 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet8/0
+mer mag 25 11:11:26 2022 ASBR AZIENDALE Router(config-if)#shutdown
+mer mag 25 11:11:26 2022 ASBR AZIENDALE Router(config-if)#no shutdown
+mer mag 25 11:11:33 2022 ASBR AZIENDALE Router(config-if)#ip address 104.0.0.25 255.255.255.252
+mer mag 25 11:11:34 2022 ASBR AZIENDALE Router(config-if)#ip address 104.0.0.25 255.255.255.252
+mer mag 25 11:11:42 2022 ASBR1 Router>enable
+mer mag 25 11:11:42 2022 ASBR1 Router#configure terminal
+mer mag 25 11:11:42 2022 ASBR1 Router(config)#interface GigabitEthernet8/0
+mer mag 25 11:11:43 2022 ASBR1 Router(config-if)#shutdown
+mer mag 25 11:11:44 2022 ASBR1 Router(config-if)#no shutdown
+mer mag 25 11:11:46 2022 ASBR1 Router(config-if)#ip address 104.0.0.26 255.0.0.0
+mer mag 25 11:11:51 2022 ASBR1 Router(config-if)#ip address 104.0.0.26 255.255.255.252
+mer mag 25 11:12:25 2022 ASBR AZIENDALE Router(config-if)#exit
+mer mag 25 11:12:25 2022 ASBR AZIENDALE Router(config)#interface GigabitEthernet9/0
+mer mag 25 11:12:26 2022 ASBR AZIENDALE Router(config-if)#shutdown
+mer mag 25 11:12:27 2022 ASBR AZIENDALE Router(config-if)#no shutdown
+mer mag 25 11:12:29 2022 ASBR AZIENDALE Router(config-if)#ip address 104.0.0.29 255.255.255.252
+mer mag 25 11:12:31 2022 ASBR AZIENDALE Router(config-if)#ip address 104.0.0.29 255.255.255.252
+mer mag 25 11:12:39 2022 ASBR2 Router>enable
+mer mag 25 11:12:39 2022 ASBR2 Router#configure terminal
+mer mag 25 11:12:39 2022 ASBR2 Router(config)#interface GigabitEthernet8/0
+mer mag 25 11:12:39 2022 ASBR2 Router(config-if)#shutdown
+mer mag 25 11:12:40 2022 ASBR2 Router(config-if)#no shutdown
+mer mag 25 11:12:44 2022 ASBR2 Router(config-if)#ip address 104.0.0.30 255.0.0.0
+mer mag 25 11:12:51 2022 ASBR2 Router(config-if)#ip address 104.0.0.30 255.255.255.252
+mer mag 25 11:12:51 2022 ASBR2 Router(config-if)#exit
+mer mag 25 11:12:51 2022 ASBR2 Router(config)#interface GigabitEthernet9/0
+mer mag 25 11:13:08 2022 ASBR2 Router(config-if)#no ip address
+mer mag 25 11:13:14 2022 ASBR2 Router(config-if)#ip address 104.0.0.34 255.255.255.252
+mer mag 25 11:13:15 2022 ASBR2 Router(config-if)#ip address 104.0.0.34 255.255.255.252
+mer mag 25 11:13:15 2022 ASBR2 Router(config-if)#shutdown
+mer mag 25 11:13:15 2022 ASBR2 Router(config-if)#no shutdown
+mer mag 25 11:13:20 2022 ASBR1 Router(config-if)#exit
+mer mag 25 11:13:20 2022 ASBR1 Router(config)#interface GigabitEthernet9/0
+mer mag 25 11:13:22 2022 ASBR1 Router(config-if)#ip address 104.0.0.33 255.255.255.252
+mer mag 25 11:13:23 2022 ASBR1 Router(config-if)#ip address 104.0.0.33 255.255.255.252
+mer mag 25 11:18:02 2022 ASBR AZIENDALE Router(config-if)#exit
+mer mag 25 11:18:07 2022 ASBR AZIENDALE Router(config)#router bgp 65003
+mer mag 25 11:18:23 2022 ASBR AZIENDALE Router(config-router)#neighbor 104.0.0.30 remote-as 65005
+mer mag 25 11:18:33 2022 ASBR AZIENDALE Router(config-router)#neighbor 104.0.0.26 remote-as 65004
+mer mag 25 11:18:36 2022 ASBR AZIENDALE Router(config-router)#do write
+mer mag 25 11:18:43 2022 ASBR1 Router(config-if)#exit
+mer mag 25 11:18:48 2022 ASBR1 Router(config)#router bgp 65004
+mer mag 25 11:18:59 2022 ASBR1 Router(config-router)#neighbor 104.0.0.25 remote-as 65003
+mer mag 25 11:19:06 2022 ASBR1 Router(config-router)#neighbor 104.0.0.34 remote-as 65005
+mer mag 25 11:20:23 2022 ASBR1 Router(config-router)#network 104.0.0.24 maks 255.255.255.252
+mer mag 25 11:20:29 2022 ASBR1 Router(config-router)#network 104.0.0.24 mask 255.255.255.252
+mer mag 25 11:20:40 2022 ASBR1 Router(config-router)#network 104.0.0.32 mask 255.255.255.252
+mer mag 25 11:20:42 2022 ASBR1 Router(config-router)#do write
+mer mag 25 11:20:51 2022 ASBR2 Router(config-if)#exit
+mer mag 25 11:20:55 2022 ASBR2 Router(config)#router bgp 65005
+mer mag 25 11:21:04 2022 ASBR2 Router(config-router)#neighbor 104.0.0.33 remote-as 65004
+mer mag 25 11:21:12 2022 ASBR2 Router(config-router)#neighbor 104.0.0.29 remote-as 65003
+mer mag 25 11:21:23 2022 ASBR2 Router(config-router)#network 104.0.0.28 mask 255.255.255.252
+mer mag 25 11:21:31 2022 ASBR2 Router(config-router)#network 104.0.0.32 mask 255.255.255.252
+mer mag 25 11:21:33 2022 ASBR2 Router(config-router)#do write
+mer mag 25 11:22:56 2022 R di Mr. Leet Router>en
+mer mag 25 11:23:03 2022 R di Mr. Leet Router#ping 104.0.0.30
+gio mag 26 08:31:34 2022 ASBR1 Router>e
+gio mag 26 08:31:36 2022 ASBR1 Router>en
+gio mag 26 08:31:37 2022 ASBR1 Router#conf t
+gio mag 26 08:31:42 2022 ASBR1 Router(config)#router bgp 65004
+gio mag 26 08:31:47 2022 ASBR1 Router(config-router)#network 
+gio mag 26 08:32:09 2022 ASBR1 Router(config-router)#network 73.0.0.0/26 mask 255.255.255.192
+gio mag 26 08:32:15 2022 ASBR1 Router(config-router)#network 73.0.0.0 mask 255.255.255.192
+gio mag 26 08:32:17 2022 ASBR1 Router(config-router)#exit
+gio mag 26 08:32:33 2022 ASBR1 Router(config)#ip route 73.0.0.0 255.255.255.192 null0
+gio mag 26 08:32:35 2022 ASBR1 Router(config)#do write
+gio mag 26 08:33:51 2022 ASBR2 Router>en
+gio mag 26 08:33:53 2022 ASBR2 Router#conf t
+gio mag 26 08:33:56 2022 ASBR2 Router(config)#router bgp 65005
+gio mag 26 08:34:07 2022 ASBR2 Router(config-router)#network 39.0.0.0 mask 255.255.255.192
+gio mag 26 08:34:09 2022 ASBR2 Router(config-router)#exit
+gio mag 26 08:34:20 2022 ASBR2 Router(config)#ip route 39.0.0.0 255.255.255.192 null0
+gio mag 26 08:34:21 2022 ASBR2 Router(config)#do write
+gio mag 26 08:36:08 2022 ASBR2 Router(config)#router rip 
+gio mag 26 08:36:11 2022 ASBR2 Router(config-router)#default-information originate 
+gio mag 26 08:37:15 2022 ASBR1 Router(config)#router rip
+gio mag 26 08:37:18 2022 ASBR1 Router(config-router)#default-information originate 
+gio mag 26 08:37:31 2022 ASBR AZIENDALE Router>enable
+gio mag 26 08:37:31 2022 ASBR AZIENDALE Router#configure terminal
+gio mag 26 08:37:31 2022 ASBR AZIENDALE Router(config)#router rip
+gio mag 26 08:37:40 2022 ASBR AZIENDALE Router(config-router)#default-information originate 
+gio mag 26 08:38:38 2022 ASBR AZIENDALE Router(config-router)#exit
+gio mag 26 08:38:47 2022 ASBR AZIENDALE Router(config)#router bgp 65003
+gio mag 26 08:38:59 2022 ASBR AZIENDALE Router(config-router)#network 69.0.0.0 mask 255.255.255.224
+gio mag 26 08:39:01 2022 ASBR AZIENDALE Router(config-router)#exit
+gio mag 26 08:39:12 2022 ASBR AZIENDALE Router(config)#ip route 69.0.0.0 255.255.255.224 null0
+gio mag 26 08:39:13 2022 ASBR AZIENDALE Router(config)#do write
+gio mag 26 08:45:45 2022 R di Mr. Leet Router>en
+gio mag 26 08:45:47 2022 R di Mr. Leet Router#conf 
+gio mag 26 08:46:03 2022 R di Mr. Leet Router(config)#ip dhcp
+gio mag 26 08:46:08 2022 R di Mr. Leet Router(config)#ip dhcp MY_POOL
+gio mag 26 08:47:43 2022 R di Mr. Leet Router(config)#ip dhcp pool homeleet
+gio mag 26 08:47:50 2022 R di Mr. Leet Router(dhcp-config)#exit
+gio mag 26 08:47:54 2022 R di Mr. Leet Router(config)#ip dhcp homeleet
+gio mag 26 08:47:58 2022 R di Mr. Leet Router(config)#ip dhcp pool homeleet
+gio mag 26 08:48:54 2022 R di Mr. Leet Router(dhcp-config)#dns-server 73.0.0.27 73.0.0.35 39.0.0.43 39.0.0.35
+gio mag 26 08:49:52 2022 R di Mr. Leet Router(dhcp-config)#dns-server 73.0.0.27 73.0.0.35
+gio mag 26 08:50:01 2022 R di Mr. Leet Router(dhcp-config)#dns-server 73.0.0.27
+gio mag 26 08:50:14 2022 R di Mr. Leet Router(dhcp-config)#dns-server 73.0.0.35
+gio mag 26 08:50:17 2022 R di Mr. Leet Router(dhcp-config)#exit
+gio mag 26 08:50:19 2022 R di Mr. Leet Router(config)#do write
+gio mag 26 08:50:29 2022 R di Mr. Leet Router(config)#do show ip dhcp
+gio mag 26 08:50:36 2022 R di Mr. Leet Router(config)#exit
+gio mag 26 08:50:41 2022 R di Mr. Leet Router#show
+gio mag 26 08:50:47 2022 R di Mr. Leet Router#show ?
+gio mag 26 08:50:54 2022 R di Mr. Leet Router#show dhcp
+gio mag 26 08:50:58 2022 R di Mr. Leet Router#show dhcp ?
+gio mag 26 08:51:04 2022 R di Mr. Leet Router#show dhcp lease
+gio mag 26 08:51:21 2022 R di Mr. Leet Router#write
+gio mag 26 08:51:35 2022 R di Mr. Leet Router#show running-config
+gio mag 26 08:52:58 2022 R di Mr. Leet Router#no ip dhcp pool mrleet
+gio mag 26 08:53:05 2022 R di Mr. Leet Router#conf t
+gio mag 26 08:53:13 2022 R di Mr. Leet Router(config)#no ip dhcp pool mrleet
+gio mag 26 08:53:16 2022 R di Mr. Leet Router(config)#do write
+gio mag 26 08:53:20 2022 R di Mr. Leet Router(config)#do show ip dhcp
+gio mag 26 08:53:26 2022 R di Mr. Leet Router(config)#do show running-config
+gio mag 26 08:54:03 2022 R di Mr. Leet Router(config)#do write
+gio mag 26 08:54:09 2022 CONFINE ITALIANO Router>en
+gio mag 26 08:54:10 2022 CONFINE ITALIANO Router#write
+gio mag 26 08:54:15 2022 CONFINE FRANCESE Router>en
+gio mag 26 08:54:16 2022 CONFINE FRANCESE Router#write
+gio mag 26 08:54:23 2022 ASBR AZIENDALE Router>en
+gio mag 26 08:54:24 2022 ASBR AZIENDALE Router#write
+gio mag 26 08:54:32 2022 R1 AZIENDALE Router>en
+gio mag 26 08:54:33 2022 R1 AZIENDALE Router#write
+gio mag 26 08:54:38 2022 R3 AZIENDALE Router>en
+gio mag 26 08:54:40 2022 R3 AZIENDALE Router#write
+gio mag 26 08:54:46 2022 R2 AZIENDALE Router>en
+gio mag 26 08:54:47 2022 R2 AZIENDALE Router#write
+gio mag 26 08:54:56 2022 ASBR1 Router>en
+gio mag 26 08:54:58 2022 ASBR1 Router#write
+gio mag 26 08:55:03 2022 R1 AS1 Router>en
+gio mag 26 08:55:05 2022 R1 AS1 Router#write
+gio mag 26 08:55:10 2022 R2 AS1 Router>en
+gio mag 26 08:55:11 2022 R2 AS1 Router#write
+gio mag 26 08:55:16 2022 R3 AS1 Router>en
+gio mag 26 08:55:17 2022 R3 AS1 Router#write
+gio mag 26 08:55:22 2022 R4 AS1 Router>en
+gio mag 26 08:55:24 2022 R4 AS1 Router#write
+gio mag 26 08:55:30 2022 ASBR2 Router>en
+gio mag 26 08:55:31 2022 ASBR2 Router#write
+gio mag 26 08:55:36 2022 R1 AS2 Router>en
+gio mag 26 08:55:37 2022 R1 AS2 Router#write
+gio mag 26 08:55:41 2022 R2 AS2 Router>en
+gio mag 26 08:55:42 2022 R2 AS2 Router#write
+gio mag 26 08:55:46 2022 R3 AS2 Router>en
+gio mag 26 08:55:47 2022 R3 AS2 Router#write
+gio mag 26 08:55:52 2022 R4 AS2 Router>en
+gio mag 26 08:55:53 2022 R4 AS2 Router#write
+gio mag 26 08:55:58 2022 R5 AS2 Router>en
+gio mag 26 08:55:59 2022 R5 AS2 Router#write
+gio mag 26 08:56:09 2022 R3 AZIENDALE Router#conf t+
+gio mag 26 08:56:17 2022 R3 AZIENDALE Router#show running-config 
+gio mag 26 08:56:27 2022 R3 AZIENDALE Router#conf t
+gio mag 26 08:56:29 2022 R3 AZIENDALE Router(config)#ip dhcp pool aziendale
+gio mag 26 08:56:36 2022 R3 AZIENDALE Router(dhcp-config)#dns-server 39.0.0.35
+gio mag 26 08:56:40 2022 R3 AZIENDALE Router(dhcp-config)#end
+gio mag 26 08:56:42 2022 R3 AZIENDALE Router#write
+gio mag 26 08:57:17 2022 R di Mr. Leet Router>en
+gio mag 26 08:57:20 2022 R di Mr. Leet Router#show running-config 
+gio mag 26 11:36:20 2022 R2 AS1 Router>enable
+gio mag 26 11:36:20 2022 R2 AS1 Router#configure terminal
+gio mag 26 11:36:20 2022 R2 AS1 Router(config)#interface GigabitEthernet0/0
+gio mag 26 11:36:23 2022 R2 AS1 Router(config-if)#exit
+gio mag 26 11:36:23 2022 R2 AS1 Router(config)#interface GigabitEthernet2/0
+gio mag 26 11:36:27 2022 R2 AS1 Router(config-if)#ip address 73.0.0.26 255.255.255.248
+gio mag 26 11:36:32 2022 R1 AS1 Router>enable
+gio mag 26 11:36:32 2022 R1 AS1 Router#configure terminal
+gio mag 26 11:36:32 2022 R1 AS1 Router(config)#interface GigabitEthernet4/0
+gio mag 26 11:37:53 2022 R4 AS1 Router>enable
+gio mag 26 11:37:53 2022 R4 AS1 Router#configure terminal
+gio mag 26 11:37:53 2022 R4 AS1 Router(config)#interface GigabitEthernet3/0
+gio mag 26 11:37:53 2022 R4 AS1 Router(config-if)#exit
+gio mag 26 11:37:53 2022 R4 AS1 Router(config)#interface GigabitEthernet4/0
+gio mag 26 11:38:04 2022 R3 AS1 Router>enable
+gio mag 26 11:38:04 2022 R3 AS1 Router#configure terminal
+gio mag 26 11:38:04 2022 R3 AS1 Router(config)#interface GigabitEthernet2/0
+gio mag 26 11:40:29 2022 R2 AS1 Router(config-if)#exit
+gio mag 26 11:40:29 2022 R2 AS1 Router(config)#interface GigabitEthernet2/0
+gio mag 26 11:40:34 2022 R1 AS1 Router(config-if)#exit
+gio mag 26 11:40:34 2022 R1 AS1 Router(config)#interface GigabitEthernet1/0
+gio mag 26 11:40:36 2022 R1 AS1 Router(config-if)#exit
+gio mag 26 11:40:36 2022 R1 AS1 Router(config)#interface GigabitEthernet2/0
+gio mag 26 11:40:37 2022 R1 AS1 Router(config-if)#exit
+gio mag 26 11:40:37 2022 R1 AS1 Router(config)#interface GigabitEthernet3/0
+gio mag 26 11:40:38 2022 R1 AS1 Router(config-if)#exit
+gio mag 26 11:40:38 2022 R1 AS1 Router(config)#interface GigabitEthernet0/0
+gio mag 26 11:40:39 2022 R1 AS1 Router(config-if)#exit
+gio mag 26 11:40:39 2022 R1 AS1 Router(config)#interface GigabitEthernet1/0
+gio mag 26 11:40:40 2022 R1 AS1 Router(config-if)#exit
+gio mag 26 11:40:40 2022 R1 AS1 Router(config)#interface GigabitEthernet4/0
+gio mag 26 11:40:42 2022 R1 AS1 Router(config-if)#ip address 73.0.0.25 255.255.255.248
+gio mag 26 11:41:13 2022 R4 AS1 Router(config-if)#exit
+gio mag 26 11:41:13 2022 R4 AS1 Router(config)#interface GigabitEthernet4/0
+gio mag 26 11:54:21 2022 R2 AS2 Router>enable
+gio mag 26 11:54:21 2022 R2 AS2 Router#configure terminal
+gio mag 26 11:54:21 2022 R2 AS2 Router(config)#interface GigabitEthernet2/0
+gio mag 26 11:54:58 2022 R4 AS2 Router>enable
+gio mag 26 11:54:58 2022 R4 AS2 Router#configure terminal
+gio mag 26 11:54:58 2022 R4 AS2 Router(config)#interface GigabitEthernet2/0
+gio mag 26 11:56:10 2022 R5 AS2 Router>enable
+gio mag 26 11:56:10 2022 R5 AS2 Router#configure terminal
+gio mag 26 11:56:10 2022 R5 AS2 Router(config)#interface GigabitEthernet4/0
+gio mag 26 11:56:15 2022 R5 AS2 Router(config-if)#ip address 39.0.0.41 255.255.255.248
+gio mag 26 11:56:34 2022 R1 AS2 Router>enable
+gio mag 26 11:56:34 2022 R1 AS2 Router#configure terminal
+gio mag 26 11:56:34 2022 R1 AS2 Router(config)#interface GigabitEthernet4/0
+gio mag 26 11:56:38 2022 R1 AS2 Router(config-if)#ip address 39.0.0.33 255.255.255.248
+gio mag 26 12:01:13 2022 R5 AS2 Router(config-if)#exit
+gio mag 26 12:01:13 2022 R5 AS2 Router(config)#interface GigabitEthernet4/0
+gio mag 26 12:01:22 2022 R5 AS2 Router(config-if)#ip address 39.0.0.41 255.255.255.248
+gio mag 26 12:16:14 2022 R2 AS2 Router>enable
+gio mag 26 12:16:14 2022 R2 AS2 Router#configure terminal
+gio mag 26 12:16:14 2022 R2 AS2 Router(config)#interface GigabitEthernet2/0
+gio mag 26 12:16:20 2022 R2 AS2 Router(config-if)#ip address 39.0.0.34 255.255.255.248
+gio mag 26 12:53:21 2022 R di Mr. Leet Router>enable
+gio mag 26 12:53:21 2022 R di Mr. Leet Router#configure terminal
+gio mag 26 12:53:21 2022 R di Mr. Leet Router(config)#interface GigabitEthernet1/0
+dom mag 29 05:00:23 2022 R di Mr. Leet Router>ena
+dom mag 29 05:00:39 2022 R di Mr. Leet Router#show running config
+dom mag 29 05:00:46 2022 R di Mr. Leet Router#show running-config 
+dom mag 29 05:01:05 2022 R di Mr. Leet Router#conf t
+dom mag 29 05:01:13 2022 R di Mr. Leet Router(config)#dhcp pool homeleet
+dom mag 29 05:01:19 2022 R di Mr. Leet Router(config)#ip dhcp pool homeleet
+dom mag 29 05:02:21 2022 R di Mr. Leet Router(dhcp-config)#ip dhcp exclude 192.168.0.250 192.168.0.254
+dom mag 29 05:02:24 2022 R di Mr. Leet Router(config)#do w
