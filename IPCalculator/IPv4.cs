@@ -161,6 +161,37 @@ class IPv4
         return IPv4.OctalStringBinaryToOctalIP(subnetMaskStr);
     }
 
+    //Questa funzione calcola la wildcardmask in base al CIDR fornito come argomento. 
+    //Divide il CIDR in due parti, una per i bit 0 e l'altra per i bit 1 e li concatena. 
+    //Poi converte la stringa in una rappresentazione binaria e la restituisce come array di byte.
+    public static byte[] GetWildCardMask(int CIDR)
+    {
+        string subnetMaskStr = "";
+        string subnetStr_1 = "";
+        string subnetStr_0 = "";
+
+        for (int i = 0; i < CIDR; i++)
+        {
+            subnetStr_1 += "0";
+        }
+        for (int i = 0; i < 32 - CIDR; i++)
+        {
+            subnetStr_0 += "1";
+        }
+
+        string tmp = subnetStr_1 + subnetStr_0;
+
+        for (int i = 0; i < 32; i++)
+        {
+            if (i == 8 || i == 16 || i == 24)
+                subnetMaskStr += "." + tmp[i];
+            else
+                subnetMaskStr += tmp[i];
+        }
+
+        return IPv4.OctalStringBinaryToOctalIP(subnetMaskStr);
+    }
+
     //Questa funzione calcola l'indirizzo di rete in base a un indirizzo IP e una maschera di sottorete. 
     //Si esegue un'operazione AND per ogni ottetto delle due stringhe e si concatena il risultato. 
     //Il risultato finale è un array di byte che rappresenta l'indirizzo di rete.

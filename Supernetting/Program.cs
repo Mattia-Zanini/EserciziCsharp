@@ -21,7 +21,7 @@ stampati sullo schermo.
 byte[][] indirizzi = new byte[0][];
 do
 {
-    Console.WriteLine("Inserisci un indirizzo IP, in formato decimal dotted");
+    Console.WriteLine("Inserisci un indirizzo IP in formato decimal dotted, scrivi [stop] per chiudere il programma");
     string ipAddress = Console.ReadLine();
     if (ipAddress.ToLower() != "stop")
     {
