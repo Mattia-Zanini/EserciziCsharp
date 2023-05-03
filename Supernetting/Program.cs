@@ -42,4 +42,7 @@ do
 
 byte[] supernetIP = Supernet.GetSupernetAddress(indirizzi);
 int SuperCIDR = Supernet.GetSupernetCIDR(indirizzi, supernetIP);
-Console.WriteLine(Supernet.OctalIPToOctalString(supernetIP) + "/" + SuperCIDR);
+byte[] subnetMask = Supernet.GetSubnetMask(SuperCIDR);
+
+Console.WriteLine("\nNetwork: " + Supernet.OctalIPToOctalString(supernetIP) + "/" + SuperCIDR);
+Console.WriteLine("SubnetMask: " + Supernet.OctalIPToOctalString(subnetMask) + " [" + SuperCIDR + "]");
